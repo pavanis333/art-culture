@@ -75,6 +75,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'Sanskrit Drama')
     } else if (selectedTopic === 'buddhist') {
       filtered = topicsData.filter(v => v.category === 'Buddhist Texts')
+    } else if (selectedTopic === 'religious') {
+      filtered = topicsData.filter(v => v.category === 'Religious Literature')
     }
     
     // Then apply additional filters
@@ -165,6 +167,7 @@ function App() {
     const vedicCount = topicsData.filter(t => t.category === 'Vedic Literature').length
     const dramaCount = topicsData.filter(t => t.category === 'Sanskrit Drama').length
     const buddhistCount = topicsData.filter(t => t.category === 'Buddhist Texts').length
+    const religiousCount = topicsData.filter(t => t.category === 'Religious Literature').length
     
     return (
       <div className="mode-selector">
@@ -184,6 +187,12 @@ function App() {
           <div className="mode-icon">🧘</div>
           <h3>Buddhist Texts</h3>
           <p>{buddhistCount} texts including Dipavamsa, Mahavamsa, Milinda Panho</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('religious')}>
+          <div className="mode-icon">🕉️</div>
+          <h3>Religious Literature</h3>
+          <p>{religiousCount} texts: Jain Agamas, Zoroastrian Avesta, Sikh Granths</p>
         </div>
       </div>
     )
@@ -470,6 +479,7 @@ function App() {
           if (selectedTopic === 'vedic') return q.category === 'Vedic Literature'
           if (selectedTopic === 'drama') return q.category === 'Sanskrit Drama'
           if (selectedTopic === 'buddhist') return q.category === 'Buddhist Texts'
+          if (selectedTopic === 'religious') return q.category === 'Religious Literature'
           return true
         })
       : quizQuestions
@@ -837,7 +847,12 @@ function App() {
               onClick={resetMode}
               style={{marginBottom: '20px'}}
             >
-              ← Back to {selectedTopic === 'vedic' ? 'Vedic Literature' : selectedTopic === 'buddhist' ? 'Buddhist Texts' : 'Sanskrit Drama'}
+              ← Back to {
+                selectedTopic === 'vedic' ? 'Vedic Literature' : 
+                selectedTopic === 'buddhist' ? 'Buddhist Texts' :
+                selectedTopic === 'religious' ? 'Religious Literature' :
+                'Sanskrit Drama'
+              }
             </button>
 
             {mode === 'flashcards' && renderFlashcards()}

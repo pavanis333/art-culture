@@ -387,6 +387,172 @@ export const artCultureData = [
     description: "By Sanghabhuti, an Indian Buddhist monk who travelled to China at the end of 4th century AD. [UPSC 2024]",
     upscRelevance: "[UPSC 2024]",
     importance: "HIGH"
+  },
+  
+  // RELIGIOUS LITERATURE - JAIN, ZOROASTRIAN, SIKH
+  
+  // JAIN LITERATURE (Prakrit, Ardha Magadhi, Sanskrit)
+  {
+    id: 36,
+    category: "Religious Literature",
+    subcategory: "Jain Agamas",
+    name: "Jain Agamas (46 texts)",
+    period: "Ancient (compiled by Ganadharas, recompiled mid-5th century AD)",
+    language: "Prakrit",
+    description: "Canonical religious texts written in Prakrit containing teachings of Jain Tirthankaras. Consist of 12 Angas, 12 Upanga, 10 Prakirnakasutras, 4 Mulasutras, 6 Chedasutras, 2 Chulika­sutras. Recompiled by Svetambara sect at Vallabhi, Gujarat.",
+    note: "Digambaras reject Agamas",
+    importance: "HIGH"
+  },
+  {
+    id: 37,
+    category: "Religious Literature",
+    subcategory: "Prakrit Jain Work",
+    name: "Gatha Saptasati",
+    period: "Ancient",
+    language: "Prakrit",
+    author: "King Hala (44 verses)",
+    description: "Contains 700 verses with King Hala contributing 44 verses. Women poets wrote other verses. Often considered opposite of the 'Kamasutra'.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 38,
+    category: "Religious Literature",
+    subcategory: "Prakrit Jain Work",
+    name: "Uvasaggaharam Stotra",
+    period: "Ancient",
+    language: "Prakrit",
+    author: "Acharya Bhadrabahu",
+    description: "Composed by Acharya Bhadrabahu. An adoration of the twenty-third Tirthankara Parsvanatha.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 39,
+    category: "Religious Literature",
+    subcategory: "Jain Scripture",
+    name: "Kalpa Sutra",
+    period: "Ancient",
+    language: "Prakrit/Verse",
+    description: "Svetambara canonical scripture written partly in prose and partly in verse.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 40,
+    category: "Religious Literature",
+    subcategory: "Jain Literature",
+    name: "Kalakacharya Katha",
+    period: "Ancient",
+    language: "Prakrit",
+    description: "Tells story of Kalak, a great Jain muni of the Shwetambar school and his sister.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 41,
+    category: "Religious Literature",
+    subcategory: "Acharya Kundkund's Work",
+    name: "Samayasara",
+    period: "Ancient",
+    language: "Prakrit",
+    author: "Acharya Kundkund",
+    description: "Expounded Jain concepts like Karma, Asrava, Bandha, Samvara, Nirjara and Moksha.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 42,
+    category: "Religious Literature",
+    subcategory: "Acharya Kundkund's Work",
+    name: "Niyamasara",
+    period: "Ancient",
+    language: "Prakrit",
+    author: "Acharya Kundkund",
+    description: "Discusses the road to emancipation.",
+    importance: "MEDIUM"
+  },
+  
+  // ZOROASTRIAN LITERATURE
+  {
+    id: 43,
+    category: "Religious Literature",
+    subcategory: "Zoroastrian",
+    name: "Avesta",
+    period: "Ancient",
+    language: "Avestan (extinct, related to Sanskrit)",
+    description: "Compilation of diverse writings spanning religious beliefs, practices, and guidance. Written in Avestan language that is now extinct.",
+    importance: "HIGH"
+  },
+  {
+    id: 44,
+    category: "Religious Literature",
+    subcategory: "Zoroastrian",
+    name: "Denkard",
+    period: "10th century AD",
+    language: "Middle Persian",
+    description: "Compilation of books regarded as Encyclopedia of Zoroastrianism. Composed in 10th century AD.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 45,
+    category: "Religious Literature",
+    subcategory: "Zoroastrian",
+    name: "Bundahishn",
+    period: "Ancient",
+    language: "Middle Persian",
+    description: "Text provides insight into the religion's creation theory.",
+    importance: "MEDIUM"
+  },
+  
+  // SIKH LITERATURE
+  {
+    id: 46,
+    category: "Religious Literature",
+    subcategory: "Sikh Scripture",
+    name: "Adi Granth",
+    period: "1604 AD",
+    language: "Gurumukhi script",
+    author: "Bhai Gurdas (under Guru Arjan Dev)",
+    description: "Written in Gurumukhi script by Bhai Gurdas under aegis of fifth guru Guru Arjan Dev in 1604. Predecessor to Guru Granth Sahib. Contains teachings of Sikh Gurus and fifteen Bhagats of Bhakti and Sufi traditions.",
+    importance: "HIGH"
+  },
+  {
+    id: 47,
+    category: "Religious Literature",
+    subcategory: "Sikh Scripture",
+    name: "Guru Granth Sahib",
+    period: "1678 AD",
+    language: "Gurumukhi script, Sant Bhasa",
+    author: "Guru Gobind Singh (tenth guru)",
+    description: "Expansion of Adi Granth under tenth guru Guru Gobind Singh in 1678. Regarded as eleventh and final spiritual authority of Sikhs. Written in Gurumukhi script and 'Sant Bhasa' language (Punjabi, Apabhramsa, Hindi, Braj Bhasa, Sanskrit, Khadiboli, Persian words). Contains teachings of thirteen Bhakti saints called 'Bhagats' like Ramananda, Namadev, Ravidas, Parmanand, Sain, Surdas, Kabir, Baba Farid.",
+    importance: "HIGH"
+  },
+  {
+    id: 48,
+    category: "Religious Literature",
+    subcategory: "Sikh Literature",
+    name: "Dasam Granth",
+    period: "Late 17th century",
+    language: "Gurumukhi script",
+    author: "Guru Gobind Singh",
+    description: "Compilation of hymns written by Guru Gobind Singh. Includes fables and Puranic stories, with certain hymns being part of daily prayers known as 'Nitnem'.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 49,
+    category: "Religious Literature",
+    subcategory: "Sikh Literature",
+    name: "Janamsakhi",
+    period: "Ancient",
+    language: "Punjabi",
+    description: "Books containing mythological stories about life of Guru Nanak (first guru).",
+    importance: "MEDIUM"
+  },
+  {
+    id: 50,
+    category: "Religious Literature",
+    subcategory: "Sikh Prayers",
+    name: "Ardas",
+    period: "Ancient",
+    language: "Punjabi",
+    description: "Prayers performed during daily rituals in Gurudwaras. Recited during opening and closing of Guru Granth Sahib.",
+    importance: "MEDIUM"
   }
 ];
 
@@ -487,6 +653,27 @@ export const vedicFacts = [
   {
     fact: "Sarvastivada Vinaya by Sanghabhuti - Indian monk who travelled to China (end of 4th century AD) [UPSC 2024]",
     category: "Buddhist Texts"
+  }
+  ,
+  {
+    fact: "Jain Agamas: 46 texts in Prakrit, recompiled by Svetambara sect at Vallabhi (mid-5th century AD). Digambaras reject Agamas",
+    category: "Religious Literature"
+  },
+  {
+    fact: "Gatha Saptasati has 700 verses, King Hala contributed 44, women poets wrote others. Opposite of Kamasutra",
+    category: "Religious Literature"
+  },
+  {
+    fact: "Avesta written in extinct Avestan language (related to Sanskrit). Denkard is Encyclopedia of Zoroastrianism (10th century AD)",
+    category: "Religious Literature"
+  },
+  {
+    fact: "Adi Granth (1604) by Bhai Gurdas under Guru Arjan Dev. Guru Granth Sahib (1678) by Guru Gobind Singh - eleventh & final Sikh authority",
+    category: "Religious Literature"
+  },
+  {
+    fact: "Guru Granth Sahib in Gurumukhi script, Sant Bhasa. Contains teachings of 13 Bhakti saints (Bhagats) like Kabir, Ramananda, Namadev",
+    category: "Religious Literature"
   }
 ];
 
@@ -887,6 +1074,91 @@ export const allQuizQuestions = [
     correct: 2,
     explanation: "Sarvastivada Vinaya was written by Sanghabhuti, an Indian Buddhist monk who travelled to China at the end of 4th century AD. [UPSC 2024]",
     category: "Buddhist Texts"
+  }
+  ,
+  {
+    question: "Jain Agamas are written in which language?",
+    options: ["Sanskrit", "Prakrit", "Pali", "Ardha Magadhi"],
+    correct: 1,
+    explanation: "Jain Agamas are canonical religious texts written in Prakrit containing teachings of Jain Tirthankaras.",
+    category: "Religious Literature"
+  },
+  {
+    question: "How many texts are in the Jain Agamas?",
+    options: ["36 texts", "46 texts", "56 texts", "66 texts"],
+    correct: 1,
+    explanation: "Jain Agamas consist of 46 texts: 12 Angas, 12 Upanga, 10 Prakirnakasutras, 4 Mulasutras, 6 Chedasutras, 2 Chulika­sutras.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Which Jain sect recompiled the Angas at Vallabhi, Gujarat?",
+    options: ["Digambara", "Svetambara", "Both", "Neither"],
+    correct: 1,
+    explanation: "The present Angas were recompiled by Svetambara sect at Vallabhi, Gujarat during mid-5th century AD. Digambaras reject Agamas.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Gatha Saptasati is often considered opposite of which text?",
+    options: ["Vedas", "Kamasutra", "Arthashastra", "Manusmriti"],
+    correct: 1,
+    explanation: "Gatha Saptasati containing 700 verses is often considered the opposite of the 'Kamasutra'.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Avesta is written in which language?",
+    options: ["Sanskrit", "Persian", "Avestan", "Arabic"],
+    correct: 2,
+    explanation: "Avesta is written in Avestan, a language related to Sanskrit that is now extinct.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Denkard is regarded as:",
+    options: ["Encyclopedia of Zoroastrianism", "Jain scripture", "Buddhist text", "Sikh prayer"],
+    correct: 0,
+    explanation: "Denkard is a compilation of books regarded as the Encyclopedia of Zoroastrianism, composed in 10th century AD.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Adi Granth was written in which year?",
+    options: ["1504 AD", "1604 AD", "1678 AD", "1704 AD"],
+    correct: 1,
+    explanation: "Adi Granth was written in 1604 AD by Bhai Gurdas under the aegis of the fifth guru, Guru Arjan Dev.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Guru Granth Sahib was compiled by which guru?",
+    options: ["Guru Nanak", "Guru Arjan Dev", "Guru Gobind Singh", "Guru Tegh Bahadur"],
+    correct: 2,
+    explanation: "Guru Granth Sahib is an expansion of Adi Granth under the tenth guru, Guru Gobind Singh, in 1678.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Guru Granth Sahib is written in which script?",
+    options: ["Devanagari", "Gurumukhi", "Persian", "Tamil"],
+    correct: 1,
+    explanation: "Guru Granth Sahib is written in Gurumukhi script and 'Sant Bhasa' language.",
+    category: "Religious Literature"
+  },
+  {
+    question: "How many Bhakti saints' teachings are in Guru Granth Sahib?",
+    options: ["Ten", "Thirteen", "Fifteen", "Twenty"],
+    correct: 1,
+    explanation: "Guru Granth Sahib contains teachings of thirteen Bhakti saints called 'Bhagats' like Kabir, Ramananda, Namadev, Ravidas, etc.",
+    category: "Religious Literature"
+  },
+  {
+    question: "Janamsakhi contains stories about which Guru?",
+    options: ["Guru Nanak", "Guru Arjan Dev", "Guru Gobind Singh", "Guru Angad"],
+    correct: 0,
+    explanation: "Janamsakhi contains mythological stories about the life of Guru Nanak (first guru).",
+    category: "Religious Literature"
+  },
+  {
+    question: "Ardas prayers are recited during:",
+    options: ["Morning prayers only", "Evening prayers only", "Opening and closing of Guru Granth Sahib", "Only on festivals"],
+    correct: 2,
+    explanation: "Ardas are prayers performed during daily rituals in Gurudwaras, recited during opening and closing of Guru Granth Sahib.",
+    category: "Religious Literature"
   }
 ];
 
