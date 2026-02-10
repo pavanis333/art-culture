@@ -249,6 +249,48 @@ export const artCultureData = [
     author: "Kalidasa",
     description: "Focuses on a cloud messenger's journey.",
     importance: "MEDIUM"
+  },
+  
+  // BUDDHIST CANONICAL LITERATURE (Tripitak/Tipitaka in Pali)
+  {
+    id: 23,
+    category: "Sanskrit Drama",
+    subcategory: "Buddhist Literature",
+    name: "Vinaya Pitaka",
+    period: "Ancient (Pali)",
+    author: "Canonical Buddhist text",
+    description: "Contains monastic rules of the Order of Buddhist monks. Part of Tripitak/Tipitaka written in Pali and divided into three parts.",
+    importance: "HIGH"
+  },
+  {
+    id: 24,
+    category: "Sanskrit Drama",
+    subcategory: "Buddhist Literature",
+    name: "Sutta Pitaka",
+    period: "Ancient (Pali)",
+    author: "Canonical Buddhist text",
+    description: "Collection of the teachings of the Buddha. Part of Tripitak/Tipitaka written in Pali and divided into three parts.",
+    importance: "HIGH"
+  },
+  {
+    id: 25,
+    category: "Sanskrit Drama",
+    subcategory: "Buddhist Literature",
+    name: "Abhidhamma Pitaka",
+    period: "Ancient (Pali)",
+    author: "Canonical Buddhist text",
+    description: "Elucidates various topics dealing with ethics, psychology or theory of knowledge. Part of Tripitak/Tipitaka written in Pali and divided into three parts.",
+    importance: "HIGH"
+  },
+  {
+    id: 26,
+    category: "Sanskrit Drama",
+    subcategory: "Buddhist Non-Canonical Literature",
+    name: "Jatakas",
+    period: "Ancient",
+    author: "Buddhist non-canonical",
+    description: "Prime example of Buddhist non-canonical literature. The Jataka stories narrate the previous births of the Buddha.",
+    importance: "HIGH"
   }
 ];
 
@@ -318,6 +360,19 @@ export const vedicFacts = [
   },
   {
     fact: "Nagananda includes invocation to Buddha within the Nandi verse",
+    category: "Sanskrit Drama"
+  }
+  ,
+  {
+    fact: "Buddhist canonical literature Tripitak/Tipitaka is written in Pali and divided into three parts: Vinaya, Sutta, Abhidhamma",
+    category: "Sanskrit Drama"
+  },
+  {
+    fact: "Vinaya Pitaka contains monastic rules, Sutta Pitaka has Buddha's teachings, Abhidhamma Pitaka covers ethics & psychology",
+    category: "Sanskrit Drama"
+  },
+  {
+    fact: "The Jatakas are Buddhist non-canonical literature narrating the previous births of Buddha",
     category: "Sanskrit Drama"
   }
 ];
@@ -611,6 +666,49 @@ export const allQuizQuestions = [
     options: ["4 works", "5 works", "6 works", "7 works"],
     correct: 2,
     explanation: "Kalidasa composed 6 major works: Abhijnanashakuntala, Vikramorvashi, Malavikagnimitra, Raghuvamsha, Kumarasambhava, and Meghaduta.",
+    category: "Sanskrit Drama"
+  }
+  ,
+  {
+    question: "Tripitak/Tipitaka is written in which language?",
+    options: ["Sanskrit", "Pali", "Prakrit", "Tamil"],
+    correct: 1,
+    explanation: "Buddhist canonical literature Tripitak/Tipitaka is written in Pali and divided into three parts.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Which Pitaka contains the monastic rules of the Order of Buddhist monks?",
+    options: ["Sutta Pitaka", "Vinaya Pitaka", "Abhidhamma Pitaka", "Jataka"],
+    correct: 1,
+    explanation: "Vinaya Pitaka contains the monastic rules of the Order of Buddhist monks.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Sutta Pitaka is:",
+    options: ["Collection of the Buddha's teachings", "Monastic rules", "Ethics and psychology", "Stories of Buddha's past lives"],
+    correct: 0,
+    explanation: "Sutta Pitaka is the collection of the teachings of the Buddha.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Abhidhamma Pitaka deals with:",
+    options: ["Monastic rules", "Buddha's sermons", "Ethics, psychology and theory of knowledge", "Past life stories"],
+    correct: 2,
+    explanation: "Abhidhamma Pitaka elucidates various topics dealing with ethics, psychology or theory of knowledge.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "The Jatakas are:",
+    options: ["Canonical Buddhist texts", "Non-canonical Buddhist literature", "Vedic texts", "Jain scriptures"],
+    correct: 1,
+    explanation: "The Jatakas are a prime example of Buddhist non-canonical literature, narrating the previous births of the Buddha.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "What do the Jataka stories narrate?",
+    options: ["Buddha's teachings", "Monastic rules", "Previous births of Buddha", "Buddhist philosophy"],
+    correct: 2,
+    explanation: "The Jataka stories narrate the previous births of the Buddha.",
     category: "Sanskrit Drama"
   }
 ];
