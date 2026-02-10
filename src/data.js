@@ -1104,6 +1104,51 @@ export const artCultureData = [
     description: "Translated into Persian by Nizamuddin Panipati during the reign of Akbar. [UPSC 2022]",
     upscRelevance: "[UPSC 2022]",
     importance: "HIGH"
+  },
+  
+  // MEDIEVAL LITERATURE - URDU & HINDI
+  {
+    id: 100,
+    category: "Medieval Literature",
+    subcategory: "Urdu Literature",
+    name: "Urdu Literature Overview",
+    period: "Medieval",
+    language: "Urdu",
+    description: "Urdu evolved through the interaction of Persian and Hindi. Amir Khusrau had contributed to the development of Urdu in its nascent stage. Urdu primarily follows Hindi grammar and Persian script. Initially referred to as Dakkani (Southern) due to its use in the Bahmani States of Ahmadnagar, Golconda, Bijapur, and Berar. Eminent Urdu poets include Mirza Ghalib, Sauda, Dard, and Mir Taqi Mir. In the 20th century, Iqbal, known for 'Saare jahan se achcha,' became a significant figure in Urdu literary writing.",
+    importance: "HIGH"
+  },
+  {
+    id: 101,
+    category: "Medieval Literature",
+    subcategory: "Hindi Literature",
+    name: "Prithviraj Raso",
+    period: "Medieval",
+    language: "Hindi",
+    author: "Chand Bardai",
+    description: "It was the first Hindi book and it documents the life and challenges faced by Prithviraj Chauhan.",
+    importance: "HIGH"
+  },
+  {
+    id: 102,
+    category: "Medieval Literature",
+    subcategory: "Hindi Literature",
+    name: "Ramcharitmanas, Dohavali, Gitavali, and Vinaya Patrika",
+    period: "Medieval",
+    language: "Hindi",
+    author: "Tulsidas",
+    description: "These were written by Tulsidas.",
+    importance: "HIGH"
+  },
+  {
+    id: 103,
+    category: "Medieval Literature",
+    subcategory: "Hindi Literature",
+    name: "Sur Sagar",
+    period: "Medieval",
+    language: "Hindi",
+    author: "Surdas",
+    description: "Surdas wrote it, and the book is about Krishna's infancy and adolescent affairs with the Gopis.",
+    importance: "HIGH"
   }
 ];
 
