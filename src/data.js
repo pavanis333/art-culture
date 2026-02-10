@@ -553,6 +553,85 @@ export const artCultureData = [
     language: "Punjabi",
     description: "Prayers performed during daily rituals in Gurudwaras. Recited during opening and closing of Guru Granth Sahib.",
     importance: "MEDIUM"
+  },
+  
+  // DRAVIDIAN LITERATURE - TAMIL SANGAM LITERATURE (Batch 1)
+  {
+    id: 51,
+    category: "Dravidian Literature",
+    subcategory: "Tamil - Sangam Overview",
+    name: "Sangam Literature Overview",
+    period: "Ancient (473 poets, 30 women)",
+    language: "Tamil",
+    description: "Early classical Tamil literature called Sangam literature. Comprises 18 works (8 anthologies of lyrics + 10 long poems) by 473 poets including 30 women. Two schools: Aham (subjective love poetry) and Puram (objective public poetry about valor, kings, good & evil). References Varna classification: Arashar (kings), Vaishiyar (traders), Velalar (farmers). [UPSC-2022]",
+    note: "Categorized into Narrative (Melkannaku) and Didactic (Kilkannaku) groups",
+    importance: "HIGH"
+  },
+  {
+    id: 52,
+    category: "Dravidian Literature",
+    subcategory: "Tamil - Grammar Treatise",
+    name: "Tolkappiyam",
+    period: "Ancient (Earliest Tamil work)",
+    language: "Tamil",
+    author: "Tolkappiyar or Tolkappiyam Periyathar",
+    description: "Earliest Tamil literary work, a grammar treatise to understand early Tamil poetry. Divided into three books: Eluttatikaram (Tamil script & phonology), Sollatikaram (Tamil grammar & morphology), Porulatikaram (subject matter/content of literature).",
+    importance: "HIGH"
+  },
+  {
+    id: 53,
+    category: "Dravidian Literature",
+    subcategory: "Tamil - Narrative (Melkannaku)",
+    name: "Ettuthogai (Eight Anthologies)",
+    period: "Ancient (Sangam)",
+    language: "Tamil",
+    description: "Collection of classical Tamil poetry, 'Ettuthogai' translates to 'Eight Anthologies'. The eight anthologies are: Aingurunooru, Narrinai, Aganaanooru, Purananooru, Kurunthogai, Kalithogai, Paripadal, Padirruppattu.",
+    note: "Part of Narrative texts focusing on heroic poetry, glorifying heroes and wars, insights into state formation in South India",
+    importance: "HIGH"
+  },
+  {
+    id: 54,
+    category: "Dravidian Literature",
+    subcategory: "Tamil - Narrative (Melkannaku)",
+    name: "Pattuppattu (Ten Long Poems)",
+    period: "Ancient (Sangam)",
+    language: "Tamil",
+    description: "Collection of ten long poems including: Kurincippattu, Porunararruppatai, Cirupanarruppat ai, Perumpanarruppat ai, Maturaikkanci, Malaipatukadam, Pattinappalai, Mullai­ppattu, Netunalvatai, Tirumurukarruppatai.",
+    note: "Part of Narrative texts, essential work in Sangam literary collection",
+    importance: "HIGH"
+  },
+  {
+    id: 55,
+    category: "Dravidian Literature",
+    subcategory: "Tamil - Didactic Literature",
+    name: "Pathinenkilkanakku (18 Minor Works)",
+    period: "Ancient (Sangam)",
+    language: "Tamil",
+    description: "Contains eighteen texts encompassing themes including love, ethics, war, and ancient Tamil society's general way of life. Includes Tirukural and Naladiyar.",
+    note: "Didactic texts prescribing code of conduct for kings and society, shedding light on social groups and occupations",
+    importance: "HIGH"
+  },
+  {
+    id: 56,
+    category: "Dravidian Literature",
+    subcategory: "Tamil - Epic",
+    name: "Silappatikaram/Cilappatikaran",
+    period: "Ancient (Sangam)",
+    language: "Tamil",
+    author: "Ilango Adigal",
+    description: "Composed by Ilango Adigal. Tale of love (story of Kovalan and Kannagi), betrayal, and justice that unfolds in three Kantams or books. Text contains overtones of Jain philosophy. One of the five great epics of Tamil literature.",
+    importance: "HIGH"
+  },
+  {
+    id: 57,
+    category: "Dravidian Literature",
+    subcategory: "Tamil - Epic",
+    name: "Manimegalai",
+    period: "Ancient (Sangam)",
+    language: "Tamil",
+    author: "Sattanar",
+    description: "Classical Tamil epic poem counted among the five great epics of Tamil literature. Composed by poet Sattanar, sequel to renowned Tamil epic Silappatikaram. Prominently features themes related to Buddhism.",
+    importance: "HIGH"
   }
 ];
 

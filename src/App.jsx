@@ -77,6 +77,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'Buddhist Texts')
     } else if (selectedTopic === 'religious') {
       filtered = topicsData.filter(v => v.category === 'Religious Literature')
+    } else if (selectedTopic === 'dravidian') {
+      filtered = topicsData.filter(v => v.category === 'Dravidian Literature')
     }
     
     // Then apply additional filters
@@ -168,6 +170,7 @@ function App() {
     const dramaCount = topicsData.filter(t => t.category === 'Sanskrit Drama').length
     const buddhistCount = topicsData.filter(t => t.category === 'Buddhist Texts').length
     const religiousCount = topicsData.filter(t => t.category === 'Religious Literature').length
+    const dravidianCount = topicsData.filter(t => t.category === 'Dravidian Literature').length
     
     return (
       <div className="mode-selector">
@@ -193,6 +196,12 @@ function App() {
           <div className="mode-icon">🕉️</div>
           <h3>Religious Literature</h3>
           <p>{religiousCount} texts: Jain Agamas, Zoroastrian Avesta, Sikh Granths</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('dravidian')}>
+          <div className="mode-icon">📜</div>
+          <h3>Dravidian Literature</h3>
+          <p>{dravidianCount} texts: Tamil Sangam, Telugu, Kannada, Malayalam (Adding...)</p>
         </div>
       </div>
     )
@@ -480,6 +489,7 @@ function App() {
           if (selectedTopic === 'drama') return q.category === 'Sanskrit Drama'
           if (selectedTopic === 'buddhist') return q.category === 'Buddhist Texts'
           if (selectedTopic === 'religious') return q.category === 'Religious Literature'
+          if (selectedTopic === 'dravidian') return q.category === 'Dravidian Literature'
           return true
         })
       : quizQuestions
@@ -851,6 +861,7 @@ function App() {
                 selectedTopic === 'vedic' ? 'Vedic Literature' : 
                 selectedTopic === 'buddhist' ? 'Buddhist Texts' :
                 selectedTopic === 'religious' ? 'Religious Literature' :
+                selectedTopic === 'dravidian' ? 'Dravidian Literature' :
                 'Sanskrit Drama'
               }
             </button>
