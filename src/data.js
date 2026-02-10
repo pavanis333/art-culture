@@ -1802,6 +1802,160 @@ export const artCultureData = [
     location: "Sikkim",
     description: "It includes a unique diversity of plains, valleys, lakes, glaciers and spectacular, snow-capped mountains covered with ancient forests, including the world's third highest peak.",
     importance: "HIGH"
+  },
+  
+  // UNESCO INTANGIBLE CULTURAL HERITAGE
+  
+  {
+    id: 165,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Garba of Gujarat",
+    year: 2023,
+    location: "Gujarat",
+    description: "Garba is a ritualistic and devotional dance that is performed on the occasion of the Hindu festival of Navaratri. It marks the ten-day worship of the Goddess Durga. The festival is characterised by large-scale installations and pavilions in urban areas, as well as by traditional Bengali drumming and veneration of the goddess.",
+    upscRelevance: "[UPSC 2024]",
+    importance: "HIGH"
+  },
+  {
+    id: 166,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Durga Puja in Kolkata",
+    year: 2021,
+    location: "West Bengal",
+    description: "It marks the ten-day worship of the Goddess Durga. The festival is characterised by large-scale installations and pavilions in urban areas, as well as by traditional Bengali drumming and veneration of the goddess.",
+    importance: "HIGH"
+  },
+  {
+    id: 167,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Kumbh Mela (festival of the sacred Pitcher)",
+    year: 2017,
+    location: "Allahabad, Haridwar, Ujjain, Nasik",
+    description: "It is the largest peaceful congregation of pilgrims on earth, during which participants bathe or take a dip in a sacred river. The festival is held at Allahabad, Haridwar, Ujjain and Nasik every four years by rotation.",
+    importance: "HIGH"
+  },
+  {
+    id: 168,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Yoga",
+    year: 2016,
+    location: "India",
+    description: "A practise involving poses, meditation, controlled breathing, chanting, and techniques to achieve self-realisation. Traditionally, it is transmitted through the Guru-Shishya parampara (teacher-disciple tradition).",
+    importance: "HIGH"
+  },
+  {
+    id: 169,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Nuvroz",
+    year: 2016,
+    location: "India",
+    description: "It is celebrated as the Parsis New Year. An important tradition practised during this time is the gathering around 'the Table', decorated with objects that symbolise purity, brightness, livelihood and wealth, to enjoy a special meal with loved ones.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 170,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Traditional Brass and Copper Craft of Utensil Making among the Thatheras of Jandiala Guru in Punjab",
+    year: 2014,
+    location: "Punjab",
+    description: "An oral tradition passed through generations of the Thathera community. It involves heating and moulding metals like brass, copper, and Kansa into functional and ritualistic utensils. Recommended in Ayurveda texts for medicinal purposes. Patronised by Maharaja Ranjit Singh in the 19th century.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 171,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Sankirtana, ritual singing, drumming and dancing of Manipur",
+    year: 2013,
+    location: "Manipur",
+    description: "It is a Manipuri ritual art form that combines singing, drumming, and dancing to mark religious occasions and stages in the lives of Manipuri Vaishnavites. It is performed at temples, narrating the life and deeds of Lord Krishna.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 172,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Buddhist chanting of Ladakh",
+    year: 2012,
+    location: "Ladakh",
+    description: "Buddhist lamas (priests) chant sacred texts representing the spirit, philosophy and teachings of the Buddha. Chanting is undertaken for the spiritual and moral well-being of the people, for purification and peace of mind, to appease the wrath of evil spirits or to invoke the blessing of various Buddhas, Bodhisattvas, deities and rinopoches. Two forms of Buddhism are practised in Ladakh – Mahayana and Vajrayana – and there are four major sects, namely Nyngma, Kagyud, Shakya and Geluk. Each sect has several forms of chanting, practised during life-cycle rituals and on important days in the Buddhist and agrarian calendars.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 173,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Chhau dance",
+    year: 2010,
+    location: "West Bengal, Jharkhand, Odisha",
+    description: "The Tribal martial art dance has three subgenres: Purulia Chhau (West Bengal), Seraikella Chhau (Jharkhand), and Mayurbhanj Chhau (Odisha). Primarily during the spring festival, lasting 13 days, with community-wide participation. Performed by male dancers at night, enacting episodes from epics including the Mahabharata and Ramayana and local folklore. Dancers wear masks, except for Mayurbhanj Chhau.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 174,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Kalbelia folk songs and dances of Rajasthan",
+    year: 2010,
+    location: "Rajasthan",
+    description: "It is performed by the Kalbelia tribe in Rajasthan, known for their snake-catching and trading occupations. Songs and dances are expressions of the Kalbelia community's traditional way of life. Women in flowing black skirts dance and swirl, replicating the movements of a serpent, while men accompany them on the Khanjari percussion instrument and the Poongi, a woodwind instrument traditionally played to capture snakes.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 175,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Mudiyettuu",
+    year: 2010,
+    location: "Kerala",
+    description: "It is traditional ritual theatre, folk dance, and drama in Kerala depicting the battle between Goddess Kali and the demon Darika. Performed in village temples (Bhagavati shrines) from February to May, post-harvest. Performers wear heavy makeup, gorgeous attire, facial painting, and tall headgear, embodying the supernatural.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 176,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Ramman",
+    year: 2009,
+    location: "Uttarakhand",
+    description: "It is a religious festival and ritual theatre celebrated in Saloor-Dungra villages, Chamoli district, Uttarakhand, to honour the village deity Bhumiyal Devta with offerings in the village temple courtyard. Key aspects include the singing of Jagar, and narrating local legends.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 177,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "The Tradition in Vedic Chanting",
+    year: 2008,
+    location: "India",
+    description: "It is among the oldest unbroken oral traditions, involving several pathas (recitations) or ways of chanting Vedic mantras.",
+    importance: "HIGH"
+  },
+  {
+    id: 178,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Ramlila",
+    year: 2008,
+    location: "North India",
+    description: "Ramlila, literally 'Rama's play', is a performance of epic Ramayana in a series of scenes that include song, narration, recital and dialogue. It is performed across northern India during the festival of Dussehra.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 179,
+    category: "UNESCO Heritage",
+    subcategory: "Intangible Heritage",
+    name: "Kutiyattam (Sanskrit Theatre)",
+    year: 2008,
+    location: "Kerala",
+    description: "Kutiyattam represents a synthesis of Sanskrit classicism and reflects the local traditions of Kerala. It is traditionally performed in theatres called Kuttampalams, which are located in Hindu temples. The actor's art lies in elaborating a situation or episode in all its detail. Therefore, a single act may take days to perform and a complete performance may last up to 40 days.",
+    importance: "MEDIUM"
   }
 ];
 

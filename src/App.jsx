@@ -228,7 +228,7 @@ function App() {
         <div className="mode-card" onClick={() => setSelectedTopic('unesco')}>
           <div className="mode-icon">🏛️</div>
           <h3>UNESCO Heritage</h3>
-          <p>{unescoCount} Sites: Cultural, Natural & Mixed (2025-1983)</p>
+          <p>{unescoCount} Sites: Tangible (Cultural/Natural/Mixed) & Intangible</p>
         </div>
       </div>
     )
