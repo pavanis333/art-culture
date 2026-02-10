@@ -3287,7 +3287,1139 @@ export const allQuizQuestions = [
     explanation: "Ardas are prayers performed during daily rituals in Gurudwaras, recited during opening and closing of Guru Granth Sahib.",
     category: "Religious Literature"
   }
-];
+,
+  
+  // DRAVIDIAN LITERATURE QUIZ (25 questions)
+  {
+    id: 66,
+    category: "Dravidian Literature",
+    question: "Which text is considered the oldest Tamil grammar work?",
+    options: ["Silappatikaram", "Tolkappiyam", "Tirukkural", "Manimegalai"],
+    correct: 1,
+    explanation: "Tolkappiyam is the oldest extant Tamil grammar text, predating other major works."
+  },
+  {
+    id: 67,
+    category: "Dravidian Literature",
+    question: "The Tamil Sangam literature consists of how many major anthologies?",
+    options: ["Eight (Ettuthogai)", "Ten (Pattuppattu)", "Both Ettuthogai and Pattuppattu", "Eighteen (Pathinenkilkanakku)"],
+    correct: 2,
+    explanation: "Tamil Sangam includes both Ettuthogai (Eight Anthologies) and Pattuppattu (Ten Idylls)."
+  },
+  {
+    id: 68,
+    category: "Dravidian Literature",
+    question: "Who is known as the 'Father of Malayalam Literature'?",
+    options: ["Tunchaththu Ezhuthachan", "Cherusseri", "Ramacharitam author", "Niranam poets"],
+    correct: 0,
+    explanation: "Tunchaththu Ezhuthachan is revered as the father of Malayalam literature."
+  },
+  {
+    id: 69,
+    category: "Dravidian Literature",
+    question: "Which Telugu poet is known as the 'Adi Kavi' (first poet) of Telugu?",
+    options: ["Peddana", "Nannaya", "Tikkana", "Errana"],
+    correct: 1,
+    explanation: "Nannaya is considered the first great Telugu poet (Adi Kavi) who began translating Mahabharata."
+  },
+  {
+    id: 70,
+    category: "Dravidian Literature",
+    question: "The Ashtadiggajas were eight poets in the court of which ruler?",
+    options: ["Krishnadevaraya", "Achyutaraya", "Sadasiva Raya", "Tirumala Deva Raya"],
+    correct: 0,
+    explanation: "Ashtadiggajas (eight elephants) were the eight great Telugu poets in Krishnadevaraya's court."
+  },
+  {
+    id: 71,
+    category: "Dravidian Literature",
+    question: "Which are the three gems (Ratnatraya) of Kannada literature?",
+    options: ["Pampa, Ponna, Ranna", "Basava, Akka Mahadevi, Allama Prabhu", "Kumara Vyasa, Sarvajna, Kanakadasa", "Harihara, Raghavanka, Rudra Bhatta"],
+    correct: 0,
+    explanation: "Pampa, Ponna, and Ranna are known as the Ratnatraya (three gems) of Kannada literature."
+  },
+  {
+    id: 72,
+    category: "Dravidian Literature",
+    question: "Silappatikaram, a Tamil epic, tells the story of which character?",
+    options: ["Kovalan and Kannagi", "Madhavi and Kovalan", "Kannagi's revenge", "All of the above"],
+    correct: 3,
+    explanation: "Silappatikaram narrates the story of Kovalan, Kannagi, and Madhavi, focusing on Kannagi's quest for justice."
+  },
+  {
+    id: 73,
+    category: "Dravidian Literature",
+    question: "Which Malayalam work is considered the first Malayalam prose?",
+    options: ["Ramacharitam", "Adhyatma Ramayanam Kilippattu", "Bhasha Kautaliyam", "Krishnagatha"],
+    correct: 0,
+    explanation: "Ramacharitam (12th century) is among the earliest Malayalam prose works."
+  },
+  {
+    id: 74,
+    category: "Dravidian Literature",
+    question: "Who completed the Telugu Mahabharata translation begun by Nannaya?",
+    options: ["Tikkana and Errana", "Peddana", "Srinatha", "Potana"],
+    correct: 0,
+    explanation: "Nannaya began the Telugu Mahabharata; Tikkana continued it, and Errana completed it."
+  },
+  {
+    id: 75,
+    category: "Dravidian Literature",
+    question: "Pampa's Adipurana is written in which language?",
+    options: ["Tamil", "Telugu", "Kannada", "Malayalam"],
+    correct: 2,
+    explanation: "Pampa (10th century) wrote Adipurana in Kannada, establishing literary standards."
+  },
+  {
+    id: 76,
+    category: "Dravidian Literature",
+    question: "What is the theme of Manimegalai, sequel to Silappatikaram?",
+    options: ["Love story", "Buddhist philosophy and social reform", "War and heroism", "Devotion to Shiva"],
+    correct: 1,
+    explanation: "Manimegalai, the sequel to Silappatikaram, focuses on Buddhist teachings and social issues."
+  },
+  {
+    id: 77,
+    category: "Dravidian Literature",
+    question: "Which script did Tunchaththu Ezhuthachan help popularize for Malayalam?",
+    options: ["Vatteluttu", "Grantha", "Malayalam script", "Tamil script"],
+    correct: 2,
+    explanation: "Ezhuthachan played a key role in popularizing the Malayalam script for literary use."
+  },
+  {
+    id: 78,
+    category: "Dravidian Literature",
+    question: "Peddana, a member of Ashtadiggajas, wrote which famous work?",
+    options: ["Manu Charitra", "Panduranga Mahatmyam", "Amukta Malyada", "Basava Purana"],
+    correct: 0,
+    explanation: "Allasani Peddana wrote Manu Charitra and was highly regarded by Krishnadevaraya."
+  },
+  {
+    id: 79,
+    category: "Dravidian Literature",
+    question: "Kumara Vyasa wrote the Kannada version of which epic?",
+    options: ["Ramayana", "Mahabharata", "Bhagavata", "Devi Mahatmya"],
+    correct: 1,
+    explanation: "Kumara Vyasa (15th century) wrote Karnata Bharata Kathamanjari, the Kannada Mahabharata."
+  },
+  {
+    id: 80,
+    category: "Dravidian Literature",
+    question: "The Sangam period in Tamil literature is dated approximately to which period?",
+    options: ["300 BCE - 300 CE", "500 BCE - 100 CE", "100 CE - 500 CE", "500 CE - 800 CE"],
+    correct: 0,
+    explanation: "The Sangam period is generally dated from around 300 BCE to 300 CE."
+  },
+  {
+    id: 81,
+    category: "Dravidian Literature",
+    question: "Pathinenkilkanakku refers to how many minor Tamil literary works?",
+    options: ["Eight", "Ten", "Eighteen", "Twenty-four"],
+    correct: 2,
+    explanation: "Pathinenkilkanakku means 'Eighteen Lesser Texts' in Tamil Sangam literature."
+  },
+  {
+    id: 82,
+    category: "Dravidian Literature",
+    question: "Which Telugu poet wrote Amukta Malyada about Andal?",
+    options: ["Krishnadevaraya", "Peddana", "Srinatha", "Bammera Potana"],
+    correct: 0,
+    explanation: "Krishnadevaraya himself composed Amukta Malyada in Telugu, about the Alvar saint Andal."
+  },
+  {
+    id: 83,
+    category: "Dravidian Literature",
+    question: "Ranna, one of the Kannada Ratnatraya, wrote which famous work?",
+    options: ["Adipurana", "Gadayuddha", "Vikramarjuna Vijaya", "Kavirajamarga"],
+    correct: 1,
+    explanation: "Ranna wrote Gadayuddha (Gadayuddham), also known as Sahasabhima Vijayam."
+  },
+  {
+    id: 84,
+    category: "Dravidian Literature",
+    question: "Thiruvalluvar's Tirukkural contains how many couplets?",
+    options: ["1,000", "1,330", "2,000", "365"],
+    correct: 1,
+    explanation: "Tirukkural consists of 1,330 couplets (kurals) divided into three sections."
+  },
+  {
+    id: 85,
+    category: "Dravidian Literature",
+    question: "Which Kannada poet is associated with Vachana literature?",
+    options: ["Basavanna", "Pampa", "Kumara Vyasa", "Purandara Dasa"],
+    correct: 0,
+    explanation: "Basavanna (12th century) pioneered Vachana sahitya, a form of rhythmic prose in Kannada."
+  },
+  {
+    id: 86,
+    category: "Dravidian Literature",
+    question: "Nannaya's Telugu Mahabharata covers which parvas?",
+    options: ["Adi Parva to Sabha Parva", "Adi Parva to Aranya Parva (first 2.5)", "Complete Mahabharata", "Only Adi Parva"],
+    correct: 1,
+    explanation: "Nannaya translated the first two and a half parvas before his death."
+  },
+  {
+    id: 87,
+    category: "Dravidian Literature",
+    question: "Ezhuthachan's major Malayalam works are based on which Sanskrit epics?",
+    options: ["Ramayana and Mahabharata", "Puranas only", "Vedas", "Upanishads"],
+    correct: 0,
+    explanation: "Ezhuthachan wrote Adhyatma Ramayanam Kilippattu and Mahabharatam in Malayalam."
+  },
+  {
+    id: 88,
+    category: "Dravidian Literature",
+    question: "Ponna, second of the Kannada Ratnatraya, wrote which work?",
+    options: ["Shanti Purana", "Adipurana", "Gadayuddha", "Vikramarjuna Vijaya"],
+    correct: 0,
+    explanation: "Ponna wrote Shanti Purana (Shantipurana) in the 10th century."
+  },
+  {
+    id: 89,
+    category: "Dravidian Literature",
+    question: "Which language was NOT part of classical Dravidian literature?",
+    options: ["Tamil", "Hindi", "Telugu", "Kannada"],
+    correct: 1,
+    explanation: "Hindi is an Indo-Aryan language, not Dravidian. Classical Dravidian includes Tamil, Telugu, Kannada, Malayalam."
+  },
+  {
+    id: 90,
+    category: "Dravidian Literature",
+    question: "Bammera Potana wrote the Telugu Bhagavatam dedicated to which deity?",
+    options: ["Rama", "Shiva", "Krishna", "Vishnu"],
+    correct: 2,
+    explanation: "Potana dedicated his Telugu Bhagavatam to Lord Rama but it focuses on Krishna's stories."
+  },
+  
+  // MEDIEVAL LITERATURE QUIZ (20 questions)
+  {
+    id: 91,
+    category: "Medieval Literature",
+    question: "Amir Khusrau is credited with inventing which musical instrument?",
+    options: ["Tabla", "Sitar", "Sarod", "Both Tabla and Sitar"],
+    correct: 3,
+    explanation: "Amir Khusrau is traditionally credited with inventing both the tabla and sitar, though this is debated."
+  },
+  {
+    id: 92,
+    category: "Medieval Literature",
+    question: "Babarnama (Tuzuk-i-Baburi) was written in which language?",
+    options: ["Persian", "Chagatai Turkish", "Arabic", "Hindi"],
+    correct: 1,
+    explanation: "Babur wrote his autobiography Babarnama in Chagatai Turkish, later translated to Persian."
+  },
+  {
+    id: 93,
+    category: "Medieval Literature",
+    question: "Ain-e Akbari, documenting Akbar's administration, was written by:",
+    options: ["Abul Fazl", "Badauni", "Nizamuddin Ahmad", "Ferishta"],
+    correct: 0,
+    explanation: "Abul Fazl wrote Ain-e Akbari as the third volume of Akbarnama."
+  },
+  {
+    id: 94,
+    category: "Medieval Literature",
+    question: "Razmanama was the first Persian translation of which text?",
+    options: ["Ramayana", "Mahabharata", "Bhagavad Gita", "Panchatantra"],
+    correct: 1,
+    explanation: "Razmanama was the first complete Persian translation of the Mahabharata, commissioned by Akbar."
+  },
+  {
+    id: 95,
+    category: "Medieval Literature",
+    question: "Which UPSC 2022 question featured Yoga Vasistha?",
+    options: ["Philosophy text", "Medical treatise", "Astronomical work", "Legal code"],
+    correct: 0,
+    explanation: "Yoga Vasistha is a philosophical text dialogue between Vasistha and Rama [UPSC 2022]."
+  },
+  {
+    id: 96,
+    category: "Medieval Literature",
+    question: "Mirza Ghalib primarily wrote in which languages?",
+    options: ["Urdu only", "Persian only", "Both Urdu and Persian", "Hindi and Urdu"],
+    correct: 2,
+    explanation: "Mirza Ghalib was a master of both Urdu and Persian poetry."
+  },
+  {
+    id: 97,
+    category: "Medieval Literature",
+    question: "Allama Iqbal's poetry contributed significantly to which movement?",
+    options: ["Bengal Renaissance", "Pakistan Movement", "Hindi literary movement", "Sufi revival"],
+    correct: 1,
+    explanation: "Allama Iqbal's poetry and philosophy played a crucial role in inspiring the Pakistan Movement."
+  },
+  {
+    id: 98,
+    category: "Medieval Literature",
+    question: "Which is considered the first Hindi book?",
+    options: ["Prithviraj Raso", "Ramcharitmanas", "Padmavat", "Prithvirajacharita"],
+    correct: 0,
+    explanation: "Prithviraj Raso by Chand Bardai is considered among the earliest Hindi literary works."
+  },
+  {
+    id: 99,
+    category: "Medieval Literature",
+    question: "Tulsidas wrote Ramcharitmanas in which language?",
+    options: ["Sanskrit", "Braj Bhasha", "Awadhi", "Khari Boli"],
+    correct: 2,
+    explanation: "Tulsidas composed Ramcharitmanas in Awadhi, making it accessible to common people."
+  },
+  {
+    id: 100,
+    category: "Medieval Literature",
+    question: "Surdas is famous for his devotional poetry dedicated to:",
+    options: ["Rama", "Krishna", "Shiva", "Devi"],
+    correct: 1,
+    explanation: "Surdas's poetry, particularly Sur Sagar, is devoted to Lord Krishna's childhood and youth."
+  },
+  {
+    id: 101,
+    category: "Medieval Literature",
+    question: "Akbarnama, the official chronicle of Akbar's reign, was written by:",
+    options: ["Abul Fazl", "Badauni", "Birbal", "Todar Mal"],
+    correct: 0,
+    explanation: "Abul Fazl authored Akbarnama, the comprehensive biography of Emperor Akbar."
+  },
+  {
+    id: 102,
+    category: "Medieval Literature",
+    question: "Amir Khusrau served in the courts of how many Delhi Sultans?",
+    options: ["Three", "Five", "Seven", "Ten"],
+    correct: 2,
+    explanation: "Amir Khusrau served under seven Delhi Sultans during his long career."
+  },
+  {
+    id: 103,
+    category: "Medieval Literature",
+    question: "The evolution of Urdu language combined which two primary influences?",
+    options: ["Arabic and Turkish", "Persian and Hindi", "Sanskrit and Arabic", "Turkish and Hindi"],
+    correct: 1,
+    explanation: "Urdu evolved from the interaction of Persian (court language) with local Hindi/Hindustani."
+  },
+  {
+    id: 104,
+    category: "Medieval Literature",
+    question: "Which Persian work chronicles the Timurid dynasty's history?",
+    options: ["Babarnama", "Tarikh-e-Khandan-e-Timuriyah", "Ain-e Akbari", "Tuzuk-i-Jahangiri"],
+    correct: 1,
+    explanation: "Tarikh-e-Khandan-e-Timuriyah details the Timurid dynasty history, crucial for understanding the Mughals."
+  },
+  {
+    id: 105,
+    category: "Medieval Literature",
+    question: "Prithviraj Raso narrates the story of which Rajput king?",
+    options: ["Rana Pratap", "Prithviraj Chauhan", "Rana Sanga", "Rana Kumbha"],
+    correct: 1,
+    explanation: "Prithviraj Raso by Chand Bardai chronicles the life of Prithviraj Chauhan."
+  },
+  {
+    id: 106,
+    category: "Medieval Literature",
+    question: "Tulsidas's Ramcharitmanas is also known as:",
+    options: ["Tulsi Ramayana", "Awadhi Ramayana", "Both of the above", "Hindi Valmiki"],
+    correct: 2,
+    explanation: "Ramcharitmanas is popularly called both Tulsi Ramayana and Awadhi Ramayana."
+  },
+  {
+    id: 107,
+    category: "Medieval Literature",
+    question: "Which Sufi saint greatly influenced Amir Khusrau?",
+    options: ["Khwaja Moinuddin Chishti", "Nizamuddin Auliya", "Baba Farid", "Sheikh Salim Chishti"],
+    correct: 1,
+    explanation: "Amir Khusrau was a devoted disciple of Sufi saint Nizamuddin Auliya."
+  },
+  {
+    id: 108,
+    category: "Medieval Literature",
+    question: "Surdas is believed to have been:",
+    options: ["Blind from birth", "Lost sight later", "Had normal vision", "Partially sighted"],
+    correct: 0,
+    explanation: "Traditional accounts describe Surdas as blind, though this is debated by scholars."
+  },
+  {
+    id: 109,
+    category: "Medieval Literature",
+    question: "The Razmanama translation project involved how many scholars?",
+    options: ["Only one", "A team of multiple scholars", "Two scholars", "Unknown"],
+    correct: 1,
+    explanation: "The Razmanama was a massive collaborative project involving multiple Persian scholars."
+  },
+  {
+    id: 110,
+    category: "Medieval Literature",
+    question: "Which medieval poet is known as 'Tuti-e-Hind' (Parrot of India)?",
+    options: ["Mirza Ghalib", "Amir Khusrau", "Allama Iqbal", "Mir Taqi Mir"],
+    correct: 1,
+    explanation: "Amir Khusrau is called 'Tuti-e-Hind' for his melodious poetry and musical innovations."
+  },
+  
+  // MODERN LITERATURE QUIZ (15 questions)
+  {
+    id: 111,
+    category: "Modern Literature",
+    question: "Who is known as the 'Father of Modern Hindi Literature'?",
+    options: ["Munshi Premchand", "Bharatendu Harishchandra", "Mahadevi Varma", "Jaishankar Prasad"],
+    correct: 1,
+    explanation: "Bharatendu Harishchandra is credited as the father of modern Hindi literature and journalism."
+  },
+  {
+    id: 112,
+    category: "Modern Literature",
+    question: "Munshi Premchand is best known for writing in which genre?",
+    options: ["Poetry", "Realistic fiction", "Historical novels", "Mythology"],
+    correct: 1,
+    explanation: "Munshi Premchand pioneered realistic fiction in Hindi-Urdu, depicting rural Indian life."
+  },
+  {
+    id: 113,
+    category: "Modern Literature",
+    question: "Mahadevi Varma was a leading poet of which Hindi literary movement?",
+    options: ["Bhakti movement", "Chhayavad (Romanticism)", "Pragativad (Progressivism)", "Prayogvad (Experimentalism)"],
+    correct: 1,
+    explanation: "Mahadevi Varma was a prominent Chhayavadi poet, known for her mystical and romantic poetry."
+  },
+  {
+    id: 114,
+    category: "Modern Literature",
+    question: "'Anand Math' which contains 'Vande Mataram' was written by:",
+    options: ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Bharatendu Harishchandra", "Swami Vivekananda"],
+    correct: 1,
+    explanation: "Bankim Chandra Chatterjee wrote Anand Math (1882), containing the song Vande Mataram."
+  },
+  {
+    id: 115,
+    category: "Modern Literature",
+    question: "Rabindranath Tagore won the Nobel Prize for which work?",
+    options: ["Gitanjali", "Gora", "The Home and the World", "Kabuliwala"],
+    correct: 0,
+    explanation: "Tagore won the 1913 Nobel Prize in Literature for Gitanjali (Song Offerings)."
+  },
+  {
+    id: 116,
+    category: "Modern Literature",
+    question: "Lal Ded, the first female poetess in Kashmir, belonged to which tradition?",
+    options: ["Sufi", "Shaivite mystic", "Buddhist", "Vaishnav"],
+    correct: 1,
+    explanation: "Lal Ded (Lalleshwari) was a 14th-century Kashmiri Shaivite mystic poetess."
+  },
+  {
+    id: 117,
+    category: "Modern Literature",
+    question: "Which language is the most spoken in India according to the 2011 census?",
+    options: ["Bengali", "Hindi", "Telugu", "Marathi"],
+    correct: 1,
+    explanation: "Hindi is the most spoken language in India (44% of population, 2011 census)."
+  },
+  {
+    id: 118,
+    category: "Modern Literature",
+    question: "How many languages were originally in the Eighth Schedule of the Constitution?",
+    options: ["14", "18", "22", "24"],
+    correct: 0,
+    explanation: "The Eighth Schedule originally had 14 languages in 1950; now it has 22."
+  },
+  {
+    id: 119,
+    category: "Modern Literature",
+    question: "Which amendment added Sindhi to the Eighth Schedule?",
+    options: ["21st Amendment (1967)", "61st Amendment", "71st Amendment", "92nd Amendment"],
+    correct: 0,
+    explanation: "The 21st Amendment (1967) added Sindhi to the Eighth Schedule."
+  },
+  {
+    id: 120,
+    category: "Modern Literature",
+    question: "How many classical languages were added to the Classical Languages list in 2024?",
+    options: ["Three", "Four", "Five", "Six"],
+    correct: 2,
+    explanation: "In 2024, five languages were added: Marathi, Pali, Prakrit, Assamese, and Bengali."
+  },
+  {
+    id: 121,
+    category: "Modern Literature",
+    question: "Premchand's famous novel 'Godan' deals with:",
+    options: ["Urban middle class", "Rural poverty and farmers", "Independence struggle", "Historical events"],
+    correct: 1,
+    explanation: "Godan depicts the tragic life of a poor Indian farmer and rural social issues."
+  },
+  {
+    id: 122,
+    category: "Modern Literature",
+    question: "Bharatendu Harishchandra pioneered which form of Hindi theatre?",
+    options: ["Classical Sanskrit drama", "Modern Hindi drama", "Folk theatre", "Nautanki"],
+    correct: 1,
+    explanation: "Bharatendu established modern Hindi drama and theatre in the late 19th century."
+  },
+  {
+    id: 123,
+    category: "Modern Literature",
+    question: "Which classical language status was given FIRST in 2004?",
+    options: ["Sanskrit", "Tamil", "Telugu", "Kannada"],
+    correct: 1,
+    explanation: "Tamil was the first language to receive classical status in 2004."
+  },
+  {
+    id: 124,
+    category: "Modern Literature",
+    question: "Bankim Chandra's Anand Math is set during which period?",
+    options: ["Mughal era", "British Raj", "Sannyasi Rebellion", "1857 Revolt"],
+    correct: 2,
+    explanation: "Anand Math is set against the backdrop of the Sannyasi Rebellion in Bengal."
+  },
+  {
+    id: 125,
+    category: "Modern Literature",
+    question: "The Constitution defines Hindi in which script as the official language?",
+    options: ["Any script", "Devanagari", "Persian", "Roman"],
+    correct: 1,
+    explanation: "Article 343(1) specifies Hindi in Devanagari script as the official language of the Union."
+  },
+  
+  // UNESCO HERITAGE QUIZ (30 questions)
+  {
+    id: 126,
+    category: "UNESCO Heritage",
+    question: "Which was India's first UNESCO World Heritage Site (1983)?",
+    options: ["Taj Mahal", "Ajanta Caves", "Red Fort", "Qutb Minar"],
+    correct: 0,
+    explanation: "Taj Mahal was inscribed as a UNESCO World Heritage Site in 1983."
+  },
+  {
+    id: 127,
+    category: "UNESCO Heritage",
+    question: "Shantiniketan, a 2023 UNESCO site, was established by:",
+    options: ["Mahatma Gandhi", "Rabindranath Tagore", "Swami Vivekananda", "Raja Ram Mohan Roy"],
+    correct: 1,
+    explanation: "Rabindranath Tagore established Shantiniketan in 1901 [UPSC 2024]."
+  },
+  {
+    id: 128,
+    category: "UNESCO Heritage",
+    question: "The Sacred Ensembles of Hoysalas date from which centuries?",
+    options: ["8th-9th", "10th-11th", "12th-13th", "14th-15th"],
+    correct: 2,
+    explanation: "Hoysala temples date from the 12th to 13th centuries AD [UPSC 2024]."
+  },
+  {
+    id: 129,
+    category: "UNESCO Heritage",
+    question: "Moidams of Ahom Kingdom are located in which state?",
+    options: ["Arunachal Pradesh", "Assam", "Meghalaya", "Manipur"],
+    correct: 1,
+    explanation: "Moidams (royal burial mounds) are in Assam, inscribed in 2024."
+  },
+  {
+    id: 130,
+    category: "UNESCO Heritage",
+    question: "Kaziranga National Park is famous for which animal?",
+    options: ["Bengal Tiger", "Asiatic Lion", "One-horned Rhinoceros", "Snow Leopard"],
+    correct: 2,
+    explanation: "Kaziranga has the world's largest population of one-horned rhinoceroses."
+  },
+  {
+    id: 131,
+    category: "UNESCO Heritage",
+    question: "Western Ghats spans across how many states?",
+    options: ["Four", "Five", "Six", "Seven"],
+    correct: 2,
+    explanation: "Western Ghats covers Kerala, Tamil Nadu, Karnataka, Maharashtra, Goa, and Gujarat."
+  },
+  {
+    id: 132,
+    category: "UNESCO Heritage",
+    question: "Garba of Gujarat was inscribed as Intangible Heritage in:",
+    options: ["2021", "2022", "2023", "2024"],
+    correct: 2,
+    explanation: "Garba was inscribed in 2023 [UPSC 2024]."
+  },
+  {
+    id: 133,
+    category: "UNESCO Heritage",
+    question: "Yoga was recognized by UNESCO in which year?",
+    options: ["2014", "2015", "2016", "2017"],
+    correct: 2,
+    explanation: "Yoga was inscribed as Intangible Cultural Heritage in 2016."
+  },
+  {
+    id: 134,
+    category: "UNESCO Heritage",
+    question: "Kumbh Mela is held at how many locations in rotation?",
+    options: ["Two", "Three", "Four", "Five"],
+    correct: 2,
+    explanation: "Kumbh Mela rotates among Allahabad, Haridwar, Ujjain, and Nasik every four years."
+  },
+  {
+    id: 135,
+    category: "UNESCO Heritage",
+    question: "Mumbai was recognized as a UNESCO Creative City for:",
+    options: ["Literature", "Music", "Film", "Design"],
+    correct: 2,
+    explanation: "Mumbai (Bollywood) is a UNESCO Creative City of Film (2019)."
+  },
+  {
+    id: 136,
+    category: "UNESCO Heritage",
+    question: "Kozhikode became India's first UNESCO City of:",
+    options: ["Music", "Literature", "Gastronomy", "Design"],
+    correct: 1,
+    explanation: "Kozhikode is India's first UNESCO City of Literature (2023)."
+  },
+  {
+    id: 137,
+    category: "UNESCO Heritage",
+    question: "The Rigveda Manuscripts were inscribed in the Memory of the World Register in:",
+    options: ["2005", "2007", "2009", "2011"],
+    correct: 1,
+    explanation: "Rigveda Manuscripts were inscribed in 2007 as foundational Vedic texts."
+  },
+  {
+    id: 138,
+    category: "UNESCO Heritage",
+    question: "Dholavira, a Harappan site, is located in:",
+    options: ["Rajasthan", "Punjab", "Gujarat", "Haryana"],
+    correct: 2,
+    explanation: "Dholavira in Gujarat showcases sophisticated Harappan water management."
+  },
+  {
+    id: 139,
+    category: "UNESCO Heritage",
+    question: "Ramappa Temple is known for its:",
+    options: ["Size", "Gold coating", "Floating bricks", "Underground chambers"],
+    correct: 2,
+    explanation: "Ramappa Temple features lightweight 'floating bricks' that reduced roof weight."
+  },
+  {
+    id: 140,
+    category: "UNESCO Heritage",
+    question: "Sundarban mangrove forests are shared between India and:",
+    options: ["Nepal", "Bangladesh", "Myanmar", "Bhutan"],
+    correct: 1,
+    explanation: "Sundarbans straddle India (West Bengal) and Bangladesh."
+  },
+  {
+    id: 141,
+    category: "UNESCO Heritage",
+    question: "Rani-Ki-Vav is which type of structure?",
+    options: ["Palace", "Stepwell", "Temple", "Fort"],
+    correct: 1,
+    explanation: "Rani-Ki-Vav is an intricately designed stepwell in Gujarat [UPSC 2024]."
+  },
+  {
+    id: 142,
+    category: "UNESCO Heritage",
+    question: "Mahabodhi Temple at Bodh Gaya marks the site of Buddha's:",
+    options: ["Birth", "Enlightenment", "First Sermon", "Death"],
+    correct: 1,
+    explanation: "Mahabodhi Temple commemorates Buddha's enlightenment [UPSC 2024]."
+  },
+  {
+    id: 143,
+    category: "UNESCO Heritage",
+    question: "Khajuraho temples were built by which dynasty?",
+    options: ["Gupta", "Chandella", "Pallava", "Chalukya"],
+    correct: 1,
+    explanation: "Chandella dynasty built Khajuraho temples between 950-1050 AD."
+  },
+  {
+    id: 144,
+    category: "UNESCO Heritage",
+    question: "Great Living Chola Temples include how many temples?",
+    options: ["Two", "Three", "Four", "Five"],
+    correct: 1,
+    explanation: "Three temples: Brihadisvara at Thanjavur, Brihadisvara at Gangaikondacholisvaram, Airavatesvara at Darasuram."
+  },
+  {
+    id: 145,
+    category: "UNESCO Heritage",
+    question: "Buddhist chanting of Ladakh includes how many major Buddhist sects?",
+    options: ["Two", "Three", "Four", "Five"],
+    correct: 2,
+    explanation: "Four major sects: Nyngma, Kagyud, Shakya, and Geluk."
+  },
+  {
+    id: 146,
+    category: "UNESCO Heritage",
+    question: "Chhau dance has how many regional variations?",
+    options: ["Two", "Three", "Four", "Five"],
+    correct: 1,
+    explanation: "Three variations: Purulia (West Bengal), Seraikella (Jharkhand), Mayurbhanj (Odisha)."
+  },
+  {
+    id: 147,
+    category: "UNESCO Heritage",
+    question: "Kumbh Mela is recognized as:",
+    options: ["Natural Heritage", "Cultural Heritage Site", "Intangible Cultural Heritage", "Mixed Heritage"],
+    correct: 2,
+    explanation: "Kumbh Mela (2017) is an Intangible Cultural Heritage for its peaceful congregation."
+  },
+  {
+    id: 148,
+    category: "UNESCO Heritage",
+    question: "Hill Forts of Rajasthan includes how many forts?",
+    options: ["Four", "Six", "Eight", "Ten"],
+    correct: 1,
+    explanation: "Six forts: Chittorgarh, Kumbhalgarh, Sawai Madhopur, Jhalawar, Jaipur, Jaisalmer."
+  },
+  {
+    id: 149,
+    category: "UNESCO Heritage",
+    question: "Nalanda University flourished from which period?",
+    options: ["1st-5th century", "3rd-13th century", "5th-10th century", "8th-15th century"],
+    correct: 1,
+    explanation: "Nalanda Mahavihara operated from 3rd century BC to 13th century AD."
+  },
+  {
+    id: 150,
+    category: "UNESCO Heritage",
+    question: "Ajanta Caves contain paintings from which periods?",
+    options: ["Only Buddhist period", "2nd-1st century BC and 5th-6th century AD", "Only Gupta period", "Medieval period"],
+    correct: 1,
+    explanation: "Ajanta has two phases: 2nd-1st century BC and Gupta period (5th-6th century AD)."
+  },
+  {
+    id: 151,
+    category: "UNESCO Heritage",
+    question: "Ellora Caves showcase which three religions?",
+    options: ["Hinduism, Jainism, Buddhism", "Hinduism, Buddhism, Sikhism", "Buddhism, Islam, Hinduism", "Jainism, Sikhism, Buddhism"],
+    correct: 0,
+    explanation: "Ellora's 34 caves represent Buddhism, Brahmanism (Hinduism), and Jainism."
+  },
+  {
+    id: 152,
+    category: "UNESCO Heritage",
+    question: "Vedic Chanting tradition is among the oldest:",
+    options: ["Written traditions", "Oral traditions", "Dance traditions", "Architectural traditions"],
+    correct: 1,
+    explanation: "Vedic Chanting (2008) is one of the oldest unbroken oral traditions."
+  },
+  {
+    id: 153,
+    category: "UNESCO Heritage",
+    question: "Lucknow became the second Indian city recognized for:",
+    options: ["Music", "Literature", "Gastronomy", "Film"],
+    correct: 2,
+    explanation: "Lucknow (2025) is the second gastronomy city after Hyderabad (2019)."
+  },
+  {
+    id: 154,
+    category: "UNESCO Heritage",
+    question: "Gwalior is a UNESCO Creative City for its:",
+    options: ["Architecture", "Music (Gwalior gharana)", "Crafts", "Literature"],
+    correct: 1,
+    explanation: "Gwalior (2023) is recognized for the Gwalior gharana's contribution to Hindustani classical music."
+  },
+  {
+    id: 155,
+    category: "UNESCO Heritage",
+    question: "Which is the world's third highest peak mentioned in a UNESCO site?",
+    options: ["K2", "Kangchenjunga", "Nanda Devi", "Makalu"],
+    correct: 1,
+    explanation: "Khangchendzonga National Park (Sikkim) includes the world's third highest peak."
+  },
+  
+  // BOOKS & AUTHORS QUIZ (25 questions)
+  {
+    id: 156,
+    category: "Books & Authors",
+    question: "Who is the author of the Sanskrit epic Ramayana?",
+    options: ["Ved Vyas", "Valmiki", "Kalidasa", "Tulsidas"],
+    correct: 1,
+    explanation: "Valmiki composed the original Sanskrit Ramayana."
+  },
+  {
+    id: 157,
+    category: "Books & Authors",
+    question: "Ved Vyas is credited with composing:",
+    options: ["Ramayana", "Mahabharata", "Vedas", "Upanishads"],
+    correct: 1,
+    explanation: "Ved Vyas compiled the Mahabharata, including the Bhagavad Gita."
+  },
+  {
+    id: 158,
+    category: "Books & Authors",
+    question: "Panini's Ashtadhyayi is a treatise on:",
+    options: ["Medicine", "Grammar", "Astronomy", "Politics"],
+    correct: 1,
+    explanation: "Ashtadhyayi is the foundational Sanskrit grammar text by Panini."
+  },
+  {
+    id: 159,
+    category: "Books & Authors",
+    question: "Charaka Samhita is a classic text on:",
+    options: ["Surgery", "Medicine (Ayurveda)", "Astronomy", "Mathematics"],
+    correct: 1,
+    explanation: "Charaka Samhita is an ancient Ayurvedic text on medicine and health."
+  },
+  {
+    id: 160,
+    category: "Books & Authors",
+    question: "Sushruta Samhita focuses on:",
+    options: ["Medicine", "Surgery", "Astrology", "Grammar"],
+    correct: 1,
+    explanation: "Sushruta Samhita is the ancient Ayurvedic text on surgery."
+  },
+  {
+    id: 161,
+    category: "Books & Authors",
+    question: "Kalidasa is considered the greatest:",
+    options: ["Tamil poet", "Sanskrit poet and dramatist", "Persian poet", "Hindi poet"],
+    correct: 1,
+    explanation: "Kalidasa is regarded as the greatest classical Sanskrit poet and dramatist."
+  },
+  {
+    id: 162,
+    category: "Books & Authors",
+    question: "Natyasastra, the treatise on performing arts, was written by:",
+    options: ["Kalidasa", "Bharat Muni", "Vishakhadatta", "Sudraka"],
+    correct: 1,
+    explanation: "Bharata Muni composed Natyasastra, the foundational text on drama and dance."
+  },
+  {
+    id: 163,
+    category: "Books & Authors",
+    question: "Bhaskaracharya's Siddhanta Shiromani covers:",
+    options: ["Medicine", "Astronomy and Mathematics", "Grammar", "Law"],
+    correct: 1,
+    explanation: "Siddhanta Shiromani contains four parts: Lilavati (arithmetic), Bijaganita (algebra), and astronomy."
+  },
+  {
+    id: 164,
+    category: "Books & Authors",
+    question: "Mricchakatika (The Little Clay Cart) was written by:",
+    options: ["Kalidasa", "Bhasa", "Sudraka", "Vishakhadatta"],
+    correct: 2,
+    explanation: "Sudraka authored Mricchakatika, a social drama in Sanskrit."
+  },
+  {
+    id: 165,
+    category: "Books & Authors",
+    question: "Vishakhadatta's Mudrarakshasa is about:",
+    options: ["Love story", "Chandragupta Maurya's political intrigue", "Devotional theme", "War epic"],
+    correct: 1,
+    explanation: "Mudrarakshasa depicts Chandragupta Maurya defeating the Nandas with Chanakya's help."
+  },
+  {
+    id: 166,
+    category: "Books & Authors",
+    question: "Patanjali wrote Mahabhasya as a commentary on:",
+    options: ["Vedas", "Panini's Ashtadhyayi", "Upanishads", "Puranas"],
+    correct: 1,
+    explanation: "Mahabhasya is Patanjali's great commentary on Panini's grammar."
+  },
+  {
+    id: 167,
+    category: "Books & Authors",
+    question: "Varahamihira's Brihatsamhita deals with:",
+    options: ["Medicine", "Astrology and astronomy", "Grammar", "Dance"],
+    correct: 1,
+    explanation: "Varahamihira's works cover astronomy, astrology, and natural phenomena."
+  },
+  {
+    id: 168,
+    category: "Books & Authors",
+    question: "Nagarjuna founded which Buddhist school of philosophy?",
+    options: ["Hinayana", "Madhyamika", "Vajrayana", "Zen"],
+    correct: 1,
+    explanation: "Nagarjuna founded the Madhyamika (Middle Way) school of Mahayana Buddhism."
+  },
+  {
+    id: 169,
+    category: "Books & Authors",
+    question: "Asvaghosha's Buddhacharita narrates the life of:",
+    options: ["Mahavira", "Buddha", "Ashoka", "Kanishka"],
+    correct: 1,
+    explanation: "Buddhacharita by Asvaghosha is an epic poem on Buddha's life."
+  },
+  {
+    id: 170,
+    category: "Books & Authors",
+    question: "Jayadeva's Gita Govinda is a devotional work about:",
+    options: ["Rama", "Krishna and Radha", "Shiva", "Durga"],
+    correct: 1,
+    explanation: "Gita Govinda celebrates the divine love of Krishna and Radha."
+  },
+  {
+    id: 171,
+    category: "Books & Authors",
+    question: "Kautilya's Arthashastra was written by which other name?",
+    options: ["Panini", "Chanakya", "Patanjali", "Kalidasa"],
+    correct: 1,
+    explanation: "Kautilya (Chanakya/Vishnugupta) wrote the Arthashastra on statecraft."
+  },
+  {
+    id: 172,
+    category: "Books & Authors",
+    question: "Kalidasa's Meghaduta is written in which form?",
+    options: ["Epic", "Drama", "Lyric poetry", "Prose"],
+    correct: 2,
+    explanation: "Meghaduta is a lyric poem where a yaksha sends messages via a cloud."
+  },
+  {
+    id: 173,
+    category: "Books & Authors",
+    question: "Bammera Potana wrote the Telugu version of:",
+    options: ["Ramayana", "Mahabharata", "Bhagavatam", "Puranas"],
+    correct: 2,
+    explanation: "Potana's Telugu Bhagavatam is a masterpiece focusing on Krishna."
+  },
+  {
+    id: 174,
+    category: "Books & Authors",
+    question: "Dandin's Dasakumaracharita is famous for its:",
+    options: ["Poetry", "Prose narrative", "Grammar", "Philosophy"],
+    correct: 1,
+    explanation: "Dasakumaracharita is a classic Sanskrit prose narrative of ten princes."
+  },
+  {
+    id: 175,
+    category: "Books & Authors",
+    question: "Rajasekhara was a poet-dramatist in which century?",
+    options: ["6th-7th", "8th-9th", "9th-10th", "11th-12th"],
+    correct: 2,
+    explanation: "Rajasekhara (9th-10th century) wrote plays like Karpuramanjari."
+  },
+  {
+    id: 176,
+    category: "Books & Authors",
+    question: "Vijnaneshwara's Mitakshara is a commentary on:",
+    options: ["Vedas", "Hindu law (Yajnavalkya Smriti)", "Puranas", "Epics"],
+    correct: 1,
+    explanation: "Mitakshara is an influential commentary on Yajnavalkya Smriti (Hindu law)."
+  },
+  {
+    id: 177,
+    category: "Books & Authors",
+    question: "Chand Bardai's Prithviraj Raso is considered:",
+    options: ["First Sanskrit work", "First Hindi book", "First Tamil work", "First Urdu work"],
+    correct: 1,
+    explanation: "Prithviraj Raso is among the earliest works in Hindi literature."
+  },
+  {
+    id: 178,
+    category: "Books & Authors",
+    question: "Bhavabhuti wrote Uttarama-Charita as a continuation of:",
+    options: ["Mahabharata", "Valmiki's Ramayana", "Puranas", "Vedas"],
+    correct: 1,
+    explanation: "Uttarama-Charita continues the story after Valmiki's Ramayana."
+  },
+  {
+    id: 179,
+    category: "Books & Authors",
+    question: "Which work contains the story of Shakuntala?",
+    options: ["Malavikagnimitram", "Abhijnanasakuntalam", "Meghaduta", "Vikramorvasiyam"],
+    correct: 1,
+    explanation: "Kalidasa's Abhijnanasakuntalam (Shakuntala) is his most famous play."
+  },
+  {
+    id: 180,
+    category: "Books & Authors",
+    question: "Hemchandra was a scholar in which tradition?",
+    options: ["Buddhist", "Jain", "Vedic", "Shaivite"],
+    correct: 1,
+    explanation: "Hemchandra was a Jain scholar, grammarian, and polymath (12th century)."
+  },
+  
+  // FOREIGN TRAVELLERS QUIZ (25 questions)
+  {
+    id: 181,
+    category: "Foreign Travellers",
+    question: "Megasthenes was the ambassador of which ruler?",
+    options: ["Alexander", "Seleucus Nikator", "Darius", "Cyrus"],
+    correct: 1,
+    explanation: "Megasthenes was Seleucus Nikator's ambassador to Chandragupta Maurya's court."
+  },
+  {
+    id: 182,
+    category: "Foreign Travellers",
+    question: "Megasthenes wrote which book about India?",
+    options: ["Arthashastra", "Indica", "Periplus", "Geography"],
+    correct: 1,
+    explanation: "Megasthenes wrote 'Indica' describing Mauryan India."
+  },
+  {
+    id: 183,
+    category: "Foreign Travellers",
+    question: "Fa-Hien visited India during the reign of:",
+    options: ["Ashoka", "Chandragupta II", "Harsha", "Kanishka"],
+    correct: 1,
+    explanation: "Chinese pilgrim Fa-Hien visited during Chandragupta II's reign (405-411 CE)."
+  },
+  {
+    id: 184,
+    category: "Foreign Travellers",
+    question: "Hiuen Tsang studied at which university?",
+    options: ["Taxila", "Nalanda", "Vikramashila", "Valabhi"],
+    correct: 1,
+    explanation: "Hiuen Tsang studied at Nalanda for around five years during Harsha's reign."
+  },
+  {
+    id: 185,
+    category: "Foreign Travellers",
+    question: "Hiuen Tsang's travelogue is titled:",
+    options: ["Indica", "Si-Yu-Ki", "Fo-Kyo-Ki", "Travels"],
+    correct: 1,
+    explanation: "Hiuen Tsang wrote 'Si-Yu-Ki' (Travel to the Western World)."
+  },
+  {
+    id: 186,
+    category: "Foreign Travellers",
+    question: "Al-Biruni wrote 'Kitab-ul-Hind' during which dynasty?",
+    options: ["Maurya", "Gupta", "Ghaznavid", "Delhi Sultanate"],
+    correct: 2,
+    explanation: "Al-Biruni came to India with Mahmud of Ghazni and studied Indian culture extensively."
+  },
+  {
+    id: 187,
+    category: "Foreign Travellers",
+    question: "Ibn Batuta was appointed as a Qazi by:",
+    options: ["Alauddin Khilji", "Muhammad bin Tughlaq", "Firoz Shah Tughlaq", "Balban"],
+    correct: 1,
+    explanation: "Muhammad bin Tughlaq appointed Ibn Batuta as Qazi of Delhi."
+  },
+  {
+    id: 188,
+    category: "Foreign Travellers",
+    question: "Ibn Batuta's travelogue is called:",
+    options: ["Indica", "Rihla", "Travels", "Safarnama"],
+    correct: 1,
+    explanation: "Ibn Batuta wrote 'Rihla' describing his travels including India."
+  },
+  {
+    id: 189,
+    category: "Foreign Travellers",
+    question: "Marco Polo visited India during the reign of:",
+    options: ["Alauddin Khilji", "Rudramadevi of Kakatiyas", "Muhammad Tughlaq", "Krishnadevaraya"],
+    correct: 1,
+    explanation: "Marco Polo visited south India during Rudramadevi of Kakatiyas' reign."
+  },
+  {
+    id: 190,
+    category: "Foreign Travellers",
+    question: "Which Portuguese traveller described Krishnadevaraya's Vijayanagar?",
+    options: ["Vasco da Gama", "Duarte Barbosa", "Domingo Paes", "Fernao Nuniz"],
+    correct: 2,
+    explanation: "Domingo Paes (1520-1522) gave detailed descriptions of Krishnadevaraya's empire."
+  },
+  {
+    id: 191,
+    category: "Foreign Travellers",
+    question: "Nicolo Conti called which language the 'Italian of the East'?",
+    options: ["Tamil", "Telugu", "Kannada", "Malayalam"],
+    correct: 1,
+    explanation: "Nicolo Conti referred to Telugu as the 'Italian of the East' in the Vijayanagar Empire."
+  },
+  {
+    id: 192,
+    category: "Foreign Travellers",
+    question: "Sir Thomas Roe was the ambassador of King James I to which Mughal emperor?",
+    options: ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+    correct: 1,
+    explanation: "Sir Thomas Roe (1615-1619) was the British ambassador to Jahangir's court."
+  },
+  {
+    id: 193,
+    category: "Foreign Travellers",
+    question: "Which traveller wrote 'Storia do Mogor', the most detailed Mughal account?",
+    options: ["Tavernier", "Bernier", "Niccolao Manucci", "Peter Mundy"],
+    correct: 2,
+    explanation: "Niccolao Manucci's 'Storia do Mogor' is considered the most detailed Mughal court account."
+  },
+  {
+    id: 194,
+    category: "Foreign Travellers",
+    question: "Francois Bernier was a physician to:",
+    options: ["Akbar", "Jahangir", "Dara Shukoh", "Shah Jahan"],
+    correct: 2,
+    explanation: "Bernier was physician to prince Dara Shukoh and later at Aurangzeb's court."
+  },
+  {
+    id: 195,
+    category: "Foreign Travellers",
+    question: "Jean Baptiste Tavernier was a:",
+    options: ["Diplomat", "Missionary", "Jeweller and merchant", "Physician"],
+    correct: 2,
+    explanation: "Tavernier was a French jeweller who visited India six times during Shah Jahan's reign."
+  },
+  {
+    id: 196,
+    category: "Foreign Travellers",
+    question: "Which traveller described the postal system during Muhammad bin Tughlaq?",
+    options: ["Marco Polo", "Ibn Batuta", "Al-Biruni", "Nicolo Conti"],
+    correct: 1,
+    explanation: "Ibn Batuta described the Uluq-Horse and Dawa-Foot postal systems under Tughlaq."
+  },
+  {
+    id: 197,
+    category: "Foreign Travellers",
+    question: "Fa-Hien's travelogue is titled:",
+    options: ["Indica", "Si-Yu-Ki", "Fo-Kyo-Ki", "Buddhist Records"],
+    correct: 2,
+    explanation: "Fa-Hien wrote 'Fo-Kyo-Ki' (Records of Buddhist Kingdoms)."
+  },
+  {
+    id: 198,
+    category: "Foreign Travellers",
+    question: "Abdur Razzaq was the ambassador from which dynasty?",
+    options: ["Ottoman", "Safavid", "Timurid", "Mughal"],
+    correct: 2,
+    explanation: "Abdur Razzaq was Shahrukh of the Timurid dynasty's ambassador to Vijayanagar."
+  },
+  {
+    id: 199,
+    category: "Foreign Travellers",
+    question: "Which Russian merchant wrote 'The Journey Beyond Three Seas'?",
+    options: ["Peter Mundy", "Athanasius Nikitin", "Nicolo Conti", "Marco Polo"],
+    correct: 1,
+    explanation: "Athanasius Nikitin (1470-1474) wrote about the Bahmani kingdom."
+  },
+  {
+    id: 200,
+    category: "Foreign Travellers",
+    question: "I-tsing, a Chinese traveller, contributed to knowledge of which region?",
+    options: ["North India", "Srivijaya and Southeast Asian kingdoms", "Deccan", "Bengal"],
+    correct: 1,
+    explanation: "I-tsing's 25-year travels documented Srivijaya and kingdoms en route."
+  },
+  {
+    id: 201,
+    category: "Foreign Travellers",
+    question: "Al-Masudi wrote which work about India?",
+    options: ["Indica", "Kitab-ul-Hind", "Muruj-ul-Zahab", "Rihla"],
+    correct: 2,
+    explanation: "Al-Masudi (957 CE) gave extensive accounts of India in 'Muruj-ul-Zahab'."
+  },
+  {
+    id: 202,
+    category: "Foreign Travellers",
+    question: "Which traveller mentioned coconut and paan in his accounts?",
+    options: ["Megasthenes", "Fa-Hien", "Ibn Batuta", "Marco Polo"],
+    correct: 2,
+    explanation: "Ibn Batuta mentioned coconut and paan among his detailed observations."
+  },
+  {
+    id: 203,
+    category: "Foreign Travellers",
+    question: "Francisco Pelsaert was shocked to see:",
+    options: ["Wealth of rulers", "Widespread poverty", "Grand architecture", "Military strength"],
+    correct: 1,
+    explanation: "Dutch traveller Pelsaert noted widespread poverty among common people in the Mughal Empire."
+  },
+  {
+    id: 204,
+    category: "Foreign Travellers",
+    question: "Deimachos was a Greek ambassador to which Mauryan emperor?",
+    options: ["Chandragupta Maurya", "Bindusara", "Ashoka", "Dasharatha"],
+    correct: 1,
+    explanation: "Deimachos (320-273 BCE) was sent as ambassador to Bindusara's court."
+  },
+  {
+    id: 205,
+    category: "Foreign Travellers",
+    question: "Which traveller visited India the most times?",
+    options: ["Marco Polo", "Jean Baptiste Tavernier (6 times)", "Peter Mundy (6 times)", "Both Tavernier and Mundy"],
+    correct: 3,
+    explanation: "Both Tavernier and Peter Mundy visited India six times."
+  }];
 
 export const quizQuestions = allQuizQuestions;
 
