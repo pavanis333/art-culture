@@ -79,6 +79,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'Religious Literature')
     } else if (selectedTopic === 'dravidian') {
       filtered = topicsData.filter(v => v.category === 'Dravidian Literature')
+    } else if (selectedTopic === 'medieval') {
+      filtered = topicsData.filter(v => v.category === 'Dravidian Literature')
     }
     
     // Then apply additional filters
@@ -171,6 +173,7 @@ function App() {
     const buddhistCount = topicsData.filter(t => t.category === 'Buddhist Texts').length
     const religiousCount = topicsData.filter(t => t.category === 'Religious Literature').length
     const dravidianCount = topicsData.filter(t => t.category === 'Dravidian Literature').length
+    const medievalCount = topicsData.filter(t => t.category === 'Medieval Literature').length
     
     return (
       <div className="mode-selector">
@@ -201,7 +204,13 @@ function App() {
         <div className="mode-card" onClick={() => setSelectedTopic('dravidian')}>
           <div className="mode-icon">📜</div>
           <h3>Dravidian Literature</h3>
-          <p>{dravidianCount} texts: Tamil Sangam, Telugu, Kannada, Malayalam (Adding...)</p>
+          <p>{dravidianCount} texts: Tamil Sangam, Telugu, Kannada, Malayalam</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('medieval')}>
+          <div className="mode-icon">🏰</div>
+          <h3>Medieval Literature</h3>
+          <p>{medievalCount} texts: Persian works, Mughal era, Amir Khusrau</p>
         </div>
       </div>
     )
@@ -490,6 +499,7 @@ function App() {
           if (selectedTopic === 'buddhist') return q.category === 'Buddhist Texts'
           if (selectedTopic === 'religious') return q.category === 'Religious Literature'
           if (selectedTopic === 'dravidian') return q.category === 'Dravidian Literature'
+          if (selectedTopic === 'medieval') return q.category === 'Medieval Literature'
           return true
         })
       : quizQuestions
@@ -862,6 +872,7 @@ function App() {
                 selectedTopic === 'buddhist' ? 'Buddhist Texts' :
                 selectedTopic === 'religious' ? 'Religious Literature' :
                 selectedTopic === 'dravidian' ? 'Dravidian Literature' :
+                selectedTopic === 'medieval' ? 'Medieval Literature' :
                 'Sanskrit Drama'
               }
             </button>

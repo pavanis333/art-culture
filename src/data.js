@@ -980,6 +980,130 @@ export const artCultureData = [
     description: "Urdu emerged as a contact language enriched by vocabulary from Turkish, Persian, Arabic, Sanskrit, and Prakrits making it a rare five-tradition fusion in world linguistics.",
     note: "PW Plus info - included for cultural completeness",
     importance: "MEDIUM"
+  },
+  
+  // MEDIEVAL LITERATURE - PERSIAN (New Topic Category)
+  {
+    id: 89,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Divan, Nuh Sipihr, Duval Rani-Khizr Khan",
+    period: "Medieval",
+    language: "Persian",
+    author: "Amir Khusrau Dehlavi",
+    description: "Divan (collection of Persian poetry), Nuh Sipihr, and Duval Rani-Khizr Khan (tragic love poem). Written by Amir Khusrau Dehlavi.",
+    importance: "HIGH"
+  },
+  {
+    id: 90,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Tarikh-e-Firuz Shahi",
+    period: "Medieval",
+    language: "Persian",
+    author: "Zia-ud din Barani",
+    description: "Written by Zia-ud din Barani.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 91,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Tuzuk-I-Babari (Babarnama)",
+    period: "Medieval (Mughal)",
+    language: "Persian",
+    author: "Babar",
+    description: "Written by Babar, autobiography of the Mughal emperor.",
+    importance: "HIGH"
+  },
+  {
+    id: 92,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Humayun-nama",
+    period: "Medieval (Mughal)",
+    language: "Persian",
+    author: "Gulbadan Begum (half sister of Humayun)",
+    description: "Written by Gulbadan Begum, half sister of Humayun.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 93,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Ain-e Akbari and Akbarnama",
+    period: "Medieval (Mughal)",
+    language: "Persian",
+    author: "Abul Fazl (court historian)",
+    description: "Written by court historian Abul Fazl.",
+    importance: "HIGH"
+  },
+  {
+    id: 94,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Padmavat",
+    period: "Medieval",
+    language: "Persian",
+    author: "Malik Muhammad Jayasi",
+    description: "Written by Malik Muhammad Jayasi.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 95,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Shah Jahan-nama",
+    period: "Medieval (Mughal)",
+    language: "Persian",
+    author: "Inayat Khan",
+    description: "Written by Inayat Khan.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 96,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Kulliyat (collection of verses)",
+    period: "Medieval",
+    language: "Persian",
+    author: "Mir Jafar Zatalli",
+    description: "Written by Mir Jafar Zatalli.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 97,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Padshahnama",
+    period: "Medieval (Mughal)",
+    language: "Persian",
+    author: "Abdul Hamid Lahori",
+    description: "Written by Abdul Hamid Lahori.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 98,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Razmanama (Book of War)",
+    period: "Medieval (Mughal - Akbar's reign)",
+    language: "Persian",
+    author: "Translation under Emperor Akbar",
+    description: "It was the first-ever Persian translation of the Mahabharata under the order of Emperor Akbar.",
+    importance: "HIGH"
+  },
+  {
+    id: 99,
+    category: "Medieval Literature",
+    subcategory: "Persian Literature",
+    name: "Yoga Vasistha (Persian translation)",
+    period: "Medieval (Mughal - Akbar's reign)",
+    language: "Persian",
+    author: "Nizamuddin Panipati",
+    description: "Translated into Persian by Nizamuddin Panipati during the reign of Akbar. [UPSC 2022]",
+    upscRelevance: "[UPSC 2022]",
+    importance: "HIGH"
   }
 ];
 
