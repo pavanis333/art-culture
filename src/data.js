@@ -2437,6 +2437,249 @@ export const artCultureData = [
     work: "Prithvirajacharita",
     description: "Medieval Hindi epic on Prithviraj Chauhan.",
     importance: "MEDIUM"
+  },
+  
+  // FOREIGN TRAVELLERS AND THEIR OBSERVATIONS - New Topic
+  
+  {
+    id: 233,
+    category: "Foreign Travellers",
+    name: "Megasthenes",
+    nationality: "Greek Ambassador of Seleucus Nikator",
+    duration: "302-298 BCE",
+    reign: "Chandragupta Maurya",
+    observation: "Wrote a book named 'Indica'",
+    importance: "HIGH"
+  },
+  {
+    id: 234,
+    category: "Foreign Travellers",
+    name: "Deimachos",
+    nationality: "Greek Ambassador",
+    duration: "320-273 BCE",
+    reign: "Bindusara",
+    observation: "Greek diplomatic mission to Mauryan court",
+    importance: "MEDIUM"
+  },
+  {
+    id: 235,
+    category: "Foreign Travellers",
+    name: "Fa-Hien",
+    nationality: "Chinese traveller",
+    duration: "405-411 CE",
+    reign: "Chandragupta II",
+    observation: "In his travelogue The records of Buddhist Kingdoms ('Fo-Kyo-Ki') he described his journey. He deduced from his journey to patliputra that there were distinct sangha of both the Hinayana and Mahayana sects that gave education to students from all across india.",
+    importance: "HIGH"
+  },
+  {
+    id: 236,
+    category: "Foreign Travellers",
+    name: "Hiuen Tsang",
+    nationality: "Chinese traveller",
+    duration: "630-645 CE",
+    reign: "Harshavardhana",
+    observation: "Wrote a travelogue 'Si-Yu-Ki' (Travel to the Western World). He studied for around five years at Nalanda. Also described about Harsha reign.",
+    importance: "HIGH"
+  },
+  {
+    id: 237,
+    category: "Foreign Travellers",
+    name: "I-tsing",
+    nationality: "Chinese Traveller",
+    duration: "671-695 CE",
+    reign: "",
+    observation: "Wrote records of his 25-year travels, contributing to the knowledge of Srivijaya and kingdoms en route.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 238,
+    category: "Foreign Travellers",
+    name: "Al-Masudi",
+    nationality: "Arab Traveller",
+    duration: "957 CE",
+    reign: "",
+    observation: "Gave an extensive account of India in 'Muruj-ul-Zahab'.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 239,
+    category: "Foreign Travellers",
+    name: "Al-Biruni",
+    nationality: "Persian scholar",
+    duration: "1024-1030 CE",
+    reign: "",
+    observation: "Wrote 'Tahqiq-i-Hind/Kitab-ul-Hind'. He tried to explain the caste system.",
+    importance: "HIGH"
+  },
+  {
+    id: 240,
+    category: "Foreign Travellers",
+    name: "Marco Polo",
+    nationality: "Italian Traveller",
+    duration: "1292-1294 CE",
+    reign: "Visited south india during the reign of Rudramadevi of Kakatiyas",
+    observation: "Wrote 'The Book of Sir Marco Polo' on the economic history of India.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 241,
+    category: "Foreign Travellers",
+    name: "Ibn Batuta",
+    nationality: "Morocco Traveller",
+    duration: "1333-1347 CE",
+    reign: "Muhammad-bin-Tughlaq",
+    observation: "Wrote a travelogue 'Rihla'. Muhammad-bin-Tughlaq appointed him as Qazi/judge of Delhi. Tells about the Postal system during Muhammad-bin-Tughlaq reign(Uluq-Horse post and Dawa-Foot post). He says travelling was insecure and mentioned about robbery during travelling. He also mentioned about coconut and paan.",
+    importance: "HIGH"
+  },
+  {
+    id: 242,
+    category: "Foreign Travellers",
+    name: "Nicolo Conti",
+    nationality: "Italian Merchant",
+    duration: "1420-1421 CE",
+    reign: "Devaraya I of Vijayanagar Empire",
+    observation: "Gave a graphic account of Vijayanagara. Referred 'Telugu' as 'Italian of the East'.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 243,
+    category: "Foreign Travellers",
+    name: "Abdur Razzaq Samarqandi",
+    nationality: "Persian scholar, Ambassador of Shahrukh of Timurid dynasty",
+    duration: "1443-1444 CE",
+    reign: "Devaraya II of Vijayanagar Empire",
+    observation: "Stayed at the court of Zamorin of Calicut. Gave a brief account of Calicut and Vijayanagara in his 'Matla us Saddin wa Majuma ul Bahrain'.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 244,
+    category: "Foreign Travellers",
+    name: "Athanasius Nikitin",
+    nationality: "Russian Merchant",
+    duration: "1470-1474 CE",
+    reign: "Muhammad shah III",
+    observation: "Visited South india in 1470 described the condition of the Bahmani kingdom under Muhammad III. His work includes 'The journey beyond 3 seas'.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 245,
+    category: "Foreign Travellers",
+    name: "Duarte Barbosa",
+    nationality: "Portuguese Traveller",
+    duration: "1500-1516 CE",
+    reign: "Deva Raya I",
+    observation: "Gave a brief description of the government and the people of Vijayanagar Empire.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 246,
+    category: "Foreign Travellers",
+    name: "Domingo Paes",
+    nationality: "Portuguese Traveller",
+    duration: "1520-1522 CE",
+    reign: "Krishnadeva Raya (Vijayanagar Empire)",
+    observation: "Gave a brief description of the government and the people of Vijayanagar Empire.",
+    importance: "HIGH"
+  },
+  {
+    id: 247,
+    category: "Foreign Travellers",
+    name: "Fernao Nuniz",
+    nationality: "Portuguese Merchant",
+    duration: "1535-1537 CE",
+    reign: "Achyutdeva raya of Tuluva Dynasty",
+    observation: "Wrote history of Vijayanagar Empire during the time of Achyuta Raya's reign.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 248,
+    category: "Foreign Travellers",
+    name: "William Hawkins",
+    nationality: "Ambassador of British King James I",
+    duration: "1608-1611 CE",
+    reign: "Jahangir",
+    observation: "British diplomatic mission to Mughal court.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 249,
+    category: "Foreign Travellers",
+    name: "Sir Thomas Roe",
+    nationality: "Ambassador of British King James I",
+    duration: "1615-1619 CE",
+    reign: "Jahangir",
+    observation: "British diplomatic mission to Mughal court.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 250,
+    category: "Foreign Travellers",
+    name: "Edward Terry",
+    nationality: "Ambassador of Sir Thomas Roe",
+    duration: "1616 CE",
+    reign: "",
+    observation: "Wrote 'A Voyage to East-India'",
+    importance: "MEDIUM"
+  },
+  {
+    id: 251,
+    category: "Foreign Travellers",
+    name: "Francisco Pelsaert",
+    nationality: "Dutch Traveller",
+    duration: "1620-1627 CE",
+    reign: "",
+    observation: "Gave valuable information about the living standard of the common people in the Mughal Empire. Like Bernier he was shocked to see widespread poverty.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 252,
+    category: "Foreign Travellers",
+    name: "Peter Mundy",
+    nationality: "Italian Traveller",
+    duration: "1628-1634 CE",
+    reign: "Shah Jahan",
+    observation: "Visited India 6 times. Account covers the reign of Shahjahan and Aurangzeb.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 253,
+    category: "Foreign Travellers",
+    name: "Jean Baptiste Tavernier (Jeweller)",
+    nationality: "French Traveller",
+    duration: "1638-1663 CE",
+    reign: "Shah Jahan",
+    observation: "He wrote 'Travels in India'. Tells about trade with the ottoman empire. He visited India six times.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 254,
+    category: "Foreign Travellers",
+    name: "Niccolao Manucci",
+    nationality: "Italian Physician and Philosopher",
+    duration: "1653-1708 CE",
+    reign: "Mughal Empire",
+    observation: "His work includes 'Storia do Mogor' is considered to be the most detailed account of the Mughal court.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 255,
+    category: "Foreign Travellers",
+    name: "Francois Bernier",
+    nationality: "French Physician and Philosopher",
+    duration: "1656-1668 CE",
+    reign: "Mughal Empire",
+    observation: "He was closely associated with the Mughal court as a physician to prince Dara shukoh and he was installed as a Medical Doctor at the court of Aurangzeb.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 256,
+    category: "Foreign Travellers",
+    name: "Jean de Thevenot",
+    nationality: "French Traveller",
+    duration: "1666 CE",
+    reign: "Mughal Empire",
+    observation: "Gave an account of cities like Ahmadabad, Cambay, Aurangabad and Golconda.",
+    importance: "MEDIUM"
   }
 ];
 

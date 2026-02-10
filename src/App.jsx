@@ -87,6 +87,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'UNESCO Heritage')
     } else if (selectedTopic === 'books') {
       filtered = topicsData.filter(v => v.category === 'Books & Authors')
+    } else if (selectedTopic === 'travellers') {
+      filtered = topicsData.filter(v => v.category === 'Foreign Travellers')
     }
     
     // Then apply additional filters
@@ -183,6 +185,7 @@ function App() {
     const modernCount = topicsData.filter(t => t.category === 'Modern Literature').length
     const unescoCount = topicsData.filter(t => t.category === 'UNESCO Heritage').length
     const booksCount = topicsData.filter(t => t.category === 'Books & Authors').length
+    const travellersCount = topicsData.filter(t => t.category === 'Foreign Travellers').length
     
     return (
       <div className="mode-selector">
@@ -238,6 +241,12 @@ function App() {
           <div className="mode-icon">📚</div>
           <h3>Books & Authors</h3>
           <p>{booksCount} classical authors: Valmiki, Kalidasa, Panini, Charaka</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('travellers')}>
+          <div className="mode-icon">🌏</div>
+          <h3>Foreign Travellers</h3>
+          <p>{travellersCount} travellers: Megasthenes, Fa-Hien, Ibn Batuta, Marco Polo</p>
         </div>
       </div>
     )
@@ -530,6 +539,7 @@ function App() {
           if (selectedTopic === 'modern') return q.category === 'Modern Literature'
           if (selectedTopic === 'unesco') return q.category === 'UNESCO Heritage'
           if (selectedTopic === 'books') return q.category === 'Books & Authors'
+          if (selectedTopic === 'travellers') return q.category === 'Foreign Travellers'
           return true
         })
       : quizQuestions
@@ -906,6 +916,7 @@ function App() {
                 selectedTopic === 'modern' ? 'Modern Literature' :
                 selectedTopic === 'unesco' ? 'UNESCO Heritage' :
                 selectedTopic === 'books' ? 'Books & Authors' :
+                selectedTopic === 'travellers' ? 'Foreign Travellers' :
                 'Sanskrit Drama'
               }
             </button>
