@@ -63,6 +63,131 @@ export const artCultureData = [
     
     importance: "HIGH"
   }
+,
+  
+  // SANSKRIT DRAMA CATEGORY - Phase 2
+  {
+    id: 5,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Swapnavasavadatta",
+    period: "2nd-3rd century",
+    author: "Bhasa",
+    description: "Romantic narrative of King Udayana and Vasavadatta, part of Bhasa's 13 plays",
+    upscRelevance: "[UPSC 2024]",
+    importance: "HIGH"
+  },
+  {
+    id: 6,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Urubhanga",
+    period: "2nd-3rd century",
+    author: "Bhasa",
+    description: "Tragedy about Duryodhana's conflict with Bhima",
+    importance: "MEDIUM"
+  },
+  {
+    id: 7,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Mudrarakshasa",
+    period: "4th century",
+    author: "Vishakhadatta",
+    description: "Drama about Chandragupta Maurya's rise to power with Chanakya's help",
+    importance: "HIGH"
+  },
+  {
+    id: 8,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Devi Chandraguptam",
+    period: "4th century",
+    author: "Vishakhadatta",
+    description: "Political drama about King Ramagupta's decision to surrender his queen",
+    importance: "MEDIUM"
+  },
+  {
+    id: 9,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Mrichchhakatika",
+    period: "5th century",
+    author: "Shudraka",
+    description: "Sanskrit social drama about Charudatta and Vasantsena, inspired by Bhasa's Charudattam",
+    upscRelevance: "[UPSC 2013]",
+    importance: "HIGH"
+  },
+  {
+    id: 10,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Uttara-Ramacharit",
+    period: "7th century",
+    author: "Bhavabhuti",
+    description: "Depicts Lord Rama's life after returning from exile",
+    importance: "MEDIUM"
+  },
+  {
+    id: 11,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Ratnavali",
+    period: "7th century",
+    author: "Harsha",
+    description: "Drama about Princess Ratnavali and King Udayana, mentions Holi festival",
+    importance: "MEDIUM"
+  },
+  {
+    id: 12,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Nagananda",
+    period: "7th century",
+    author: "Harsha",
+    description: "Story of Prince Jimūtavāhana and his act to protect the Nagas",
+    importance: "MEDIUM"
+  },
+  {
+    id: 13,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Priyadarsika",
+    period: "7th century",
+    author: "Harsha",
+    description: "Play about the union of King Udayana and Priyadarshini",
+    importance: "MEDIUM"
+  },
+  {
+    id: 14,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Kathasaritsagara",
+    period: "11th century",
+    author: "Somadeva",
+    description: "Ocean of the Streams of Stories, a collection of tales showcasing Kashmir's tragic history",
+    importance: "HIGH"
+  },
+  {
+    id: 15,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Gita Govinda",
+    period: "12th century",
+    author: "Jayadeva",
+    description: "Describes the love between Krishna and Radha",
+    importance: "HIGH"
+  },
+  {
+    id: 16,
+    category: "Sanskrit Drama",
+    subcategory: "Classical Drama",
+    name: "Rajatarangini",
+    period: "12th century",
+    author: "Kalhana",
+    description: "Chronicles of Kashmir kings, covering the Karkota, Varman, and Yashaskara dynasties",
+    importance: "HIGH"
+  }
 ];
 
 // Key Facts - ONLY from the provided image
@@ -83,20 +208,21 @@ export const vedicFacts = [
     fact: "Atharvaveda has associated texts: Gopatha Brahmana, Aranyaka (of Atharvaveda), Prashna Upanishad, Mundaka Upanishad, Mandukya Upanishad",
     category: "Atharvaveda"
   }
+  ,
   {
-    fact: "Bhasa (2nd-3rd century) wrote 13 plays including Swapnavasavadatta and Urubhanga",
+    fact: "Bhasa (2nd-3rd century) wrote 13 plays including Swapnavasavadatta [UPSC 2024] and Urubhanga",
     category: "Sanskrit Drama"
   },
   {
-    fact: "Vishakhadatta (4th century) wrote Mudrarakshasa about Chandragupta Maurya and Chanakya",
+    fact: "Vishakhadatta (4th century) wrote Mudrarakshasa about Chandragupta Maurya",
     category: "Sanskrit Drama"
   },
   {
-    fact: "Shudraka (5th century) wrote Mrichchhakatika (Little Clay Cart), a social drama [UPSC 2013]",
+    fact: "Shudraka (5th century) wrote Mrichchhakatika (Little Clay Cart) [UPSC 2013]",
     category: "Sanskrit Drama"
   },
   {
-    fact: "King Harsha (7th century) wrote 3 plays: Ratnavali, Nagananda, Priyadarsika",
+    fact: "King Harsha (7th century) wrote Ratnavali, Nagananda, and Priyadarsika",
     category: "Sanskrit Drama"
   },
   {
@@ -104,7 +230,7 @@ export const vedicFacts = [
     category: "Sanskrit Drama"
   },
   {
-    fact: "Rajatarangini by Kalhana chronicles Kashmir kings (Karkota, Varman, Yashaskara dynasties)",
+    fact: "Rajatarangini by Kalhana chronicles Kashmir kings",
     category: "Sanskrit Drama"
   }
 ];
@@ -201,6 +327,43 @@ export const allQuizQuestions = [
     correct: 1,
     explanation: "Taittiriya Brahmana is associated with Yajurveda."
   }
+  ,
+  {
+    question: "Who is the author of 'Swapnavasavadatta'?",
+    options: ["Vishakhadatta", "Bhasa", "Shudraka", "Harsha"],
+    correct: 1,
+    explanation: "Swapnavasavadatta was written by Bhasa (2nd-3rd century). [UPSC 2024]"
+  },
+  {
+    question: "Who wrote 'Mudrarakshasa'?",
+    options: ["Bhasa", "Vishakhadatta", "Kalidasa", "Bhavabhuti"],
+    correct: 1,
+    explanation: "Mudrarakshasa by Vishakhadatta is about Chandragupta Maurya's rise with Chanakya's help."
+  },
+  {
+    question: "'Mrichchhakatika' was written by which author?",
+    options: ["Bhasa", "Shudraka", "Harsha", "Somadeva"],
+    correct: 1,
+    explanation: "Mrichchhakatika by Shudraka (5th century) is a social drama. [UPSC 2013]"
+  },
+  {
+    question: "Who wrote three plays: Ratnavali, Nagananda, and Priyadarsika?",
+    options: ["Bhasa", "Kalidasa", "Harsha", "Bhavabhuti"],
+    correct: 2,
+    explanation: "King Harsha (7th century) wrote these three Sanskrit dramas."
+  },
+  {
+    question: "'Gita Govinda' describes the love between which two figures?",
+    options: ["Rama and Sita", "Krishna and Radha", "Shiva and Parvati", "Vishnu and Lakshmi"],
+    correct: 1,
+    explanation: "Gita Govinda by Jayadeva describes Krishna and Radha's love."
+  },
+  {
+    question: "Who wrote 'Rajatarangini', the chronicles of Kashmir kings?",
+    options: ["Somadeva", "Jayadeva", "Kalhana", "Bilhana"],
+    correct: 2,
+    explanation: "Rajatarangini by Kalhana chronicles Kashmir's Karkota, Varman, Yashaskara dynasties."
+  }
 ];
 
 export const quizQuestions = allQuizQuestions;
@@ -210,220 +373,3 @@ export default {
   vedicFacts,
   quizQuestions: allQuizQuestions
 };
-
-  // SANSKRIT DRAMA CATEGORY - Phase 2
-  {
-    id: 5,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Swapnavasavadatta",
-    period: "2nd-3rd century",
-    author: "Bhasa",
-    description: "Romantic narrative of King Udayana and Vasavadatta, part of Bhasa's 13 plays",
-    upscRelevance: "[UPSC 2024]",
-    importance: "HIGH"
-  },
-  {
-    id: 6,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Urubhanga",
-    period: "2nd-3rd century",
-    author: "Bhasa",
-    description: "Tragedy about Duryodhana's conflict with Bhima",
-    importance: "MEDIUM"
-  },
-  {
-    id: 7,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Mudrarakshasa",
-    period: "4th century",
-    author: "Vishakhadatta",
-    description: "Drama about Chandragupta Maurya's rise to power with Chanakya's help",
-    importance: "HIGH"
-  },
-  {
-    id: 8,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Devi Chandraguptam",
-    period: "4th century",
-    author: "Vishakhadatta",
-    description: "Political drama about King Ramagupta's decision to surrender his queen",
-    importance: "MEDIUM"
-  },
-  {
-    id: 9,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Mrichchhakatika",
-    period: "5th century",
-    author: "Shudraka",
-    description: "Sanskrit social drama about Charudatta and Vasantsena, inspired by Bhasa's Charudattam. [Other works: Vinavasavadatta, and a Bhana (short one-act monologue)]",
-    upscRelevance: "[UPSC 2013]",
-    importance: "HIGH"
-  },
-  {
-    id: 10,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Uttara-Ramacharit",
-    period: "7th century",
-    author: "Bhavabhuti",
-    description: "Depicts Lord Rama's life after returning from exile",
-    importance: "MEDIUM"
-  },
-  {
-    id: 11,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Ratnavali",
-    period: "7th century",
-    author: "Harsha",
-    description: "Drama about Princess Ratnavali and King Udayana, mentions Holi festival",
-    importance: "MEDIUM"
-  },
-  {
-    id: 12,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Nagananda",
-    period: "7th century",
-    author: "Harsha",
-    description: "Story of Prince Jimūtavāhana and his act to protect the Nagas",
-    importance: "MEDIUM"
-  },
-  {
-    id: 13,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Priyadarsika",
-    period: "7th century",
-    author: "Harsha",
-    description: "Play about the union of King Udayana and Priyadarshini",
-    importance: "MEDIUM"
-  },
-  {
-    id: 14,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Kathasaritsagara",
-    period: "11th century",
-    author: "Somadeva",
-    description: "\"Ocean of the Streams of Stories,\" a collection of tales, showcasing Kashmir's tragic history",
-    importance: "HIGH"
-  },
-  {
-    id: 15,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Gita Govinda",
-    period: "12th century",
-    author: "Jayadeva",
-    description: "Describes the love between Krishna and Radha",
-    importance: "HIGH"
-  },
-  {
-    id: 16,
-    category: "Sanskrit Drama",
-    subcategory: "Classical Drama",
-    name: "Rajatarangini",
-    period: "12th century",
-    author: "Kalhana",
-    description: "Chronicles of Kashmir kings, covering the Karkota, Varman, and Yashaskara dynasties",
-    importance: "HIGH"
-  }
-,
-  // Sanskrit Drama Quiz Questions
-  {
-    question: "Who is the author of 'Swapnavasavadatta'?",
-    options: ["Vishakhadatta", "Bhasa", "Shudraka", "Harsha"],
-    correct: 1,
-    explanation: "Swapnavasavadatta was written by Bhasa (2nd-3rd century), part of his 13 plays. It's a romantic narrative of King Udayana and Vasavadatta. [UPSC 2024]"
-  },
-  {
-    question: "'Urubhanga' is a tragedy about which character's conflict?",
-    options: ["Arjuna and Karna", "Duryodhana and Bhima", "Krishna and Kamsa", "Rama and Ravana"],
-    correct: 1,
-    explanation: "Urubhanga by Bhasa is a tragedy about Duryodhana's conflict with Bhima."
-  },
-  {
-    question: "Who wrote 'Mudrarakshasa'?",
-    options: ["Bhasa", "Vishakhadatta", "Kalidasa", "Bhavabhuti"],
-    correct: 1,
-    explanation: "Mudrarakshasa was written by Vishakhadatta (4th century). It's about Chandragupta Maurya's rise to power with Chanakya's help."
-  },
-  {
-    question: "'Mrichchhakatika' (Little Clay Cart) was written by which author?",
-    options: ["Bhasa", "Shudraka", "Harsha", "Somadeva"],
-    correct: 1,
-    explanation: "Mrichchhakatika was written by Shudraka (5th century). It's a social drama about Charudatta and Vasantsena, inspired by Bhasa's Charudattam. [UPSC 2013]"
-  },
-  {
-    question: "Which drama depicts Lord Rama's life after returning from exile?",
-    options: ["Ramacharit", "Uttara-Ramacharit", "Ramayana", "Rama Katha"],
-    correct: 1,
-    explanation: "Uttara-Ramacharit by Bhavabhuti (7th century) depicts Lord Rama's life after returning from exile."
-  },
-  {
-    question: "Who wrote three plays: Ratnavali, Nagananda, and Priyadarsika?",
-    options: ["Bhasa", "Kalidasa", "Harsha", "Bhavabhuti"],
-    correct: 2,
-    explanation: "King Harsha (7th century) wrote three Sanskrit dramas: Ratnavali, Nagananda, and Priyadarsika."
-  },
-  {
-    question: "Which play mentions the Holi festival?",
-    options: ["Ratnavali", "Nagananda", "Swapnavasavadatta", "Gita Govinda"],
-    correct: 0,
-    explanation: "Ratnavali by Harsha mentions the Holi festival. It's about Princess Ratnavali and King Udayana."
-  },
-  {
-    question: "'Nagananda' is about a prince protecting which creatures?",
-    options: ["Tigers", "Elephants", "Nagas (serpents)", "Birds"],
-    correct: 2,
-    explanation: "Nagananda by Harsha tells the story of Prince Jimūtavāhana and his act to protect the Nagas (serpents)."
-  },
-  {
-    question: "'Kathasaritsagara' (Ocean of the Streams of Stories) was written by?",
-    options: ["Somadeva", "Jayadeva", "Kalhana", "Vishakhadatta"],
-    correct: 0,
-    explanation: "Kathasaritsagara was written by Somadeva (11th century). It's a collection of tales showcasing Kashmir's tragic history."
-  },
-  {
-    question: "'Gita Govinda' describes the love between which two divine figures?",
-    options: ["Rama and Sita", "Krishna and Radha", "Shiva and Parvati", "Vishnu and Lakshmi"],
-    correct: 1,
-    explanation: "Gita Govinda by Jayadeva (12th century) describes the love between Krishna and Radha."
-  },
-  {
-    question: "Who wrote 'Rajatarangini', the chronicles of Kashmir kings?",
-    options: ["Somadeva", "Jayadeva", "Kalhana", "Bilhana"],
-    correct: 2,
-    explanation: "Rajatarangini was written by Kalhana (12th century). It chronicles Kashmir kings, covering the Karkota, Varman, and Yashaskara dynasties."
-  },
-  {
-    question: "Which dynasties are covered in 'Rajatarangini'?",
-    options: ["Maurya, Gupta, Kushan", "Karkota, Varman, Yashaskara", "Chola, Pandya, Chera", "Delhi Sultanate dynasties"],
-    correct: 1,
-    explanation: "Rajatarangini chronicles the Karkota, Varman, and Yashaskara dynasties of Kashmir."
-  },
-  {
-    question: "Bhasa (2nd-3rd century) wrote how many plays in total?",
-    options: ["7 plays", "10 plays", "13 plays", "15 plays"],
-    correct: 2,
-    explanation: "Bhasa wrote 13 plays in total, including Swapnavasavadatta and Urubhanga."
-  },
-  {
-    question: "'Mrichchhakatika' was inspired by which earlier work?",
-    options: ["Swapnavasavadatta", "Charudattam", "Mudrarakshasa", "Ratnavali"],
-    correct: 1,
-    explanation: "Mrichchhakatika by Shudraka was inspired by Bhasa's Charudattam."
-  },
-  {
-    question: "Which author wrote 'Devi Chandraguptam' about King Ramagupta?",
-    options: ["Bhasa", "Vishakhadatta", "Kalidasa", "Bhavabhuti"],
-    correct: 1,
-    explanation: "Devi Chandraguptam was written by Vishakhadatta (4th century). It's about King Ramagupta's decision to surrender his queen."
-  }
-];
