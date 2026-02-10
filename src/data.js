@@ -405,6 +405,70 @@ export const allQuizQuestions = [
   ,
     category: "Sanskrit Drama"
   }
+  ,
+  {
+    question: "'Urubhanga' is a tragedy about which character's conflict with Bhima?",
+    options: ["Arjuna", "Duryodhana", "Karna", "Shakuni"],
+    correct: 1,
+    explanation: "Urubhanga by Bhasa is a tragedy about Duryodhana's conflict with Bhima.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Which play depicts Lord Rama's life after returning from exile?",
+    options: ["Ramacharit", "Uttara-Ramacharit", "Rama Katha", "Ramayana Nataka"],
+    correct: 1,
+    explanation: "Uttara-Ramacharit by Bhavabhuti (7th century) depicts Lord Rama's life after returning from exile.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "King Harsha wrote all of the following plays EXCEPT:",
+    options: ["Ratnavali", "Nagananda", "Mudrarakshasa", "Priyadarsika"],
+    correct: 2,
+    explanation: "Mudrarakshasa was written by Vishakhadatta, not Harsha. Harsha wrote Ratnavali, Nagananda, and Priyadarsika.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "'Nagananda' is about Prince Jimūtavāhana's act to protect which creatures?",
+    options: ["Tigers", "Elephants", "Nagas (serpents)", "Birds"],
+    correct: 2,
+    explanation: "Nagananda by Harsha tells the story of Prince Jimūtavāhana protecting the Nagas (serpents).",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Which play is about the union of King Udayana and Priyadarshini?",
+    options: ["Ratnavali", "Priyadarsika", "Swapnavasavadatta", "Nagananda"],
+    correct: 1,
+    explanation: "Priyadarsika by Harsha is about the union of King Udayana and Priyadarshini.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "'Kathasaritsagara' means:",
+    options: ["River of Stories", "Ocean of the Streams of Stories", "Collection of Tales", "Book of Stories"],
+    correct: 1,
+    explanation: "Kathasaritsagara literally means 'Ocean of the Streams of Stories', written by Somadeva (11th century).",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Which work showcases Kashmir's tragic history?",
+    options: ["Rajatarangini", "Kathasaritsagara", "Both A and B", "None"],
+    correct: 2,
+    explanation: "Both Rajatarangini (by Kalhana) and Kathasaritsagara (by Somadeva) showcase Kashmir's history.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "'Devi Chandraguptam' is about which king's decision?",
+    options: ["Chandragupta Maurya", "Ramagupta", "Samudragupta", "Chandragupta II"],
+    correct: 1,
+    explanation: "Devi Chandraguptam by Vishakhadatta is about King Ramagupta's decision to surrender his queen.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "How many plays did Bhasa write in total?",
+    options: ["7 plays", "10 plays", "13 plays", "15 plays"],
+    correct: 2,
+    explanation: "Bhasa wrote 13 plays in total, including Swapnavasavadatta and Urubhanga.",
+    category: "Sanskrit Drama"
+  }
 ];
 
 export const quizQuestions = allQuizQuestions;
