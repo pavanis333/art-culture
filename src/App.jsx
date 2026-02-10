@@ -610,6 +610,25 @@ function App() {
         })
       : quizQuestions
     
+    // Check if quiz questions exist
+    if (!filteredQuiz || filteredQuiz.length === 0) {
+      return (
+        <div style={{textAlign: 'center', padding: '40px'}}>
+          <h2 style={{color: '#ff6600'}}>No Quiz Questions Available</h2>
+          <p style={{fontSize: '1.2rem', marginTop: '20px'}}>
+            Quiz questions for this topic are coming soon!
+          </p>
+          <button 
+            className="btn btn-secondary" 
+            onClick={resetMode}
+            style={{marginTop: '30px'}}
+          >
+            ← Back to Modes
+          </button>
+        </div>
+      )
+    }
+    
     if (showResult) {
       const percentage = ((score / filteredQuiz.length) * 100).toFixed(0)
       
