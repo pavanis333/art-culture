@@ -2810,8 +2810,7 @@ export const allQuizQuestions = [
     question: "Which Brahmanas are associated with Rigveda?",
     options: ["Taittiriya and Satapatha", "Aitareya and Kaushitaki", "Jaiminiya and Kauthuma", "Only Gopatha"],
     correct: 1,
-    explanation: "Rigveda is associated with Aitareya Brahmana and Kaushitaki Brahmana."
-  ,
+    explanation: "Rigveda is associated with Aitareya Brahmana and Kaushitaki Brahmana.",
     category: "Vedic Literature"
   },
   {
