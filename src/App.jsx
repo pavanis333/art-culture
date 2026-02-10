@@ -68,6 +68,8 @@ function App() {
   const getFilteredTopics = () => {
     if (filter === 'all') return topicsData
     if (filter === 'high') return topicsData.filter(v => v.importance === 'HIGH')
+    if (filter === 'vedic') return topicsData.filter(v => v.category === 'Vedic Literature')
+    if (filter === 'drama') return topicsData.filter(v => v.category === 'Sanskrit Drama')
     return topicsData
   }
 
@@ -229,6 +231,18 @@ function App() {
             >
               High Priority
             </button>
+            <button 
+              className={`filter-btn ${filter === 'vedic' ? 'active' : ''}`}
+              onClick={() => { setFilter('vedic'); setCurrentIndex(0); }}
+            >
+              Vedic Literature
+            </button>
+            <button 
+              className={`filter-btn ${filter === 'drama' ? 'active' : ''}`}
+              onClick={() => { setFilter('drama'); setCurrentIndex(0); }}
+            >
+              Sanskrit Drama
+            </button>
           </div>
         </div>
 
@@ -285,6 +299,31 @@ function App() {
                     <ul style={{margin: '5px 0', paddingLeft: '20px', fontSize: '0.9rem'}}>
                       {topic.associatedTexts.upanishads.map((item, i) => <li key={i}>{item}</li>)}
                     </ul>
+                  </div>
+                )}
+                
+                {/* Sanskrit Drama specific fields */}
+                {topic.author && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <div className="topic-info"><strong>Author:</strong> {topic.author}</div>
+                  </div>
+                )}
+                {topic.period && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <div className="topic-info"><strong>Period:</strong> {topic.period}</div>
+                  </div>
+                )}
+                {topic.description && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <strong style={{color: '#ff6600'}}>Description:</strong>
+                    <div className="topic-info" style={{marginTop: '5px'}}>{topic.description}</div>
+                  </div>
+                )}
+                {topic.upscRelevance && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <div className="topic-info" style={{fontWeight: 'bold', color: '#ff6600'}}>
+                      {topic.upscRelevance}
+                    </div>
                   </div>
                 )}
               </div>
@@ -345,6 +384,18 @@ function App() {
             >
               High Priority
             </button>
+            <button 
+              className={`filter-btn ${filter === 'vedic' ? 'active' : ''}`}
+              onClick={() => setFilter('vedic')}
+            >
+              Vedic Literature
+            </button>
+            <button 
+              className={`filter-btn ${filter === 'drama' ? 'active' : ''}`}
+              onClick={() => setFilter('drama')}
+            >
+              Sanskrit Drama
+            </button>
           </div>
         </div>
 
@@ -363,7 +414,7 @@ function App() {
                 </span>
               </div>
               
-              {/* Associated Texts Summary */}
+              {/* Associated Texts Summary (for Vedic Literature) */}
               {topic.associatedTexts && (
                 <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
                   {topic.associatedTexts.brahmanas && (
@@ -375,6 +426,21 @@ function App() {
                   {topic.associatedTexts.upanishads && (
                     <div className="topic-info"><strong>Upanishads:</strong> {topic.associatedTexts.upanishads.length}</div>
                   )}
+                </div>
+              )}
+              
+              {/* Author and Period (for Sanskrit Drama) */}
+              {topic.author && (
+                <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
+                  <div className="topic-info"><strong>Author:</strong> {topic.author}</div>
+                  {topic.period && <div className="topic-info"><strong>Period:</strong> {topic.period}</div>}
+                </div>
+              )}
+              
+              {/* Description Preview */}
+              {topic.description && (
+                <div className="topic-info" style={{marginTop: '8px', fontSize: '0.8rem', fontStyle: 'italic'}}>
+                  {topic.description.substring(0, 100)}...
                 </div>
               )}
             </div>
