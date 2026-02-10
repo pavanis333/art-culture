@@ -1278,6 +1278,71 @@ export const artCultureData = [
     author: "Lal Ded (first female poetess)",
     description: "During the early medieval period, as the Bhakti movement thrived, the Kashmiri language saw the emergence of its first female poetess, Lal Ded, a Shaivite mystic.",
     importance: "HIGH"
+  },
+  
+  // MODERN LITERATURE - PUNJABI & MARATHI
+  {
+    id: 115,
+    category: "Modern Literature",
+    subcategory: "Punjabi",
+    name: "Punjabi Literature Overview",
+    period: "Medieval to Modern",
+    language: "Punjabi",
+    description: "Punjabi literature was primarily composed in two major scripts: Persian and Gurmukhi. Guru Gobind Singh had written poetry in Punjabi called Savaye. Local Punjabi literature focused on love stories and epics, such as Sohni-Mahiwal, Sassi-Punnu by Hashim Shah, and Heer-Ranjha by Waris Shah. Baba Farid and Bulley Shah's Sufi poetry, known as Kafis, became well-liked by the populace and rulers through popular singing. Modern Punjabi literature was influenced by nationalist writing, exemplified by Bhagat Singh's legendary work Rang de Basanti Chola.",
+    importance: "HIGH"
+  },
+  {
+    id: 116,
+    category: "Modern Literature",
+    subcategory: "Marathi",
+    name: "Marathi Literature Overview",
+    period: "13th century onwards",
+    language: "Marathi",
+    description: "The oldest known Marathi work dates back to the 13th century, by Saint Jnaneshwar, who had initiated Kirtan and written a detailed commentary on the Bhagvata Gita. Janabai, a female writer from the 13th-14th century, is the earliest known female Marathi writer. Eknath, a famous saint from the 16th century, wrote commentaries on Bhagwata Purana and Ramayana and composed famous vernacular works. During the nationalist movement, Bal Gangadhar Tilak published the regional newspaper Kesari in Marathi.",
+    importance: "HIGH"
+  },
+  
+  // LANGUAGES IN INDIA - INFORMATIONAL ENTRIES
+  {
+    id: 117,
+    category: "Modern Literature",
+    subcategory: "Languages Context",
+    name: "Hindi Language Context",
+    period: "Modern",
+    language: "Hindi",
+    description: "Hindi is the most spoken language in India. According to the 2011 census, ~44% of the people speak Hindi as their mother tongue. After English and Mandarin, Hindi is also the third most spoken language in the world. India's second most spoken language is Bengali.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 118,
+    category: "Modern Literature",
+    subcategory: "Languages Context",
+    name: "Eighth Schedule Languages",
+    period: "Constitutional",
+    language: "Multiple",
+    description: "Currently, there are 22 languages listed in the Eighth Schedule of the Indian Constitution. Initially, 14 languages were included: Assamese, Hindi, Malayalam, Punjabi, Telugu, Bengali, Kannada, Marathi, Sanskrit, Urdu, Gujarati, Kashmiri, Odia, and Tamil. 21st Constitutional Amendment Act of 1967 added Sindhi. 71st Amendment Act of 1992 added Konkani, Manipuri, and Nepali. 92nd Amendment Act of 2003 added Bodo, Maithili, Dogri, and Santhali.",
+    importance: "HIGH"
+  },
+  {
+    id: 119,
+    category: "Modern Literature",
+    subcategory: "Languages Context",
+    name: "Official Languages of India",
+    period: "Constitutional",
+    language: "Hindi, English",
+    description: "Article 343 (1) mentions 'The Official Language of the Union Government shall be Hindi in Devanagari script.' Unless Parliament decided otherwise, the use of English for official purposes was to cease 15 years after the Constitution came into effect (26 January 1965). The Official Language Act of 1963 declared Hindi in Devanagari script as the official language of the Union, while English retained the status of a subsidiary official language. The Indian Constitution allows each state to choose its official language for state-level communication.",
+    note: "No national language of India is defined by Constitution or any Act",
+    importance: "HIGH"
+  },
+  {
+    id: 120,
+    category: "Modern Literature",
+    subcategory: "Languages Context",
+    name: "Classical Languages in India",
+    period: "2004-2024",
+    language: "Multiple",
+    description: "In 2004, the Indian government established criteria for classifying languages as 'Classical Languages in India.' Criteria include: High Antiquity (early texts/recorded history spanning 1500-2000 years), Ancient Literature (valued by generations of speakers), Originality (literary tradition not borrowed from another speech community), Distinctiveness (distinct from modern forms, possibly showing discontinuity). Classical Languages: Tamil (2004), Sanskrit (2005), Telugu (2008), Kannada (2008), Malayalam (2013), Odia (2014). In 2024, 5 new languages were approved for inclusion: Marathi, Pali, Prakrit, Assamese and Bengali.",
+    importance: "HIGH"
   }
 ];
 
