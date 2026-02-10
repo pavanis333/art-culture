@@ -187,66 +187,78 @@ function App() {
     const booksCount = topicsData.filter(t => t.category === 'Books & Authors').length
     const travellersCount = topicsData.filter(t => t.category === 'Foreign Travellers').length
     
+    // Quiz counts
+    const vedicQuiz = allQuizQuestions.filter(q => q.category === 'Vedic Literature').length
+    const dramaQuiz = allQuizQuestions.filter(q => q.category === 'Sanskrit Drama').length
+    const buddhistQuiz = allQuizQuestions.filter(q => q.category === 'Buddhist Texts').length
+    const religiousQuiz = allQuizQuestions.filter(q => q.category === 'Religious Literature').length
+    const dravidianQuiz = allQuizQuestions.filter(q => q.category === 'Dravidian Literature').length
+    const medievalQuiz = allQuizQuestions.filter(q => q.category === 'Medieval Literature').length
+    const modernQuiz = allQuizQuestions.filter(q => q.category === 'Modern Literature').length
+    const unescoQuiz = allQuizQuestions.filter(q => q.category === 'UNESCO Heritage').length
+    const booksQuiz = allQuizQuestions.filter(q => q.category === 'Books & Authors').length
+    const travellersQuiz = allQuizQuestions.filter(q => q.category === 'Foreign Travellers').length
+    
     return (
       <div className="mode-selector">
         <div className="mode-card" onClick={() => setSelectedTopic('vedic')}>
           <div className="mode-icon">📖</div>
           <h3>Vedic Literature</h3>
-          <p>{vedicCount} Vedas with associated Brahmanas, Aranyakas & Upanishads</p>
+          <p>{vedicCount} flashcards · {vedicQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('drama')}>
           <div className="mode-icon">🎭</div>
           <h3>Sanskrit Drama</h3>
-          <p>{dramaCount} classical plays from Bhasa to Kalhana (2nd-12th century)</p>
+          <p>{dramaCount} flashcards · {dramaQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('buddhist')}>
           <div className="mode-icon">🧘</div>
           <h3>Buddhist Texts</h3>
-          <p>{buddhistCount} texts including Dipavamsa, Mahavamsa, Milinda Panho</p>
+          <p>{buddhistCount} flashcards · {buddhistQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('religious')}>
           <div className="mode-icon">🕉️</div>
           <h3>Religious Literature</h3>
-          <p>{religiousCount} texts: Jain Agamas, Zoroastrian Avesta, Sikh Granths</p>
+          <p>{religiousCount} flashcards · {religiousQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('dravidian')}>
           <div className="mode-icon">📜</div>
           <h3>Dravidian Literature</h3>
-          <p>{dravidianCount} texts: Tamil Sangam, Telugu, Kannada, Malayalam</p>
+          <p>{dravidianCount} flashcards · {dravidianQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('medieval')}>
           <div className="mode-icon">🏰</div>
           <h3>Medieval Literature</h3>
-          <p>{medievalCount} texts: Persian, Urdu, Hindi from Mughal era</p>
+          <p>{medievalCount} flashcards · {medievalQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('modern')}>
           <div className="mode-icon">📚</div>
           <h3>Modern Literature</h3>
-          <p>{modernCount} texts: Hindi, Bengali, Rajasthani, Kashmiri</p>
+          <p>{modernCount} flashcards · {modernQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('unesco')}>
           <div className="mode-icon">🏛️</div>
           <h3>UNESCO Heritage</h3>
-          <p>{unescoCount} entries: Sites, Heritage, Creative Cities, Memory</p>
+          <p>{unescoCount} flashcards · {unescoQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('books')}>
           <div className="mode-icon">📚</div>
           <h3>Books & Authors</h3>
-          <p>{booksCount} classical authors: Valmiki, Kalidasa, Panini, Charaka</p>
+          <p>{booksCount} flashcards · {booksQuiz} quiz questions</p>
         </div>
         
         <div className="mode-card" onClick={() => setSelectedTopic('travellers')}>
           <div className="mode-icon">🌏</div>
           <h3>Foreign Travellers</h3>
-          <p>{travellersCount} travellers: Megasthenes, Fa-Hien, Ibn Batuta, Marco Polo</p>
+          <p>{travellersCount} flashcards · {travellersQuiz} quiz questions</p>
         </div>
       </div>
     )
