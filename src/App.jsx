@@ -73,6 +73,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'Vedic Literature')
     } else if (selectedTopic === 'drama') {
       filtered = topicsData.filter(v => v.category === 'Sanskrit Drama')
+    } else if (selectedTopic === 'buddhist') {
+      filtered = topicsData.filter(v => v.category === 'Buddhist Texts')
     }
     
     // Then apply additional filters
@@ -162,6 +164,7 @@ function App() {
   const renderTopicMenu = () => {
     const vedicCount = topicsData.filter(t => t.category === 'Vedic Literature').length
     const dramaCount = topicsData.filter(t => t.category === 'Sanskrit Drama').length
+    const buddhistCount = topicsData.filter(t => t.category === 'Buddhist Texts').length
     
     return (
       <div className="mode-selector">
@@ -177,10 +180,10 @@ function App() {
           <p>{dramaCount} classical plays from Bhasa to Kalhana (2nd-12th century)</p>
         </div>
         
-        <div className="mode-card" style={{opacity: 0.5, cursor: 'not-allowed'}}>
+        <div className="mode-card" onClick={() => setSelectedTopic('buddhist')}>
           <div className="mode-icon">🧘</div>
-          <h3>Coming Soon</h3>
-          <p>Buddhist Texts, Kalidasa & more...</p>
+          <h3>Buddhist Texts</h3>
+          <p>{buddhistCount} texts including Dipavamsa, Mahavamsa, Milinda Panho</p>
         </div>
       </div>
     )
@@ -466,6 +469,7 @@ function App() {
       ? quizQuestions.filter(q => {
           if (selectedTopic === 'vedic') return q.category === 'Vedic Literature'
           if (selectedTopic === 'drama') return q.category === 'Sanskrit Drama'
+          if (selectedTopic === 'buddhist') return q.category === 'Buddhist Texts'
           return true
         })
       : quizQuestions
@@ -833,7 +837,7 @@ function App() {
               onClick={resetMode}
               style={{marginBottom: '20px'}}
             >
-              ← Back to {selectedTopic === 'vedic' ? 'Vedic Literature' : 'Sanskrit Drama'}
+              ← Back to {selectedTopic === 'vedic' ? 'Vedic Literature' : selectedTopic === 'buddhist' ? 'Buddhist Texts' : 'Sanskrit Drama'}
             </button>
 
             {mode === 'flashcards' && renderFlashcards()}

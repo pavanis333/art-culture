@@ -291,6 +291,102 @@ export const artCultureData = [
     author: "Buddhist non-canonical",
     description: "Prime example of Buddhist non-canonical literature. The Jataka stories narrate the previous births of the Buddha.",
     importance: "HIGH"
+  },
+  
+  // BUDDHIST TEXTS - NEW TOPIC CATEGORY
+  {
+    id: 27,
+    category: "Buddhist Texts",
+    subcategory: "Historical Texts",
+    name: "Dipavamsa",
+    period: "3rd-4th centuries BC",
+    location: "Anuradhapura (Sri Lanka)",
+    description: "Written in Anuradhapura, Sri Lanka. Provides historical account of Buddhism in Sri Lanka and narrates Buddha's visit to Sri Lanka and the relics of Buddha.",
+    importance: "HIGH"
+  },
+  {
+    id: 28,
+    category: "Buddhist Texts",
+    subcategory: "Dialogue Texts",
+    name: "Milinda Panho",
+    period: "Ancient",
+    location: "India",
+    description: "The book mentions the dialogue between King Meander (or Milinda) and Buddhist monk Nagasena.",
+    importance: "HIGH"
+  },
+  {
+    id: 29,
+    category: "Buddhist Texts",
+    subcategory: "Historical Texts",
+    name: "Mahavamsa",
+    period: "3rd-4th centuries BC",
+    location: "Sri Lanka",
+    description: "Sri Lankan Pali account dating back to 3rd-4th centuries BC. Provides historical account of various kingdoms of South Asia.",
+    importance: "HIGH"
+  },
+  {
+    id: 30,
+    category: "Buddhist Texts",
+    subcategory: "Story Collections",
+    name: "Mahavastu",
+    period: "Ancient",
+    location: "India",
+    description: "Contains Jataka and Avadana tales written in Sanskrit, Pali, and Prakrit.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 31,
+    category: "Buddhist Texts",
+    subcategory: "Mahayana Texts",
+    name: "Lalitavistara Sutra (The Play in Full)",
+    period: "Ancient",
+    location: "India",
+    description: "Mahayana text that narrates various stories related to the life of the Buddha until his first sermon at Sarnath.",
+    importance: "HIGH"
+  },
+  {
+    id: 32,
+    category: "Buddhist Texts",
+    subcategory: "Theravada Texts",
+    name: "Udana",
+    period: "Ancient",
+    location: "India",
+    description: "One of the oldest Theravada texts. Includes the story of the 'Blind Men and the Elephant.'",
+    importance: "MEDIUM"
+  },
+  {
+    id: 33,
+    category: "Buddhist Texts",
+    subcategory: "Poetry",
+    name: "Bodhi Vamsa",
+    period: "10th century AD",
+    location: "Sri Lanka",
+    author: "Upatissa",
+    description: "Prose poem written in the 10th century AD by Upatissa in Pali, Sri Lanka.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 34,
+    category: "Buddhist Texts",
+    subcategory: "Theravada Texts",
+    name: "Visuddhimagga",
+    period: "5th century AD",
+    location: "Sri Lanka",
+    author: "Buddhaghosa",
+    description: "Theravada text written by Buddhaghosa in the 5th century AD in Sri Lanka. Includes discussions on various teachings of the Buddha.",
+    importance: "HIGH"
+  },
+  {
+    id: 35,
+    category: "Buddhist Texts",
+    subcategory: "Travel Records",
+    name: "Sarvastivada Vinaya",
+    period: "End of 4th century AD",
+    location: "India to China",
+    author: "Sanghabhuti",
+    description: "By Sanghabhuti, an Indian Buddhist monk who travelled to China at the end of 4th century AD. [UPSC 2024]",
+    upscRelevance: "[UPSC 2024]",
+    importance: "HIGH"
   }
 ];
 
@@ -374,6 +470,23 @@ export const vedicFacts = [
   {
     fact: "The Jatakas are Buddhist non-canonical literature narrating the previous births of Buddha",
     category: "Sanskrit Drama"
+  }
+  ,
+  {
+    fact: "Dipavamsa & Mahavamsa are Sri Lankan Pali accounts (3rd-4th centuries BC) providing historical accounts of Buddhism and South Asian kingdoms",
+    category: "Buddhist Texts"
+  },
+  {
+    fact: "Milinda Panho records dialogue between King Meander (Milinda) and Buddhist monk Nagasena",
+    category: "Buddhist Texts"
+  },
+  {
+    fact: "Lalitavistara Sutra is a Mahayana text narrating Buddha's life until first sermon at Sarnath",
+    category: "Buddhist Texts"
+  },
+  {
+    fact: "Sarvastivada Vinaya by Sanghabhuti - Indian monk who travelled to China (end of 4th century AD) [UPSC 2024]",
+    category: "Buddhist Texts"
   }
 ];
 
@@ -710,6 +823,70 @@ export const allQuizQuestions = [
     correct: 2,
     explanation: "The Jataka stories narrate the previous births of the Buddha.",
     category: "Sanskrit Drama"
+  }
+  ,
+  {
+    question: "Dipavamsa was written in which location?",
+    options: ["India", "China", "Anuradhapura (Sri Lanka)", "Tibet"],
+    correct: 2,
+    explanation: "Dipavamsa was written in the 3rd-4th centuries BC in Anuradhapura, Sri Lanka. It provides historical account of Buddhism in Sri Lanka.",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Which Buddhist text mentions dialogue between King Meander and monk Nagasena?",
+    options: ["Dipavamsa", "Milinda Panho", "Mahavamsa", "Udana"],
+    correct: 1,
+    explanation: "Milinda Panho mentions the dialogue between King Meander (or Milinda) and Buddhist monk Nagasena.",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Mahavamsa is a historical account in which language?",
+    options: ["Sanskrit", "Pali", "Prakrit", "Tamil"],
+    correct: 1,
+    explanation: "Mahavamsa is a Sri Lankan Pali account dating back to 3rd-4th centuries BC, providing historical account of kingdoms of South Asia.",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Mahavastu contains tales written in:",
+    options: ["Only Sanskrit", "Only Pali", "Sanskrit, Pali, and Prakrit", "Only Prakrit"],
+    correct: 2,
+    explanation: "Mahavastu contains Jataka and Avadana tales written in Sanskrit, Pali, and Prakrit.",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Lalitavistara Sutra is a text of which Buddhist tradition?",
+    options: ["Theravada", "Mahayana", "Vajrayana", "Zen"],
+    correct: 1,
+    explanation: "Lalitavistara Sutra ('The Play in Full') is a Mahayana text narrating stories of Buddha's life until his first sermon at Sarnath.",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Which text includes the story of 'Blind Men and the Elephant'?",
+    options: ["Mahavastu", "Udana", "Bodhi Vamsa", "Dipavamsa"],
+    correct: 1,
+    explanation: "Udana, one of the oldest Theravada texts, includes the story of the 'Blind Men and the Elephant.'",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Bodhi Vamsa was written by which author?",
+    options: ["Buddhaghosa", "Upatissa", "Nagasena", "Sanghabhuti"],
+    correct: 1,
+    explanation: "Bodhi Vamsa is a prose poem written in the 10th century AD by Upatissa in Pali, Sri Lanka.",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Visuddhimagga was written by Buddhaghosa in which century?",
+    options: ["3rd century AD", "5th century AD", "7th century AD", "10th century AD"],
+    correct: 1,
+    explanation: "Visuddhimagga is a Theravada text written by Buddhaghosa in the 5th century AD in Sri Lanka.",
+    category: "Buddhist Texts"
+  },
+  {
+    question: "Sarvastivada Vinaya was written by which Indian Buddhist monk? [UPSC 2024]",
+    options: ["Buddhaghosa", "Upatissa", "Sanghabhuti", "Nagasena"],
+    correct: 2,
+    explanation: "Sarvastivada Vinaya was written by Sanghabhuti, an Indian Buddhist monk who travelled to China at the end of 4th century AD. [UPSC 2024]",
+    category: "Buddhist Texts"
   }
 ];
 
