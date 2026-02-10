@@ -1956,6 +1956,212 @@ export const artCultureData = [
     location: "Kerala",
     description: "Kutiyattam represents a synthesis of Sanskrit classicism and reflects the local traditions of Kerala. It is traditionally performed in theatres called Kuttampalams, which are located in Hindu temples. The actor's art lies in elaborating a situation or episode in all its detail. Therefore, a single act may take days to perform and a complete performance may last up to 40 days.",
     importance: "MEDIUM"
+  },
+  
+  // UNESCO CREATIVE CITIES NETWORK
+  
+  {
+    id: 180,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Jaipur",
+    year: 2015,
+    location: "Rajasthan",
+    creativeField: "Crafts and Folk Art",
+    description: "Established 2004 by UNESCO to promote cooperation among cities that have identified creativity as a strategic factor for sustainable urban development. Fields: Crafts and Folk Art, Design, Film, Gastronomy, Literature, Media Arts, and Music. Jaipur: Renowned for traditional crafts like blue pottery, block printing, and jewelry, alongside vibrant folk traditions.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 181,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Varanasi",
+    year: 2015,
+    location: "Uttar Pradesh",
+    creativeField: "Music",
+    description: "A cultural hub of Hindustani classical music, home to the iconic Banaras gharana.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 182,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Chennai",
+    year: 2017,
+    location: "Tamil Nadu",
+    creativeField: "Music",
+    description: "Celebrated for its rich Carnatic music tradition, hosting the world-renowned December Music Season.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 183,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Mumbai",
+    year: 2019,
+    location: "Maharashtra",
+    creativeField: "Film",
+    description: "The heart of India's film industry, Bollywood, and a center for cinematic art and cultural expression.",
+    importance: "HIGH"
+  },
+  {
+    id: 184,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Hyderabad",
+    year: 2019,
+    location: "Telangana",
+    creativeField: "Gastronomy",
+    description: "Famous for its rich culinary heritage, particularly biryani, haleem, and other Hyderabadi delicacies.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 185,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Kolkata",
+    year: 2019,
+    location: "West Bengal",
+    creativeField: "Literature",
+    description: "A literary hub with a history of influential authors, poets, and publishers, including Rabindranath Tagore.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 186,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Srinagar",
+    year: 2021,
+    location: "Jammu & Kashmir",
+    creativeField: "Crafts and Folk Art",
+    description: "Celebrated for exceptional traditional crafts, including Pashmina shawls, papier-mâché, and Kashmiri carpets.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 187,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Gwalior",
+    year: 2023,
+    location: "Madhya Pradesh",
+    creativeField: "Music",
+    description: "Renowned for the Gwalior gharana, a prominent school of Hindustani classical music, contributing significantly to Dhrupad and Khayal styles.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 188,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Kozhikode",
+    year: 2023,
+    location: "Kerala",
+    creativeField: "Literature",
+    description: "Recognized as India's first UNESCO City of Literature, with a vibrant literary heritage and a thriving community of writers and scholars.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 189,
+    category: "UNESCO Heritage",
+    subcategory: "Creative City",
+    name: "Lucknow",
+    year: 2025,
+    location: "Uttar Pradesh",
+    creativeField: "Gastronomy",
+    description: "Second city after Hyderabad in India to be recognized for its culinary heritage, particularly for its Awadhi cuisine.",
+    importance: "MEDIUM"
+  },
+  
+  // UNESCO MEMORY OF THE WORLD REGISTER
+  
+  {
+    id: 190,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "I.A.S. Tamil Medical Manuscript Collection",
+    year: 1997,
+    location: "India",
+    description: "Manuscripts related to traditional Tamil medicine, providing insights into ancient medical practices.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 191,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Saiva Manuscripts in Pondicherry",
+    year: 2005,
+    location: "Pondicherry",
+    description: "Saiva texts preserved in Pondicherry, significant in the study of Tamil religious literature.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 192,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Rigveda Manuscripts",
+    year: 2007,
+    location: "India",
+    description: "One of the oldest known texts, foundational to Vedic knowledge and culture.",
+    importance: "HIGH"
+  },
+  {
+    id: 193,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Tarikh-E-Khandan-ETimuriyah",
+    year: 2011,
+    location: "India",
+    description: "Historical record detailing the Timurids' dynasty, crucial for understanding India's Mughal era.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 194,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Laghukālacakratantrarājațīkā (Vimalaprabhā)",
+    year: 2011,
+    location: "India",
+    description: "Important tantric texts related to Buddhist teachings.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 195,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Shāntinātha Charitra",
+    year: 2013,
+    location: "India",
+    description: "14th-century Sanskrit text with illustrations, detailing the life of the Jain Tirthankara Shantinatha.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 196,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Gilgit Manuscripts",
+    year: 2017,
+    location: "India",
+    description: "Ancient Buddhist texts discovered in Gilgit, showcasing the spread of Buddhism and the region's history.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 197,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Maitreyavyakarana",
+    year: 2017,
+    location: "India",
+    description: "A text from ancient India that deals with philosophical and spiritual teachings.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 198,
+    category: "UNESCO Heritage",
+    subcategory: "Memory of the World",
+    name: "Abhinavagupta Manuscripts",
+    year: 2023,
+    location: "India",
+    description: "Works of the philosopher and scholar Abhinavagupta, focusing on aesthetics, aesthetics, and tantra. Note: Recently 3 Indian literary works were inscribed into the Asia-Pacific Regional Register of the UNESCO Memory of the World Programme.",
+    importance: "MEDIUM"
   }
 ];
 
