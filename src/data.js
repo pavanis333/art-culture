@@ -632,6 +632,162 @@ export const artCultureData = [
     author: "Sattanar",
     description: "Classical Tamil epic poem counted among the five great epics of Tamil literature. Composed by poet Sattanar, sequel to renowned Tamil epic Silappatikaram. Prominently features themes related to Buddhism.",
     importance: "HIGH"
+  },
+  
+  // DRAVIDIAN LITERATURE - MALAYALAM (Batch 2)
+  {
+    id: 58,
+    category: "Dravidian Literature",
+    subcategory: "Malayalam",
+    name: "Ezhuthachan - Father of Malayalam",
+    period: "Ancient",
+    language: "Malayalam",
+    author: "Ezhuthachan",
+    description: "Ezhuthachan, a proponent of the Bhakti movement, is the father of Malayalam literature.",
+    importance: "HIGH"
+  },
+  {
+    id: 59,
+    category: "Dravidian Literature",
+    subcategory: "Malayalam",
+    name: "Kokasandisan",
+    period: "Ancient",
+    language: "Malayalam",
+    description: "A significant work in Malayalam literature.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 60,
+    category: "Dravidian Literature",
+    subcategory: "Malayalam",
+    name: "Bhasa Kautilya",
+    period: "Ancient",
+    language: "Malayalam",
+    description: "A commentary on the ancient Indian treatise on statecraft and economics, the Arthashastra.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 61,
+    category: "Dravidian Literature",
+    subcategory: "Malayalam",
+    name: "Ramacharitam",
+    period: "13th Century",
+    language: "Malayalam",
+    author: "Cheeraman",
+    description: "Composed by ancient Malayalam poet Cheeraman in the 13th Century. The poem narrates the story of Lord Rama and his adventures.",
+    importance: "HIGH"
+  },
+  
+  // DRAVIDIAN LITERATURE - TELUGU (Batch 2)
+  {
+    id: 62,
+    category: "Dravidian Literature",
+    subcategory: "Telugu - Overview",
+    name: "Telugu Literature Overview",
+    period: "11th century onwards",
+    language: "Telugu",
+    description: "Nannaya (11th century) was considered the first poet in Telugu. Telugu literature reached its zenith during the Vijayanagara period.",
+    importance: "HIGH"
+  },
+  {
+    id: 63,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Uttaraharivamsam",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Nachana Somanatha (King Bukka I's court poet)",
+    description: "Written by King Bukka I's famous court poet, Nachana Somanatha.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 64,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Manu Charitra",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Allasani Peddana (Andhra Kavita Pitamahudu)",
+    description: "Written by Allasani Peddana, also known as Andhra Kavita Pitamahudu.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 65,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Parijatapaharanamu",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Nandi Thimmana",
+    description: "Written by Nandi Thimmana.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 66,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Panduranga Mahatmyam",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Tenali Ramakrishna",
+    description: "Written by Tenali Ramakrishna, a court jester and poet who was said to have a close association with king Krishna Devaraya.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 67,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Vasucharitram and Narasabhupaleeyamu",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Ramaraja Bhushanudu (also known as Bhattumurti)",
+    description: "Written by Ramaraja Bhushanudu, also known as Bhattumurti.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 68,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Nalopakhyanamu",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Harishchandra",
+    description: "Written by Harishchandra.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 69,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Rajasekaracharitra",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Madayyagari Mallana",
+    description: "Written by Madayyagari Mallana. The text narrates the love and war of King Rajasekara of the Avanti kingdom.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 70,
+    category: "Dravidian Literature",
+    subcategory: "Telugu",
+    name: "Ramabhudayamu",
+    period: "Ancient",
+    language: "Telugu",
+    author: "Ayyalaraju Ramabhadrudu",
+    description: "Written by Ayyalaraju Ramabhadrudu.",
+    importance: "MEDIUM"
+  },
+  
+  // KRISHNADEVARAYA - PATRON OF LITERATURE
+  {
+    id: 71,
+    category: "Dravidian Literature",
+    subcategory: "Patron - Krishnadevaraya",
+    name: "Krishnadevaraya - Literary Patron",
+    period: "Vijayanagara period",
+    language: "Telugu, Tamil, Kannada, Sanskrit",
+    description: "Great scholar and patron of literature. His court housed eight accomplished Telugu poets, collectively known as 'Ashtadiggajas'. He patronised Haridasa (Tamil poet) and Kannada poets such as Mallanarya, Chatu Vittalanatha, and Thimmana. During his Kalinga campaign, he composed Amuktamalyada, a treatise recounting the instance of Lord Vishnu in his dream. He also authored Krishna Deva Rayana Dinachari (in Kannada) and Sanskrit treatises, including Madalasa Charita, Satyavadu Parinaya, Rasamanjari, and Jambavati Kalyana.",
+    importance: "HIGH"
   }
 ];
 
