@@ -188,16 +188,16 @@ function App() {
     const travellersCount = topicsData.filter(t => t.category === 'Foreign Travellers').length
     
     // Quiz counts
-    const vedicQuiz = allQuizQuestions.filter(q => q.category === 'Vedic Literature').length
-    const dramaQuiz = allQuizQuestions.filter(q => q.category === 'Sanskrit Drama').length
-    const buddhistQuiz = allQuizQuestions.filter(q => q.category === 'Buddhist Texts').length
-    const religiousQuiz = allQuizQuestions.filter(q => q.category === 'Religious Literature').length
-    const dravidianQuiz = allQuizQuestions.filter(q => q.category === 'Dravidian Literature').length
-    const medievalQuiz = allQuizQuestions.filter(q => q.category === 'Medieval Literature').length
-    const modernQuiz = allQuizQuestions.filter(q => q.category === 'Modern Literature').length
-    const unescoQuiz = allQuizQuestions.filter(q => q.category === 'UNESCO Heritage').length
-    const booksQuiz = allQuizQuestions.filter(q => q.category === 'Books & Authors').length
-    const travellersQuiz = allQuizQuestions.filter(q => q.category === 'Foreign Travellers').length
+    const vedicQuiz = quizQuestions.filter(q => q.category === 'Vedic Literature').length
+    const dramaQuiz = quizQuestions.filter(q => q.category === 'Sanskrit Drama').length
+    const buddhistQuiz = quizQuestions.filter(q => q.category === 'Buddhist Texts').length
+    const religiousQuiz = quizQuestions.filter(q => q.category === 'Religious Literature').length
+    const dravidianQuiz = quizQuestions.filter(q => q.category === 'Dravidian Literature').length
+    const medievalQuiz = quizQuestions.filter(q => q.category === 'Medieval Literature').length
+    const modernQuiz = quizQuestions.filter(q => q.category === 'Modern Literature').length
+    const unescoQuiz = quizQuestions.filter(q => q.category === 'UNESCO Heritage').length
+    const booksQuiz = quizQuestions.filter(q => q.category === 'Books & Authors').length
+    const travellersQuiz = quizQuestions.filter(q => q.category === 'Foreign Travellers').length
     
     return (
       <div className="mode-selector">
