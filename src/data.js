@@ -2162,6 +2162,281 @@ export const artCultureData = [
     location: "India",
     description: "Works of the philosopher and scholar Abhinavagupta, focusing on aesthetics, aesthetics, and tantra. Note: Recently 3 Indian literary works were inscribed into the Asia-Pacific Regional Register of the UNESCO Memory of the World Programme.",
     importance: "MEDIUM"
+  },
+  
+  // IMPORTANT BOOKS AND AUTHORS - New Topic
+  
+  {
+    id: 199,
+    category: "Books & Authors",
+    name: "Valmiki",
+    work: "Ramayana",
+    description: "Ancient Sanskrit epic, life story of Lord Rama.",
+    importance: "HIGH"
+  },
+  {
+    id: 200,
+    category: "Books & Authors",
+    name: "Ved Vyas",
+    work: "Mahabharata",
+    description: "Ancient Sanskrit epic, Kurukshetra war and Bhagavad Gita.",
+    importance: "HIGH"
+  },
+  {
+    id: 201,
+    category: "Books & Authors",
+    name: "Panini",
+    work: "Ashtadhyayi",
+    description: "Ancient Sanskrit grammar treatise, foundational work on linguistics.",
+    importance: "HIGH"
+  },
+  {
+    id: 202,
+    category: "Books & Authors",
+    name: "Patanjali",
+    work: "Mahabhasya",
+    description: "Commentary on Panini's Ashtadhyayi, Sanskrit grammar.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 203,
+    category: "Books & Authors",
+    name: "Nagarjuna",
+    work: "Madhyamika karika, Prajnaparamita karika",
+    description: "Buddhist philosopher, Madhyamika school founder.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 204,
+    category: "Books & Authors",
+    name: "Asvaghosha",
+    work: "Buddhacharita, Vajrasuchi, Suandananda",
+    description: "Buddhist poet and philosopher, life of Buddha.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 205,
+    category: "Books & Authors",
+    name: "Charaka",
+    work: "Charaka Samhita (Book on medicine)",
+    description: "Ancient Ayurvedic text on medicine and health.",
+    importance: "HIGH"
+  },
+  {
+    id: 206,
+    category: "Books & Authors",
+    name: "Kalidasa",
+    work: "Malavikagnimitram (Love story of Agnimitra Sunga and Malavika), Meghaduta",
+    description: "Classical Sanskrit poet and dramatist, considered greatest.",
+    importance: "HIGH"
+  },
+  {
+    id: 207,
+    category: "Books & Authors",
+    name: "Sushruta",
+    work: "Sushruta Samhita (Book on surgery)",
+    description: "Ancient Ayurvedic text on surgery and medicine.",
+    importance: "HIGH"
+  },
+  {
+    id: 208,
+    category: "Books & Authors",
+    name: "Vishakhadatta",
+    work: "Mudrarakshasa (Chandragupta Maurya defeating the Nandas), Devichandraguptham",
+    description: "Sanskrit dramatist, political intrigue plays.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 209,
+    category: "Books & Authors",
+    name: "Sudraka",
+    work: "Mricchakatika (Drama)",
+    description: "Sanskrit play 'The Little Clay Cart', social drama.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 210,
+    category: "Books & Authors",
+    name: "Bharata Muni",
+    work: "Natyasastra",
+    description: "Ancient treatise on performing arts, drama theory.",
+    importance: "HIGH"
+  },
+  {
+    id: 211,
+    category: "Books & Authors",
+    name: "Bhaskaracharya",
+    work: "Siddhanta Shiromani (4 parts - Lilavati, Bijaganita, Grahaganita & Gola on Astronomy)",
+    description: "12th-century mathematician and astronomer.",
+    importance: "HIGH"
+  },
+  {
+    id: 212,
+    category: "Books & Authors",
+    name: "Dandin",
+    work: "Dasakumaracharita and Kvyadarsha",
+    description: "Sanskrit prose writer and poetician.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 213,
+    category: "Books & Authors",
+    name: "Bhavabhuti",
+    work: "Uttarama-Charita (Continuation to Valmiki Ramayana), Malati Madhava",
+    description: "8th-century Sanskrit dramatist.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 214,
+    category: "Books & Authors",
+    name: "Devachandra",
+    work: "Shantinathacharita (Jaina Narrative)",
+    description: "Jain literary work on Tirthankara Shantinatha.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 215,
+    category: "Books & Authors",
+    name: "Hemchandra",
+    work: "Dvyashraya Mahakavya, Sapta Sadhana",
+    description: "Jain scholar, grammarian and polymath.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 216,
+    category: "Books & Authors",
+    name: "Bilhana",
+    work: "Vikramankadevacharita (Chalukya king Vikramaditya) and Karnasundari",
+    description: "11th-century Kashmiri poet.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 217,
+    category: "Books & Authors",
+    name: "Jayanka",
+    work: "Prithviraja Vijaya",
+    description: "Sanskrit poem on Prithviraj Chauhan.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 218,
+    category: "Books & Authors",
+    name: "Jayasinha",
+    work: "Kumarapalacharita",
+    description: "Gujarati literary work.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 219,
+    category: "Books & Authors",
+    name: "Lagdhacharya",
+    work: "Book on astrology",
+    description: "Ancient astronomer and astrologer.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 220,
+    category: "Books & Authors",
+    name: "Mathara",
+    work: "Nitishastra (On Polity)",
+    description: "Ancient political treatise.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 221,
+    category: "Books & Authors",
+    name: "Nyayachandra",
+    work: "Hammirakavyam",
+    description: "Sanskrit literary work.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 222,
+    category: "Books & Authors",
+    name: "Padmagupta",
+    work: "Navasahasankacharita",
+    description: "Sanskrit narrative work.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 223,
+    category: "Books & Authors",
+    name: "Rajasekhara",
+    work: "Karpuramanjari, Bala Ramayana, Bala Bharata, Kavyamimamsa, Bhuvana Kosha, Haravilasa",
+    description: "9th-10th century Sanskrit poet and dramatist.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 224,
+    category: "Books & Authors",
+    name: "Vijnaneshwara",
+    work: "Mitakshara",
+    description: "Commentary on Hindu law, Yajnavalkya Smriti.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 225,
+    category: "Books & Authors",
+    name: "Jayadeva",
+    work: "Prasannaraghava and Gita govinda",
+    description: "12th-century Sanskrit poet, devotional lyrics.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 226,
+    category: "Books & Authors",
+    name: "Jimutavahana",
+    work: "Dayabhaga",
+    description: "Hindu law treatise on inheritance.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 227,
+    category: "Books & Authors",
+    name: "Vagabhatta",
+    work: "Astanga-Sangraha, Astanga-Hridaya-Samhita",
+    description: "Classical Ayurvedic texts.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 228,
+    category: "Books & Authors",
+    name: "Vakpati",
+    work: "Gudavaho (Yasovarman of Kannauj)",
+    description: "8th-century Sanskrit poet.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 229,
+    category: "Books & Authors",
+    name: "Varahamihira",
+    work: "Panchsiddhantika (Book on Astrology), Suryasiddhanta, Brihatsamhita",
+    description: "6th-century astronomer, mathematician and astrologer.",
+    importance: "HIGH"
+  },
+  {
+    id: 230,
+    category: "Books & Authors",
+    name: "Vardhamana",
+    work: "Adinathacharita (Jaina Narrative)",
+    description: "Jain literary work.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 231,
+    category: "Books & Authors",
+    name: "Visaladeva",
+    work: "Harikeli Nataka",
+    description: "Sanskrit drama.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 232,
+    category: "Books & Authors",
+    name: "Chandbardai",
+    work: "Prithvirajacharita",
+    description: "Medieval Hindi epic on Prithviraj Chauhan.",
+    importance: "MEDIUM"
   }
 ];
 

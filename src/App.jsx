@@ -84,7 +84,9 @@ function App() {
     } else if (selectedTopic === 'modern') {
       filtered = topicsData.filter(v => v.category === 'Modern Literature')
     } else if (selectedTopic === 'unesco') {
-      filtered = topicsData.filter(v => v.category === 'Dravidian Literature')
+      filtered = topicsData.filter(v => v.category === 'UNESCO Heritage')
+    } else if (selectedTopic === 'books') {
+      filtered = topicsData.filter(v => v.category === 'Books & Authors')
     }
     
     // Then apply additional filters
@@ -180,6 +182,7 @@ function App() {
     const medievalCount = topicsData.filter(t => t.category === 'Medieval Literature').length
     const modernCount = topicsData.filter(t => t.category === 'Modern Literature').length
     const unescoCount = topicsData.filter(t => t.category === 'UNESCO Heritage').length
+    const booksCount = topicsData.filter(t => t.category === 'Books & Authors').length
     
     return (
       <div className="mode-selector">
@@ -229,6 +232,12 @@ function App() {
           <div className="mode-icon">🏛️</div>
           <h3>UNESCO Heritage</h3>
           <p>{unescoCount} entries: Sites, Heritage, Creative Cities, Memory</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('books')}>
+          <div className="mode-icon">📚</div>
+          <h3>Books & Authors</h3>
+          <p>{booksCount} classical authors: Valmiki, Kalidasa, Panini, Charaka</p>
         </div>
       </div>
     )
@@ -520,6 +529,7 @@ function App() {
           if (selectedTopic === 'medieval') return q.category === 'Medieval Literature'
           if (selectedTopic === 'modern') return q.category === 'Modern Literature'
           if (selectedTopic === 'unesco') return q.category === 'UNESCO Heritage'
+          if (selectedTopic === 'books') return q.category === 'Books & Authors'
           return true
         })
       : quizQuestions
@@ -895,6 +905,7 @@ function App() {
                 selectedTopic === 'medieval' ? 'Medieval Literature' :
                 selectedTopic === 'modern' ? 'Modern Literature' :
                 selectedTopic === 'unesco' ? 'UNESCO Heritage' :
+                selectedTopic === 'books' ? 'Books & Authors' :
                 'Sanskrit Drama'
               }
             </button>
