@@ -66,9 +66,9 @@ function App() {
   }
 
   const getFilteredTopics = () => {
-    if (filter === 'all') return artCultureDataData
-    if (filter === 'high') return artCultureDataData.filter(v => v.importance === 'HIGH')
-    return artCultureDataData
+    if (filter === 'all') return topicsData
+    if (filter === 'high') return topicsData.filter(v => v.importance === 'HIGH')
+    return topicsData
   }
 
   const handleQuizAnswer = (answerIndex) => {
@@ -221,7 +221,7 @@ function App() {
               className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
               onClick={() => { setFilter('all'); setCurrentIndex(0); }}
             >
-              All ({artCultureDataData.length})
+              All ({topicsData.length})
             </button>
             <button 
               className={`filter-btn ${filter === 'high' ? 'active' : ''}`}
@@ -337,7 +337,7 @@ function App() {
               className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
               onClick={() => setFilter('all')}
             >
-              All ({artCultureDataData.length})
+              All ({topicsData.length})
             </button>
             <button 
               className={`filter-btn ${filter === 'high' ? 'active' : ''}`}
@@ -638,10 +638,10 @@ function App() {
   }
 
   const renderProgress = () => {
-    const totalTopics = artCultureDataData.length
+    const totalTopics = topicsData.length
     const masteredCount = masteredTopics.length
     const progress = ((masteredCount / totalTopics) * 100).toFixed(0)
-    const highPriority = artCultureDataData.filter(c => c.importance === 'HIGH').length
+    const highPriority = topicsData.filter(c => c.importance === 'HIGH').length
 
     return (
       <div>
