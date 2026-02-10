@@ -788,6 +788,198 @@ export const artCultureData = [
     language: "Telugu, Tamil, Kannada, Sanskrit",
     description: "Great scholar and patron of literature. His court housed eight accomplished Telugu poets, collectively known as 'Ashtadiggajas'. He patronised Haridasa (Tamil poet) and Kannada poets such as Mallanarya, Chatu Vittalanatha, and Thimmana. During his Kalinga campaign, he composed Amuktamalyada, a treatise recounting the instance of Lord Vishnu in his dream. He also authored Krishna Deva Rayana Dinachari (in Kannada) and Sanskrit treatises, including Madalasa Charita, Satyavadu Parinaya, Rasamanjari, and Jambavati Kalyana.",
     importance: "HIGH"
+  },
+  
+  // DRAVIDIAN LITERATURE - KANNADA (Batch 3)
+  {
+    id: 72,
+    category: "Dravidian Literature",
+    subcategory: "Kannada - Overview",
+    name: "Kannada Literature Overview",
+    period: "Ancient",
+    language: "Kannada",
+    description: "The Jain scholars played a major role in Kannada literature. The 'Ratnatraya' or 'three gems' of Kannada language includes Pampa (9th-10th century), Ponna (9th-10th century), and Ranna (10th-11th century).",
+    importance: "HIGH"
+  },
+  {
+    id: 73,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Dharmanath Purana",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Madhava",
+    description: "Written by Madhava on the life of the fifteenth Tirthankara.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 74,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Dharma Parikshe",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Uritta Vilasa",
+    description: "Uritta Vilasa wrote it on the Jain teachings.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 75,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Kavirajamarga",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Nripatunga Amoghavarsha I (Rashtrakuta king)",
+    description: "Written by Nripatunga Amoghavarsha I, a powerful Rashtrakuta king.",
+    importance: "HIGH"
+  },
+  {
+    id: 76,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Harishchandra Kavya and Somanatha Charita",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Harishvara",
+    description: "These were written by Harishvara.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 77,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Harivamshabhyudaya and Jiva Sambodhana",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Bandhuvarma",
+    description: "These were written by Bandhuvarma.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 78,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Jagannathavijaya",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Rudra Bhata",
+    description: "Written by Rudra Bhata.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 79,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Madana Vijaya or Kabbigara Kava",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Andayya",
+    description: "Written by Andayya. The text was celebrated as it was the first pure Kannada text, that did not have any Sanskrit words.",
+    importance: "HIGH"
+  },
+  {
+    id: 80,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Shabdamanidarpana",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Kesirja",
+    description: "A grammar book composed by Kesirja.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 81,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Suktisudharnava",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Mallikarjuna",
+    description: "A collection of poems written by Mallikarjuna.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 82,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Tarave Ramayana",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Narahari",
+    description: "Composed by Narahari and written entirely in Kannada. It was the first story on Rama inspired by the Valmiki Ramayana.",
+    importance: "HIGH"
+  },
+  {
+    id: 83,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Jaimini Bharata",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Lakshamisha",
+    description: "Written by Lakshamisha. Also called the Kamata-Karicutavana-Chaitra (the spring of the Karnataka mango grove).",
+    importance: "MEDIUM"
+  },
+  {
+    id: 84,
+    category: "Dravidian Literature",
+    subcategory: "Kannada",
+    name: "Hadibadeya Dharma (Duty of a devout wife)",
+    period: "Ancient",
+    language: "Kannada",
+    author: "Honnamma (female Kannada poet)",
+    description: "Written by Honnamma, a female Kannada poet.",
+    importance: "MEDIUM"
+  },
+  
+  // KANNADA RATNATRAYA (THREE GEMS)
+  {
+    id: 85,
+    category: "Dravidian Literature",
+    subcategory: "Kannada - Ratnatraya",
+    name: "Pampa (Father of Kannada)",
+    period: "9th-10th century AD",
+    language: "Kannada",
+    author: "Pampa",
+    description: "Father of Kannada language. Two of his most renowned poetic works include Adipurana (written in Champu style) and Vikramarjuna Vijaya. Known for mastery of rasa in poetry and served at the court of Chalukya Arikesari.",
+    importance: "HIGH"
+  },
+  {
+    id: 86,
+    category: "Dravidian Literature",
+    subcategory: "Kannada - Ratnatraya",
+    name: "Ponna",
+    period: "9th-10th century AD",
+    language: "Kannada",
+    author: "Ponna",
+    description: "Authored the famous treatise Shanti Purana.",
+    importance: "HIGH"
+  },
+  {
+    id: 87,
+    category: "Dravidian Literature",
+    subcategory: "Kannada - Ratnatraya",
+    name: "Ranna",
+    period: "10th-11th century AD",
+    language: "Kannada",
+    author: "Ranna",
+    description: "Authored the famous treatise Ajitha Purana.",
+    importance: "HIGH"
+  },
+  
+  // URDU LITERATURE NOTE
+  {
+    id: 88,
+    category: "Dravidian Literature",
+    subcategory: "Urdu - Context Note",
+    name: "Urdu Language Context",
+    period: "Medieval",
+    language: "Urdu",
+    description: "Urdu emerged as a contact language enriched by vocabulary from Turkish, Persian, Arabic, Sanskrit, and Prakrits making it a rare five-tradition fusion in world linguistics.",
+    note: "PW Plus info - included for cultural completeness",
+    importance: "MEDIUM"
   }
 ];
 
