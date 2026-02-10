@@ -401,6 +401,37 @@ function App() {
                     <div className="topic-info"><strong>Period:</strong> {topic.period}</div>
                   </div>
                 )}
+                
+                {/* Books & Authors specific fields */}
+                {topic.work && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <div className="topic-info"><strong>Work:</strong> {topic.work}</div>
+                  </div>
+                )}
+                
+                {/* Foreign Travellers specific fields */}
+                {topic.nationality && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <div className="topic-info"><strong>Nationality:</strong> {topic.nationality}</div>
+                  </div>
+                )}
+                {topic.duration && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <div className="topic-info"><strong>Duration:</strong> {topic.duration}</div>
+                  </div>
+                )}
+                {topic.reign && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <div className="topic-info"><strong>Reign:</strong> {topic.reign}</div>
+                  </div>
+                )}
+                {topic.observation && (
+                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
+                    <strong style={{color: '#ff6600'}}>Observations:</strong>
+                    <div className="topic-info" style={{marginTop: '5px'}}>{topic.observation}</div>
+                  </div>
+                )}
+                
                 {topic.description && (
                   <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
                     <strong style={{color: '#ff6600'}}>Description:</strong>
@@ -513,10 +544,33 @@ function App() {
                 </div>
               )}
               
+              {/* Work (for Books & Authors) */}
+              {topic.work && (
+                <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
+                  <div className="topic-info"><strong>Work:</strong> {topic.work}</div>
+                </div>
+              )}
+              
+              {/* Traveller info (for Foreign Travellers) */}
+              {topic.nationality && (
+                <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
+                  <div className="topic-info"><strong>Nationality:</strong> {topic.nationality}</div>
+                  {topic.duration && <div className="topic-info"><strong>Duration:</strong> {topic.duration}</div>}
+                  {topic.reign && <div className="topic-info"><strong>Reign:</strong> {topic.reign}</div>}
+                </div>
+              )}
+              
               {/* Description Preview */}
               {topic.description && (
                 <div className="topic-info" style={{marginTop: '8px', fontSize: '0.8rem', fontStyle: 'italic'}}>
                   {topic.description.substring(0, 100)}...
+                </div>
+              )}
+              
+              {/* Observation Preview (for Foreign Travellers) */}
+              {topic.observation && !topic.description && (
+                <div className="topic-info" style={{marginTop: '8px', fontSize: '0.8rem', fontStyle: 'italic'}}>
+                  {topic.observation.substring(0, 100)}...
                 </div>
               )}
             </div>
