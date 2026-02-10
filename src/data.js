@@ -242,127 +242,168 @@ export const allQuizQuestions = [
     options: ["Taittiriya and Satapatha", "Aitareya and Kaushitaki", "Jaiminiya and Kauthuma", "Only Gopatha"],
     correct: 1,
     explanation: "Rigveda is associated with Aitareya Brahmana and Kaushitaki Brahmana."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Which Aranyakas are associated with Rigveda?",
     options: ["Taittiriya and Brihadaranyaka", "Aitareya and Kaushitaki", "Only Samaveda Aranyaka", "Only Atharvaveda Aranyaka"],
     correct: 1,
     explanation: "Rigveda is associated with Aitareya Aranyaka and Kaushitaki Aranyaka."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Which Upanishads are associated with Rigveda?",
     options: ["Brihadaranyaka and Taittiriya", "Chandogya and Kena", "Aitareya and Kaushitaki", "Prashna and Mundaka"],
     correct: 2,
     explanation: "Rigveda is associated with Aitareya Upanishad and Kaushitaki Upanishad."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Satapatha Brahmana is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 1,
     explanation: "Satapatha Brahmana is associated with Yajurveda, along with Taittiriya Brahmana."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Brihadaranyaka Aranyaka is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 1,
     explanation: "Brihadaranyaka Aranyaka is associated with Yajurveda."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Which Upanishads are associated with Yajurveda?",
     options: ["Aitareya and Kaushitaki", "Brihadaranyaka and Taittiriya", "Chandogya and Kena", "Prashna and Mundaka"],
     correct: 1,
     explanation: "Yajurveda is associated with Brihadaranyaka Upanishad and Taittiriya Upanishad."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Jaiminiya Brahmana is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 2,
     explanation: "Jaiminiya Brahmana is associated with Samaveda, along with Kauthuma Brahmana."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Chandogya Upanishad is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 2,
     explanation: "Chandogya Upanishad is associated with Samaveda."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Kena Upanishad is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 2,
     explanation: "Kena Upanishad is associated with Samaveda, along with Chandogya Upanishad."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Gopatha Brahmana is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 3,
     explanation: "Gopatha Brahmana is the only Brahmana associated with Atharvaveda."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Which three Upanishads are associated with Atharvaveda?",
     options: ["Aitareya, Kaushitaki, Brihadaranyaka", "Chandogya, Kena, Taittiriya", "Prashna, Mundaka, Mandukya", "None of these"],
     correct: 2,
     explanation: "Atharvaveda is associated with Prashna Upanishad, Mundaka Upanishad, and Mandukya Upanishad."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Mandukya Upanishad is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 3,
     explanation: "Mandukya Upanishad is associated with Atharvaveda."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "How many Brahmanas are associated with Rigveda?",
     options: ["One", "Two", "Three", "Four"],
     correct: 1,
     explanation: "Two Brahmanas are associated with Rigveda: Aitareya Brahmana and Kaushitaki Brahmana."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "How many Upanishads are associated with Atharvaveda?",
     options: ["One", "Two", "Three", "Four"],
     correct: 2,
     explanation: "Three Upanishads are associated with Atharvaveda: Prashna, Mundaka, and Mandukya Upanishads."
+  ,
+    category: "Vedic Literature"
   },
   {
     question: "Taittiriya Brahmana is associated with which Veda?",
     options: ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
     correct: 1,
     explanation: "Taittiriya Brahmana is associated with Yajurveda."
-  }
   ,
+    category: "Vedic Literature"
+  },
   {
     question: "Who is the author of 'Swapnavasavadatta'?",
     options: ["Vishakhadatta", "Bhasa", "Shudraka", "Harsha"],
     correct: 1,
     explanation: "Swapnavasavadatta was written by Bhasa (2nd-3rd century). [UPSC 2024]"
+  ,
+    category: "Sanskrit Drama"
   },
   {
     question: "Who wrote 'Mudrarakshasa'?",
     options: ["Bhasa", "Vishakhadatta", "Kalidasa", "Bhavabhuti"],
     correct: 1,
     explanation: "Mudrarakshasa by Vishakhadatta is about Chandragupta Maurya's rise with Chanakya's help."
+  ,
+    category: "Sanskrit Drama"
   },
   {
     question: "'Mrichchhakatika' was written by which author?",
     options: ["Bhasa", "Shudraka", "Harsha", "Somadeva"],
     correct: 1,
     explanation: "Mrichchhakatika by Shudraka (5th century) is a social drama. [UPSC 2013]"
+  ,
+    category: "Sanskrit Drama"
   },
   {
     question: "Who wrote three plays: Ratnavali, Nagananda, and Priyadarsika?",
     options: ["Bhasa", "Kalidasa", "Harsha", "Bhavabhuti"],
     correct: 2,
     explanation: "King Harsha (7th century) wrote these three Sanskrit dramas."
+  ,
+    category: "Sanskrit Drama"
   },
   {
     question: "'Gita Govinda' describes the love between which two figures?",
     options: ["Rama and Sita", "Krishna and Radha", "Shiva and Parvati", "Vishnu and Lakshmi"],
     correct: 1,
     explanation: "Gita Govinda by Jayadeva describes Krishna and Radha's love."
+  ,
+    category: "Sanskrit Drama"
   },
   {
     question: "Who wrote 'Rajatarangini', the chronicles of Kashmir kings?",
     options: ["Somadeva", "Jayadeva", "Kalhana", "Bilhana"],
     correct: 2,
     explanation: "Rajatarangini by Kalhana chronicles Kashmir's Karkota, Varman, Yashaskara dynasties."
+  ,
+    category: "Sanskrit Drama"
   }
 ];
 

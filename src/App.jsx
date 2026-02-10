@@ -5,6 +5,7 @@ const topicsData = data.artCultureData
 const quizQuestions = data.quizQuestions
 
 function App() {
+  const [selectedTopic, setSelectedTopic] = useState(null) // null = home menu, 'vedic' or 'drama' = topic selected
   const [mode, setMode] = useState(null)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [score, setScore] = useState(0)
@@ -66,11 +67,17 @@ function App() {
   }
 
   const getFilteredTopics = () => {
-    if (filter === 'all') return topicsData
-    if (filter === 'high') return topicsData.filter(v => v.importance === 'HIGH')
-    if (filter === 'vedic') return topicsData.filter(v => v.category === 'Vedic Literature')
-    if (filter === 'drama') return topicsData.filter(v => v.category === 'Sanskrit Drama')
-    return topicsData
+    // First filter by selected topic
+    let filtered = topicsData
+    if (selectedTopic === 'vedic') {
+      filtered = topicsData.filter(v => v.category === 'Vedic Literature')
+    } else if (selectedTopic === 'drama') {
+      filtered = topicsData.filter(v => v.category === 'Sanskrit Drama')
+    }
+    
+    // Then apply additional filters
+    if (filter === 'high') return filtered.filter(v => v.importance === 'HIGH')
+    return filtered
   }
 
   const handleQuizAnswer = (answerIndex) => {
@@ -152,18 +159,45 @@ function App() {
     return '📚'
   }
 
+  const renderTopicMenu = () => {
+    const vedicCount = topicsData.filter(t => t.category === 'Vedic Literature').length
+    const dramaCount = topicsData.filter(t => t.category === 'Sanskrit Drama').length
+    
+    return (
+      <div className="mode-selector">
+        <div className="mode-card" onClick={() => setSelectedTopic('vedic')}>
+          <div className="mode-icon">📖</div>
+          <h3>Vedic Literature</h3>
+          <p>{vedicCount} Vedas with associated Brahmanas, Aranyakas & Upanishads</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('drama')}>
+          <div className="mode-icon">🎭</div>
+          <h3>Sanskrit Drama</h3>
+          <p>{dramaCount} classical plays from Bhasa to Kalhana (2nd-12th century)</p>
+        </div>
+        
+        <div className="mode-card" style={{opacity: 0.5, cursor: 'not-allowed'}}>
+          <div className="mode-icon">🧘</div>
+          <h3>Coming Soon</h3>
+          <p>Buddhist Texts, Kalidasa & more...</p>
+        </div>
+      </div>
+    )
+  }
+
   const renderModeSelector = () => (
     <div className="mode-selector">
       <div className="mode-card" onClick={() => setMode('flashcards')}>
         <div className="mode-icon">🗂️</div>
         <h3>Flashcards</h3>
-        <p>Learn artCultureData with interactive flashcards</p>
+        <p>Learn with interactive flashcards</p>
       </div>
       
       <div className="mode-card" onClick={() => setMode('browse')}>
         <div className="mode-icon">📚</div>
         <h3>Browse Topics</h3>
-        <p>Explore all artCultureData with detailed information</p>
+        <p>Explore all topics with detailed information</p>
       </div>
       
       <div className="mode-card" onClick={() => setMode('quiz')}>
@@ -230,18 +264,6 @@ function App() {
               onClick={() => { setFilter('high'); setCurrentIndex(0); }}
             >
               High Priority
-            </button>
-            <button 
-              className={`filter-btn ${filter === 'vedic' ? 'active' : ''}`}
-              onClick={() => { setFilter('vedic'); setCurrentIndex(0); }}
-            >
-              Vedic Literature
-            </button>
-            <button 
-              className={`filter-btn ${filter === 'drama' ? 'active' : ''}`}
-              onClick={() => { setFilter('drama'); setCurrentIndex(0); }}
-            >
-              Sanskrit Drama
             </button>
           </div>
         </div>
@@ -384,18 +406,6 @@ function App() {
             >
               High Priority
             </button>
-            <button 
-              className={`filter-btn ${filter === 'vedic' ? 'active' : ''}`}
-              onClick={() => setFilter('vedic')}
-            >
-              Vedic Literature
-            </button>
-            <button 
-              className={`filter-btn ${filter === 'drama' ? 'active' : ''}`}
-              onClick={() => setFilter('drama')}
-            >
-              Sanskrit Drama
-            </button>
           </div>
         </div>
 
@@ -451,15 +461,24 @@ function App() {
   }
 
   const renderQuiz = () => {
+    // Filter quiz questions by selected topic
+    const filteredQuiz = selectedTopic 
+      ? quizQuestions.filter(q => {
+          if (selectedTopic === 'vedic') return q.category === 'Vedic Literature'
+          if (selectedTopic === 'drama') return q.category === 'Sanskrit Drama'
+          return true
+        })
+      : quizQuestions
+    
     if (showResult) {
-      const percentage = ((score / quizQuestions.length) * 100).toFixed(0)
+      const percentage = ((score / filteredQuiz.length) * 100).toFixed(0)
       
       return (
         <div className="result-screen">
           <div className="result-emoji">{getScoreEmoji()}</div>
           <h2>Quiz Complete!</h2>
           <div className="result-score">
-            {score} / {quizQuestions.length}
+            {score} / {filteredQuiz.length}
           </div>
           <p style={{fontSize: '1.5rem', color: '#1a3a0f', marginBottom: '30px'}}>
             You scored {percentage}%
@@ -476,10 +495,10 @@ function App() {
                 border: '2px solid ' + (answer.correct ? '#10b981' : '#ef4444')
               }}>
                 <p style={{fontWeight: 'bold', marginBottom: '5px'}}>
-                  Q{idx + 1}: {quizQuestions[idx].question}
+                  Q{idx + 1}: {filteredQuiz[idx].question}
                 </p>
                 <p style={{color: '#666'}}>
-                  {answer.correct ? '✓ Correct!' : `✗ Wrong - ${quizQuestions[idx].explanation}`}
+                  {answer.correct ? '✓ Correct!' : `✗ Wrong - ${filteredQuiz[idx].explanation}`}
                 </p>
               </div>
             ))}
@@ -497,7 +516,7 @@ function App() {
       )
     }
 
-    const question = quizQuestions[currentIndex]
+    const question = filteredQuiz[currentIndex]
 
     const jumpToQuestion = (index) => {
       setCurrentIndex(index)
@@ -515,7 +534,7 @@ function App() {
         <div className="progress-bar">
           <div 
             className="progress-fill" 
-            style={{width: `${(quizAnswers.length / quizQuestions.length) * 100}%`}}
+            style={{width: `${(quizAnswers.length / filteredQuiz.length) * 100}%`}}
           />
         </div>
 
@@ -524,7 +543,7 @@ function App() {
             className="btn btn-secondary"
             onClick={() => setShowNavigator(true)}
           >
-            📋 Question Navigator ({quizAnswers.length}/{quizQuestions.length})
+            📋 Question Navigator ({quizAnswers.length}/{filteredQuiz.length})
           </button>
         </div>
 
@@ -625,7 +644,7 @@ function App() {
         )}
 
         <div className="quiz-question">
-          <h3>Question {currentIndex + 1} of {quizQuestions.length}</h3>
+          <h3>Question {currentIndex + 1} of {filteredQuiz.length}</h3>
           <p style={{fontSize: '1.3rem', marginBottom: '30px', color: '#1a3a0f'}}>
             {question.question}
           </p>
@@ -786,19 +805,35 @@ function App() {
       <div className="container">
         <div className="header">
           <h1>📚 Indian Art & Culture - UPSC Prep</h1>
-          <p>Master Vedic Literature, Religious Texts & Cultural Heritage</p>
+          <p>Master Vedic Literature, Sanskrit Drama & Cultural Heritage</p>
         </div>
 
-        {!mode && renderModeSelector()}
+        {/* Home Menu - Topic Selection */}
+        {!selectedTopic && renderTopicMenu()}
 
-        {mode && (
+        {/* Topic Selected - Show Mode Selector */}
+        {selectedTopic && !mode && (
+          <div>
+            <button 
+              className="btn btn-secondary" 
+              onClick={() => setSelectedTopic(null)}
+              style={{marginBottom: '20px'}}
+            >
+              ← Back to Home
+            </button>
+            {renderModeSelector()}
+          </div>
+        )}
+
+        {/* Mode Selected - Show Content */}
+        {selectedTopic && mode && (
           <div className="content-area">
             <button 
               className="btn btn-secondary" 
               onClick={resetMode}
               style={{marginBottom: '20px'}}
             >
-              ← Back to Home
+              ← Back to {selectedTopic === 'vedic' ? 'Vedic Literature' : 'Sanskrit Drama'}
             </button>
 
             {mode === 'flashcards' && renderFlashcards()}
