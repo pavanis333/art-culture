@@ -80,6 +80,8 @@ function App() {
     } else if (selectedTopic === 'dravidian') {
       filtered = topicsData.filter(v => v.category === 'Dravidian Literature')
     } else if (selectedTopic === 'medieval') {
+      filtered = topicsData.filter(v => v.category === 'Medieval Literature')
+    } else if (selectedTopic === 'modern') {
       filtered = topicsData.filter(v => v.category === 'Dravidian Literature')
     }
     
@@ -174,6 +176,7 @@ function App() {
     const religiousCount = topicsData.filter(t => t.category === 'Religious Literature').length
     const dravidianCount = topicsData.filter(t => t.category === 'Dravidian Literature').length
     const medievalCount = topicsData.filter(t => t.category === 'Medieval Literature').length
+    const modernCount = topicsData.filter(t => t.category === 'Modern Literature').length
     
     return (
       <div className="mode-selector">
@@ -210,7 +213,13 @@ function App() {
         <div className="mode-card" onClick={() => setSelectedTopic('medieval')}>
           <div className="mode-icon">🏰</div>
           <h3>Medieval Literature</h3>
-          <p>{medievalCount} texts: Persian works, Mughal era, Amir Khusrau</p>
+          <p>{medievalCount} texts: Persian, Urdu, Hindi from Mughal era</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('modern')}>
+          <div className="mode-icon">📚</div>
+          <h3>Modern Literature</h3>
+          <p>{modernCount} texts: Hindi, Bengali, Rajasthani, Kashmiri</p>
         </div>
       </div>
     )
@@ -500,6 +509,7 @@ function App() {
           if (selectedTopic === 'religious') return q.category === 'Religious Literature'
           if (selectedTopic === 'dravidian') return q.category === 'Dravidian Literature'
           if (selectedTopic === 'medieval') return q.category === 'Medieval Literature'
+          if (selectedTopic === 'modern') return q.category === 'Modern Literature'
           return true
         })
       : quizQuestions
@@ -873,6 +883,7 @@ function App() {
                 selectedTopic === 'religious' ? 'Religious Literature' :
                 selectedTopic === 'dravidian' ? 'Dravidian Literature' :
                 selectedTopic === 'medieval' ? 'Medieval Literature' :
+                selectedTopic === 'modern' ? 'Modern Literature' :
                 'Sanskrit Drama'
               }
             </button>

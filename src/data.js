@@ -1149,6 +1149,135 @@ export const artCultureData = [
     author: "Surdas",
     description: "Surdas wrote it, and the book is about Krishna's infancy and adolescent affairs with the Gopis.",
     importance: "HIGH"
+  },
+  
+  // MODERN LITERATURE (New Topic Category)
+  
+  // MODERN HINDI LITERATURE
+  {
+    id: 104,
+    category: "Modern Literature",
+    subcategory: "Modern Hindi",
+    name: "Andher Nagari (City of Darkness)",
+    period: "Modern",
+    language: "Hindi",
+    author: "Bharatendu Harishchandra (Father of Modern Hindu Literature)",
+    description: "A political satire by Bharatendu Harishchandra, known as the Father of Modern Hindu Literature.",
+    importance: "HIGH"
+  },
+  {
+    id: 105,
+    category: "Modern Literature",
+    subcategory: "Modern Hindi",
+    name: "Bharat Durdasha",
+    period: "Modern",
+    language: "Hindi",
+    author: "Bharatendu Harishchandra",
+    description: "A renowned nationalist piece written by Bharatendu Harishchandra.",
+    importance: "HIGH"
+  },
+  {
+    id: 106,
+    category: "Modern Literature",
+    subcategory: "Modern Hindi",
+    name: "Satyartha Prakash (1875)",
+    period: "1875",
+    language: "Hindi",
+    author: "Swami Dayanand",
+    description: "Written by Swami Dayanand in 1875.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 107,
+    category: "Modern Literature",
+    subcategory: "Modern Hindi",
+    name: "Godan and Bade Bbhaiya",
+    period: "Modern",
+    language: "Hindi",
+    author: "Munshi Premchand",
+    description: "Written by Munshi Premchand.",
+    importance: "HIGH"
+  },
+  {
+    id: 108,
+    category: "Modern Literature",
+    subcategory: "Modern Hindi",
+    name: "Ateet Ke Chalchitr, Smriti ki Rekhaye and Patha Ke Sathi",
+    period: "Modern",
+    language: "Hindi",
+    author: "Mahadevi Varma",
+    description: "Written by Mahadevi Varma.",
+    importance: "MEDIUM"
+  },
+  
+  // BENGALI LITERATURE
+  {
+    id: 109,
+    category: "Modern Literature",
+    subcategory: "Bengali",
+    name: "Bengali Literature Overview",
+    period: "Ancient to Modern",
+    language: "Bengali",
+    description: "Many ancient and medieval literature in Bengali, like the Mangal Kavyas, existed before the nineteenth century, but it had not been widely published.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 110,
+    category: "Modern Literature",
+    subcategory: "Bengali",
+    name: "Durgesh Nandini (1965)",
+    period: "1965",
+    language: "Bengali",
+    author: "Bankim Chandra Chatterjee",
+    description: "Written by Bankim Chandra Chatterjee.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 111,
+    category: "Modern Literature",
+    subcategory: "Bengali",
+    name: "Anand Math (1882)",
+    period: "1882",
+    language: "Bengali",
+    author: "Bankim Chandra Chatterjee",
+    description: "Written by Bankim Chandra Chatterjee. Our national song (Vande Mataram) is taken from this novel.",
+    importance: "HIGH"
+  },
+  {
+    id: 112,
+    category: "Modern Literature",
+    subcategory: "Bengali",
+    name: "Geetanjali",
+    period: "Modern",
+    language: "Bengali",
+    author: "Rabindranath Tagore",
+    description: "Composed by Rabindranath Tagore.",
+    importance: "HIGH"
+  },
+  
+  // RAJASTHANI LITERATURE
+  {
+    id: 113,
+    category: "Modern Literature",
+    subcategory: "Rajasthani",
+    name: "Rajasthani Literature Overview",
+    period: "Medieval",
+    language: "Rajasthani dialects",
+    description: "Various dialects characterised medieval Rajasthani literature and have two primary forms of fictional writing: Dingal and Pingal. Rajasthani tales were frequently transmitted orally and by bards performing Virkavya, or triumphant poetry songs.",
+    importance: "MEDIUM"
+  },
+  
+  // KASHMIRI LITERATURE
+  {
+    id: 114,
+    category: "Modern Literature",
+    subcategory: "Kashmiri",
+    name: "Kashmiri Literature Overview",
+    period: "Medieval (Bhakti movement)",
+    language: "Kashmiri",
+    author: "Lal Ded (first female poetess)",
+    description: "During the early medieval period, as the Bhakti movement thrived, the Kashmiri language saw the emergence of its first female poetess, Lal Ded, a Shaivite mystic.",
+    importance: "HIGH"
   }
 ];
 
