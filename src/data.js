@@ -1342,6 +1342,7 @@ export const artCultureData = [
     period: "2004-2024",
     language: "Multiple",
     description: "In 2004, the Indian government established criteria for classifying languages as 'Classical Languages in India.' Criteria include: High Antiquity (early texts/recorded history spanning 1500-2000 years), Ancient Literature (valued by generations of speakers), Originality (literary tradition not borrowed from another speech community), Distinctiveness (distinct from modern forms, possibly showing discontinuity). Classical Languages: Tamil (2004), Sanskrit (2005), Telugu (2008), Kannada (2008), Malayalam (2013), Odia (2014). In 2024, 5 new languages were approved for inclusion: Marathi, Pali, Prakrit, Assamese and Bengali.",
+    note: "Benefits: International Awards (scholars receive two major awards annually), Centre of Excellence (for Studies in Classical Languages), Academic Chairs (University Grants Commission creates Professional Chairs)",
     importance: "HIGH"
   }
 ];
