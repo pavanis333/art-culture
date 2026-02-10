@@ -359,10 +359,10 @@ function App() {
             onClick={() => setFlipped(!flipped)}
           >
             <div className="flashcard-front">
-              <h2 style={{fontSize: '2.5rem', marginBottom: '20px', color: '#ff6600'}}>
+              <h2 style={{fontSize: '3rem', marginBottom: '20px', color: '#ff6600'}}>
                 {topic.name}
               </h2>
-              <div style={{fontSize: '1.2rem', color: '#ff9933', marginBottom: '15px'}}>
+              <div style={{fontSize: '1.5rem', color: '#ff9933', marginBottom: '15px'}}>
                 {topic.category}
               </div>
               <p className="flashcard-hint">👆 Tap to flip</p>

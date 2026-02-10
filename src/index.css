@@ -504,3 +504,19 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #cc5200 0%, #33691e 100%);
 }
+
+/* Flashcard content font sizes - Increased for better readability */
+.topic-info {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 8px 0;
+}
+
+.flashcard-back strong {
+  font-size: 1.2rem;
+}
+
+.flashcard-back ul {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
