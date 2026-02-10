@@ -1344,6 +1344,378 @@ export const artCultureData = [
     description: "In 2004, the Indian government established criteria for classifying languages as 'Classical Languages in India.' Criteria include: High Antiquity (early texts/recorded history spanning 1500-2000 years), Ancient Literature (valued by generations of speakers), Originality (literary tradition not borrowed from another speech community), Distinctiveness (distinct from modern forms, possibly showing discontinuity). Classical Languages: Tamil (2004), Sanskrit (2005), Telugu (2008), Kannada (2008), Malayalam (2013), Odia (2014). In 2024, 5 new languages were approved for inclusion: Marathi, Pali, Prakrit, Assamese and Bengali.",
     note: "Benefits: International Awards (scholars receive two major awards annually), Centre of Excellence (for Studies in Classical Languages), Academic Chairs (University Grants Commission creates Professional Chairs)",
     importance: "HIGH"
+  },
+  
+  // UNESCO WORLD HERITAGE SITES (TANGIBLE - CULTURAL SITES) - New Topic
+  
+  // 2025-2021
+  {
+    id: 121,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Maratha Military Landscapes of India",
+    year: 2025,
+    location: "Maharashtra & Tamil Nadu",
+    description: "A serial site of 12 forts representing Maratha military architecture & defence across varied topography in Maharashtra & Tamil Nadu.",
+    importance: "HIGH"
+  },
+  {
+    id: 122,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Moidams of the Ahom Kingdom (Assam)",
+    year: 2024,
+    location: "Assam",
+    description: "Royal burial mounds of the Ahom dynasty, showcasing unique burial practices and architecture.",
+    importance: "HIGH"
+  },
+  {
+    id: 123,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Sacred Ensembles of the Hoysalas (Karnataka)",
+    year: 2023,
+    location: "Karnataka",
+    description: "It encompasses the three most representative examples of Hoysala-style temple complexes in southern India dating from the 12th to 13th centuries AD.",
+    upscRelevance: "[UPSC 2024]",
+    importance: "HIGH"
+  },
+  {
+    id: 124,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Shantiniketan (West Bengal)",
+    year: 2023,
+    location: "West Bengal",
+    description: "It was a residential school and centre for art based on ancient Indian traditions and a vision of the unity of humanity. It was established in 1901 by the renowned poet and philosopher Rabindranath Tagore.",
+    upscRelevance: "[UPSC 2024]",
+    importance: "HIGH"
+  },
+  {
+    id: 125,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Dholavira: a Harappan City (Gujarat)",
+    year: 2021,
+    location: "Gujarat",
+    description: "It comprises a fortified city, cemetery and a sophisticated water management system. It was also an important trading and commercial hub.",
+    importance: "HIGH"
+  },
+  {
+    id: 126,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Kakatiya Rudreshwara (Ramappa) Temple (Telangana)",
+    year: 2021,
+    location: "Telangana",
+    description: "It is the main Shiva temple built during the Kakatiyan period (1123-1323 CE) under rulers Rudradeva and Recharla Rudra. The building features decorated beams and pillars of carved granite and dolerite with a distinctive and pyramidal Vimana made of lightweight porous bricks, so-called 'floating bricks', which reduced the weight of the roof structures.",
+    importance: "HIGH"
+  },
+  
+  // 2019-1989 batch
+  {
+    id: 127,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Jaipur City (Rajasthan)",
+    year: 2019,
+    location: "Rajasthan",
+    description: "Sawai Jai Singh II founded the city in 1727.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 128,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Victorian and Art Deco Ensemble of Mumbai",
+    year: 2018,
+    location: "Maharashtra",
+    description: "The ensembles exhibit an essential exchange of European and Indian human values over a period of time.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 129,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Historic City of Ahmedabad (Gujarat)",
+    year: 2017,
+    location: "Gujarat",
+    description: "Sultan Ahmad Shah founded the walled city in the 15th century, on the eastern bank of the Sabarmati river.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 130,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "The Architectural Work of Le Corbusier, an Outstanding Contribution to the Modern Movement (Chandigarh)",
+    year: 2016,
+    location: "Chandigarh",
+    description: "There are 17 sites on three continents and Complex du Capitole in Chandigarh is part of this.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 131,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Archaeological Site of Nalanda Mahavihara (Nalanda University) (Bihar)",
+    year: 2016,
+    location: "Bihar",
+    description: "It is the most ancient university in India. It comprises the archaeological remains of a monastic and scholastic institution dating from the 3rd century BC to the 13th century AD. It includes stupas, shrines, viharas (residential and educational buildings), and important artworks in stucco, stone and metal.",
+    importance: "HIGH"
+  },
+  {
+    id: 132,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Rani-Ki-Vav (Gujarat)",
+    year: 2014,
+    location: "Gujarat",
+    description: "It is situated on the bank of the Saraswati River and was built as a memorial to an 11th-century AD king, Bhimdev I.",
+    upscRelevance: "[UPSC 2024]",
+    importance: "HIGH"
+  },
+  {
+    id: 133,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Hill Forts of Rajasthan",
+    year: 2013,
+    location: "Rajasthan",
+    description: "It includes six majestic forts in Chittorgarh; Kumbhalgarh; Sawai Madhopur; Jhalawar; Jaipur, and Jaisalmer.",
+    importance: "HIGH"
+  },
+  {
+    id: 134,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "The Jantar Mantar (Rajasthan)",
+    year: 2010,
+    location: "Rajasthan",
+    description: "It is an astronomical observation site built in the early 18th century. It includes a set of some 20 main fixed instruments.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 135,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Red Fort Complex (Delhi)",
+    year: 2007,
+    location: "Delhi",
+    description: "It was built as the palace fort of Shah Jahan's capital, Shahjahanabad.",
+    importance: "HIGH"
+  },
+  {
+    id: 136,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Champaner-Pavagadh Archaeological Park (Gujarat)",
+    year: 2004,
+    location: "Gujarat",
+    description: "It is an unexcavated archaeological, historic and living cultural heritage which includes prehistoric (chalcolithic) sites, a hill fortress of an early Hindu capital, and remains of the 16th-century capital of the state of Gujarat.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 137,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Chhatrapati Shivaji Terminus (Maharashtra)",
+    year: 2004,
+    location: "Maharashtra",
+    description: "It represents Victorian Gothic revival architecture in India and was built by British architect F.W.Stevens.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 138,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Rock Shelters of Bhimbetka (Madhya Pradesh)",
+    year: 2003,
+    location: "Madhya Pradesh",
+    description: "They were built on the foothills of the Vindhyan Mountains. It contains five clusters of natural rock shelters displaying paintings dating from the Mesolithic Period to the historical period.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 139,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Mahabodhi Temple Complex at Bodh Gaya (Bihar)",
+    year: 2002,
+    location: "Bihar",
+    description: "It is one of the four holy sites related to Lord Buddha's life, particularly to the attainment of enlightenment. The first temple was built by Emperor Asoka in the 3rd century BC, and the present temple dates from the 5th or 6th centuries.",
+    upscRelevance: "[UPSC 2024]",
+    importance: "HIGH"
+  },
+  {
+    id: 140,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Mountain Railways of India (West Bengal; Tamil Nadu; Himachal Pradesh)",
+    year: 1999,
+    location: "West Bengal; Tamil Nadu; Himachal Pradesh",
+    description: "This site includes the Darjeeling Himalayan Railway, Nilgiri Mountain Railway, and the Kalka Shimla Railway.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 141,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Humayun's Tomb (Delhi)",
+    year: 1993,
+    location: "Delhi",
+    description: "It was built in 1570, the first garden-tomb in the Indian subcontinent.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 142,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Qutb Minar and its Monuments (Delhi)",
+    year: 1993,
+    location: "Delhi",
+    description: "It was built in the 13th century under Sultanate rule. The surrounding archaeological area contains the Alai-Darwaza Gate, (built in 1311), and two mosques, including the Quwwatu'l-Islam mosque.",
+    importance: "HIGH"
+  },
+  {
+    id: 143,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Buddhist Monuments at Sanchi (Madhya Pradesh)",
+    year: 1989,
+    location: "Madhya Pradesh",
+    description: "The site of Sanchi comprises a group of Buddhist monuments (monolithic pillars, palaces, temples and monasteries), all in different states of conservation, most of which date back to the 2nd and 1st centuries BC.",
+    importance: "HIGH"
+  },
+  
+  // 1987-1983 batch
+  {
+    id: 144,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Elephanta Caves (Maharashtra)",
+    year: 1987,
+    location: "Maharashtra",
+    description: "These are seven caves with the local name Gharapuri caves. The 'City of Caves', on an island close to Mumbai, contains a collection of rock art linked to the cult of Shiva.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 145,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Great Living Chola Temples (Tamil Nadu)",
+    year: 1987,
+    location: "Tamil Nadu",
+    description: "It includes temples like the Brihadisvara Temple at Thanjavur, the Brihadisvara Temple at Gangaikondacholisvaram (built by Rajendra Chola I, completed in 1035) and the Airavatеsvara Temple at Darasuram (built by Rajaraja II).",
+    importance: "HIGH"
+  },
+  {
+    id: 146,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Group of Monuments at Pattadakal (Karnataka)",
+    year: 1987,
+    location: "Karnataka",
+    description: "Built in the 7th and 8th centuries AD under the Chalukya dynasty, it includes a series of nine Hindu temples (including Virupaksha temple), as well as a Jain sanctuary.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 147,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Churches and Convents of Goa",
+    year: 1986,
+    location: "Goa",
+    description: "It includes the Church of Bom Jesus, which contains the tomb of St Francis-Xavier.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 148,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Fatehpur Sikri (Uttar Pradesh)",
+    year: 1986,
+    location: "Uttar Pradesh",
+    description: "It was the first planned city of the Mughals to be marked by magnificent administrative, residential, and religious buildings.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 149,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Group of Monuments at Hampi (Karnataka)",
+    year: 1986,
+    location: "Karnataka",
+    description: "It comprises mainly the remnants of the capital city of the Vijayanagara Empire.",
+    importance: "HIGH"
+  },
+  {
+    id: 150,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Khajuraho Group of Monuments (Madhya Pradesh)",
+    year: 1986,
+    location: "Madhya Pradesh",
+    description: "It contains Hindu and Jain temples built during the reign of Chandella dynasty rulers between 950 and 1050 AD.",
+    importance: "HIGH"
+  },
+  {
+    id: 151,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Group of Monuments at Mahabalipuram (Tamil Nadu)",
+    year: 1984,
+    location: "Tamil Nadu",
+    description: "Founded by the Pallava kings (in the 7th and 8th centuries AD), the group is best known for Rathas, Madapas, Giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage.",
+    importance: "HIGH"
+  },
+  {
+    id: 152,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Sun Temple, Konarak (Odisha)",
+    year: 1984,
+    location: "Odisha",
+    description: "It represents Kalinga architecture and was built in the 13th century, by King Narasimha Deva.",
+    importance: "HIGH"
+  },
+  {
+    id: 153,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Agra Fort (Uttar Pradesh)",
+    year: 1983,
+    location: "Uttar Pradesh",
+    description: "It is a 16th-century Mughal monument known as the Red Fort of Agra. It comprises palaces, such as the Jahangir Palace and the Khas Mahal, built by Shah Jahan; and the Diwan-i-Khas (audience hall).",
+    importance: "HIGH"
+  },
+  {
+    id: 154,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Ajanta Caves (Maharashtra)",
+    year: 1983,
+    location: "Maharashtra",
+    description: "There are a total of 29 rock-cut caves. The first Buddhist cave monuments at Ajanta date from the 2nd and 1st centuries BC. During the Gupta period (5th and 6th centuries AD), many more richly decorated caves were added to the original group.",
+    importance: "HIGH"
+  },
+  {
+    id: 155,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Ellora Caves (Maharashtra)",
+    year: 1983,
+    location: "Maharashtra",
+    description: "There are 34 monasteries and temples. The architectural activities were carried out by the followers of Buddhism, Brahmanism, and Jainism.",
+    importance: "HIGH"
+  },
+  {
+    id: 156,
+    category: "UNESCO Heritage",
+    subcategory: "Cultural Site",
+    name: "Taj Mahal (Uttar Pradesh)",
+    year: 1983,
+    location: "Uttar Pradesh",
+    description: "It was built by Shah Jahan, situated on the banks of Yamuna.",
+    importance: "HIGH"
   }
 ];
 
