@@ -1716,6 +1716,92 @@ export const artCultureData = [
     location: "Uttar Pradesh",
     description: "It was built by Shah Jahan, situated on the banks of Yamuna.",
     importance: "HIGH"
+  },
+  
+  // UNESCO WORLD HERITAGE SITES - NATURAL SITES
+  
+  {
+    id: 157,
+    category: "UNESCO Heritage",
+    subcategory: "Natural Site",
+    name: "Great Himalayan National Park (Himachal Pradesh)",
+    year: 2014,
+    location: "Himachal Pradesh",
+    description: "It is situated in the western part of the Himalayan Mountains and is characterised by high alpine peaks, alpine meadows and riverine forests.",
+    importance: "HIGH"
+  },
+  {
+    id: 158,
+    category: "UNESCO Heritage",
+    subcategory: "Natural Site",
+    name: "Western Ghats (Kerala, Tamil Nadu, Karnataka, Maharashtra, Goa, and Gujarat)",
+    year: 2012,
+    location: "Kerala, Tamil Nadu, Karnataka, Maharashtra, Goa, Gujarat",
+    description: "The Sub-clusters include Agasthyamalai, Periyar, Anamalai, Nilgiri, Talakaveri, Kudremukh, and Sahyadri.",
+    importance: "HIGH"
+  },
+  {
+    id: 159,
+    category: "UNESCO Heritage",
+    subcategory: "Natural Site",
+    name: "Nanda Devi and Valley of Flowers National Park (Uttarakhand)",
+    year: 1988,
+    location: "Uttarakhand",
+    description: "It is home to rare animals, including the Asiatic black bear, Snow leopard, Brown bear and Blue sheep. It encompasses a unique transition zone between the Zanskar mountain range and the Great Himalayas.",
+    importance: "HIGH"
+  },
+  {
+    id: 160,
+    category: "UNESCO Heritage",
+    subcategory: "Natural Site",
+    name: "Sundarban National Park (West Bengal)",
+    year: 1987,
+    location: "West Bengal",
+    description: "It is located at the mouth of the Ganges and Brahmaputra Rivers between India and Bangladesh and contains the world's largest mangrove forests.",
+    importance: "HIGH"
+  },
+  {
+    id: 161,
+    category: "UNESCO Heritage",
+    subcategory: "Natural Site",
+    name: "Keoladeo National Park (Rajasthan)",
+    year: 1985,
+    location: "Rajasthan",
+    description: "It is an important wintering ground of Palaearctic migratory waterfowl and is renowned for its large congregation of non-migratory resident breeding birds.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 162,
+    category: "UNESCO Heritage",
+    subcategory: "Natural Site",
+    name: "Kaziranga National Park (Assam)",
+    year: 1985,
+    location: "Assam",
+    description: "It is inhabited by the world's largest population of one-horned rhinoceroses. It is situated on the banks of the Brahmaputra river.",
+    importance: "HIGH"
+  },
+  {
+    id: 163,
+    category: "UNESCO Heritage",
+    subcategory: "Natural Site",
+    name: "Manas Wildlife Sanctuary (Assam)",
+    year: 1985,
+    location: "Assam",
+    description: "It is a biodiversity hotspot that includes a range of forested hills, alluvial grasslands and tropical evergreen forests. The Manas Wildlife Sanctuary is part of the core zone of Manas Tiger Reserve and lies alongside the shifting river channels of the Manas River.",
+    importance: "HIGH"
+  },
+  
+  // UNESCO WORLD HERITAGE SITES - MIXED CATEGORY
+  
+  {
+    id: 164,
+    category: "UNESCO Heritage",
+    subcategory: "Mixed Site",
+    name: "Khangchendzonga National Park (Sikkim)",
+    year: 2016,
+    location: "Sikkim",
+    description: "It includes a unique diversity of plains, valleys, lakes, glaciers and spectacular, snow-capped mountains covered with ancient forests, including the world's third highest peak.",
+    importance: "HIGH"
   }
 ];
 
