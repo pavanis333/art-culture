@@ -73,7 +73,7 @@ export const artCultureData = [
     name: "Swapnavasavadatta",
     period: "2nd-3rd century",
     author: "Bhasa",
-    description: "Romantic narrative of King Udayana and Vasavadatta, part of Bhasa's 13 plays",
+    description: "Most popular work by Bhasa showing romantic narratives about Kaushambi king Udayana and Vasavadatta (Avanti Princess). Part of his 13 plays discovered at beginning of 20th century. Also wrote Madhyama-vyayoga.",
     upscRelevance: "[UPSC 2024]",
     importance: "HIGH"
   },
@@ -84,7 +84,7 @@ export const artCultureData = [
     name: "Urubhanga",
     period: "2nd-3rd century",
     author: "Bhasa",
-    description: "Tragedy about Duryodhana's conflict with Bhima",
+    description: "Tragedy showing story of Duryodhana during and after his fight with Bhima. Part of Bhasa's 13 plays.",
     importance: "MEDIUM"
   },
   {
@@ -94,7 +94,7 @@ export const artCultureData = [
     name: "Mudrarakshasa",
     period: "4th century",
     author: "Vishakhadatta",
-    description: "Drama about Chandragupta Maurya's rise to power with Chanakya's help",
+    description: "Sanskrit play narrating ascent of king Chandragupta Maurya to power with aid of Chanakya. Written by Vishakhadatta (4th century AD).",
     importance: "HIGH"
   },
   {
@@ -104,7 +104,7 @@ export const artCultureData = [
     name: "Devi Chandraguptam",
     period: "4th century",
     author: "Vishakhadatta",
-    description: "Political drama about King Ramagupta's decision to surrender his queen",
+    description: "Political drama about King Ramagupta's decision to surrender his queen Dhruvadevi to encroaching Shaka enemy during siege. A Persian play taken directly from this is found in 11th-century manuscript Majmal-ut-Tawarikh.",
     importance: "MEDIUM"
   },
   {
@@ -114,7 +114,7 @@ export const artCultureData = [
     name: "Mrichchhakatika",
     period: "5th century",
     author: "Shudraka",
-    description: "Sanskrit social drama about Charudatta and Vasantsena, inspired by Bhasa's Charudattam",
+    description: "Sanskrit social drama about merchant Charudatta who fell in love with rich courtesan Vasantsena. First four acts virtually copy Bhasa's unfinished play Charudattam. [UPSC 2003] Shudraka also composed Vinavasavadatta and a Bhana (short one-act monologue).",
     upscRelevance: "[UPSC 2013]",
     importance: "HIGH"
   },
@@ -125,7 +125,7 @@ export const artCultureData = [
     name: "Uttara-Ramacharit",
     period: "7th century",
     author: "Bhavabhuti",
-    description: "Depicts Lord Rama's life after returning from exile",
+    description: "Seven-act Sanskrit play depicting later life of Lord Rama after Rama's return from exile. Written by Bhavabhuti.",
     importance: "MEDIUM"
   },
   {
@@ -135,7 +135,7 @@ export const artCultureData = [
     name: "Ratnavali",
     period: "7th century",
     author: "Harsha",
-    description: "Drama about Princess Ratnavali and King Udayana, mentions Holi festival",
+    description: "Sanskrit drama centered around Princess Ratnavali and King Udayana. Contains one of earliest documented references to Holi festival celebration.",
     importance: "MEDIUM"
   },
   {
@@ -145,7 +145,7 @@ export const artCultureData = [
     name: "Nagananda",
     period: "7th century",
     author: "Harsha",
-    description: "Story of Prince Jimūtavāhana and his act to protect the Nagas",
+    description: "Narrates story of Prince Jimūtavāhana, a divine magician, and his selfless act to protect the Nagas. Text includes invocation to Buddha within Nandi verse.",
     importance: "MEDIUM"
   },
   {
@@ -155,7 +155,7 @@ export const artCultureData = [
     name: "Priyadarsika",
     period: "7th century",
     author: "Harsha",
-    description: "Play about the union of King Udayana and Priyadarshini",
+    description: "Sanskrit play mentioning union of King Udayana and Priyadarshini, daughter of Emperor Dridhavarman.",
     importance: "MEDIUM"
   },
   {
@@ -187,6 +187,68 @@ export const artCultureData = [
     author: "Kalhana",
     description: "Chronicles of Kashmir kings, covering the Karkota, Varman, and Yashaskara dynasties",
     importance: "HIGH"
+  },
+  
+  // KALIDASA'S WORKS (380-415 AD, Gupta period, contemporary of Chandragupta II)
+  {
+    id: 17,
+    category: "Sanskrit Drama",
+    subcategory: "Kalidasa's Works",
+    name: "Abhijnanashakuntala",
+    period: "380-415 AD (Gupta period)",
+    author: "Kalidasa",
+    description: "Contains story of Shakuntala and King Dushyanta. Kalidasa was a renowned Sanskrit poet and dramatist, contemporary of Chandragupta II.",
+    importance: "HIGH"
+  },
+  {
+    id: 18,
+    category: "Sanskrit Drama",
+    subcategory: "Kalidasa's Works",
+    name: "Vikramorvashi",
+    period: "380-415 AD (Gupta period)",
+    author: "Kalidasa",
+    description: "Contains tale of Urvashi and her union with King Vikram.",
+    importance: "HIGH"
+  },
+  {
+    id: 19,
+    category: "Sanskrit Drama",
+    subcategory: "Kalidasa's Works",
+    name: "Malavikagnimitra",
+    period: "380-415 AD (Gupta period)",
+    author: "Kalidasa",
+    description: "Love story of Sunga king Agnimitra and Malvika, a maid. Provides accounts for Rajasuya Yajna performed by Pushyamitra Sunga.",
+    importance: "HIGH"
+  },
+  {
+    id: 20,
+    category: "Sanskrit Drama",
+    subcategory: "Kalidasa's Works",
+    name: "Raghuvamsha",
+    period: "380-415 AD (Gupta period)",
+    author: "Kalidasa",
+    description: "Narrates ancestry of Lord Rama's Raghu Vamsa.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 21,
+    category: "Sanskrit Drama",
+    subcategory: "Kalidasa's Works",
+    name: "Kumarasambhava",
+    period: "380-415 AD (Gupta period)",
+    author: "Kalidasa",
+    description: "Depicts birth of Kartikeya, son of Shiva and Parvati.",
+    importance: "MEDIUM"
+  },
+  {
+    id: 22,
+    category: "Sanskrit Drama",
+    subcategory: "Kalidasa's Works",
+    name: "Meghaduta",
+    period: "380-415 AD (Gupta period)",
+    author: "Kalidasa",
+    description: "Focuses on a cloud messenger's journey.",
+    importance: "MEDIUM"
   }
 ];
 
@@ -231,6 +293,31 @@ export const vedicFacts = [
   },
   {
     fact: "Rajatarangini by Kalhana chronicles Kashmir kings",
+    category: "Sanskrit Drama"
+  }
+  ,
+  {
+    fact: "Kalidasa (380-415 AD) was a renowned Sanskrit poet and dramatist of the Gupta period, contemporary of Chandragupta II",
+    category: "Sanskrit Drama"
+  },
+  {
+    fact: "Kalidasa wrote 6 major works: Abhijnanashakuntala, Vikramorvashi, Malavikagnimitra (plays); Raghuvamsha, Kumarasambhava, Meghaduta (poems)",
+    category: "Sanskrit Drama"
+  },
+  {
+    fact: "Bhasa wrote 13 plays discovered at beginning of 20th century, including Swapnavasavadatta [UPSC 2024] and Madhyama-vyayoga",
+    category: "Sanskrit Drama"
+  },
+  {
+    fact: "Mrichchhakatika's first four acts virtually copy Bhasa's unfinished play Charudattam [UPSC 2003]",
+    category: "Sanskrit Drama"
+  },
+  {
+    fact: "Devi Chandraguptam inspired a Persian play found in 11th-century manuscript Majmal-ut-Tawarikh",
+    category: "Sanskrit Drama"
+  },
+  {
+    fact: "Nagananda includes invocation to Buddha within the Nandi verse",
     category: "Sanskrit Drama"
   }
 ];
@@ -467,6 +554,63 @@ export const allQuizQuestions = [
     options: ["7 plays", "10 plays", "13 plays", "15 plays"],
     correct: 2,
     explanation: "Bhasa wrote 13 plays in total, including Swapnavasavadatta and Urubhanga.",
+    category: "Sanskrit Drama"
+  }
+  ,
+  {
+    question: "Kalidasa was a contemporary of which Gupta emperor?",
+    options: ["Chandragupta I", "Chandragupta II", "Samudragupta", "Kumaragupta"],
+    correct: 1,
+    explanation: "Kalidasa (380-415 AD) was contemporary of Chandragupta II during the Gupta period.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Which Kalidasa work contains the story of Shakuntala and King Dushyanta?",
+    options: ["Vikramorvashi", "Abhijnanashakuntala", "Malavikagnimitra", "Raghuvamsha"],
+    correct: 1,
+    explanation: "Abhijnanashakuntala by Kalidasa contains the story of Shakuntala and King Dushyanta.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "'Vikramorvashi' is about the tale of Urvashi and which king?",
+    options: ["King Vikram", "King Dushyanta", "King Agnimitra", "King Udayana"],
+    correct: 0,
+    explanation: "Vikramorvashi by Kalidasa contains the tale of Urvashi and her union with King Vikram.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Which Kalidasa work provides accounts of Rajasuya Yajna performed by Pushyamitra Sunga?",
+    options: ["Raghuvamsha", "Kumarasambhava", "Malavikagnimitra", "Meghaduta"],
+    correct: 2,
+    explanation: "Malavikagnimitra provides accounts for Rajasuya Yajna performed by Pushyamitra Sunga. It's about Sunga king Agnimitra and Malvika.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "'Raghuvamsha' narrates the ancestry of which deity?",
+    options: ["Lord Krishna", "Lord Rama", "Lord Vishnu", "Lord Shiva"],
+    correct: 1,
+    explanation: "Raghuvamsha by Kalidasa narrates the ancestry of Lord Rama's Raghu Vamsa.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "Which Kalidasa work depicts the birth of Kartikeya?",
+    options: ["Raghuvamsha", "Kumarasambhava", "Meghaduta", "Abhijnanashakuntala"],
+    correct: 1,
+    explanation: "Kumarasambhava by Kalidasa depicts the birth of Kartikeya, son of Shiva and Parvati.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "'Meghaduta' focuses on:",
+    options: ["A cloud messenger's journey", "A king's love story", "Birth of a deity", "War chronicles"],
+    correct: 0,
+    explanation: "Meghaduta by Kalidasa focuses on a cloud messenger's journey.",
+    category: "Sanskrit Drama"
+  },
+  {
+    question: "How many major works did Kalidasa compose that are mentioned?",
+    options: ["4 works", "5 works", "6 works", "7 works"],
+    correct: 2,
+    explanation: "Kalidasa composed 6 major works: Abhijnanashakuntala, Vikramorvashi, Malavikagnimitra, Raghuvamsha, Kumarasambhava, and Meghaduta.",
     category: "Sanskrit Drama"
   }
 ];
